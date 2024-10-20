@@ -1,0 +1,43 @@
+.projectsSingleHeader{
+  background-color: #555555;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 30px;
+  width: 1000px;
+  height: 10px;
+}
+.projectsSingleHeading{
+  color: #FFF;
+  text-align: right;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 161px;
+  height: 47px;
+  flex-shrink: 0;
+  background: var(--primary--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.veelBreadcrumbs{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #FFF;
+  text-align: right;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

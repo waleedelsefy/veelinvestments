@@ -1,0 +1,16 @@
+.cursorLine{
+  width: 177px;
+  height: 1px;
+  background: #000;
+}
+.goldenArrows{
+  width: 96px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.veelGoldenCursor{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}

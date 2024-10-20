@@ -1,0 +1,237 @@
+.veelNavBar{
+  width: 100%;
+  height: 60px;
+  background: #231F20;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+.logo img {
+  height: auto;
+  width: 130px;
+}
+.logo {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.Mobile-navBarList{
+  display: none;
+}
+.veelMobilenavbar{
+  display: none;
+}
+.humburgerMenu{
+  display: none;
+}
+.veelNavbarItems{
+display: flex;
+justify-content: space-around;
+
+}
+.veelLogo {
+  width: 123.526px;
+  height: 44.879px;
+  flex-shrink: 0;
+}
+.navBarList ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
+.navBarList a{
+  text-decoration: none;
+  color: white;
+}
+.navBarList li:hover{
+  border-bottom: 2px solid var(--primary--color);
+  cursor: pointer;
+}
+
+.veelCta {
+  width: max-content;
+}
+.dropdownMenu{
+  display: none;
+}
+.veelCtaInclude{
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+  .veelMobilenavbar{
+    display: none;
+  }
+  .Mobile-navBarList{
+    display: none;
+  }
+  .navBarList ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+
+  }
+  .navBarList li {
+    width: 75px;
+    font-size: 13px;
+  }
+  .navBarList a {
+    width: 100px;
+
+  }
+  .dropdownMenu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+.humburgerMenu{
+  display: flex;
+}
+
+  .navBarList{
+    display: none;
+
+  }
+  .xMark{
+    width: 19.038px;
+    height: 19.039px;
+    flex-shrink: 0;
+    margin: 15px 20px;
+  }
+  .Mobile-navBarList{
+    display: flex;
+    justify-content: center;
+    width: 555px;
+    max-width: 555px;
+  }
+  .Mobile-navBarList a{
+    color: white;
+    text-decoration: none;
+  }
+  .Mobile-navBarList ul{
+    color: white;
+   list-style: none;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .veelCta{
+    display: none;
+  }
+  .veelNavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+  }
+.veelMobilenavbar {
+  background: rgba(35, 31, 32, 0.95);
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+  flex-direction: column;
+  height: 900px;
+  justify-content: center;
+  align-content: center;
+  gap: 50px;
+  display: none;
+}
+
+.veelMobileLogo{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.veelMobileCta iframe{
+  border: none;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.veelMobileCta{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+
+}
+.veelMobileSocial{
+  display: flex;
+  justify-content: center;
+}
+.veelMobileSocial iframe{
+  border: none;
+  width: 300px;
+  height: 100px;
+}
+  .checkbox{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+  .veelMobileSocial{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color:  #D0B672;
+  }
+  .socialMobile{
+    background: rgba(35, 31, 32, 0.95);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+  }
+
+}
+@media screen and (max-width: 425px) {
+
+  .humburgerMenu{
+    display: flex;
+  }
+  .navBarList{
+    display: none;
+  }
+  .veelCta{
+    display: none;
+  }
+  .veelNavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+  }
+  .checkbox{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+
+}

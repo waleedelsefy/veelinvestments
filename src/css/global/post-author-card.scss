@@ -1,0 +1,29 @@
+.post-author-card {
+  width: 90%;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #161616;
+  border-radius: 8px;
+  text-align: right;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.post-author-card {
+  margin-bottom: 10px;
+}
+
+.post-author-name {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.post-author-card {
+  display: flex;
+  gap: 0px;
+  justify-content: flex-end;
+  flex-direction: column;
+}

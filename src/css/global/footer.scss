@@ -1,0 +1,170 @@
+/* إخفاء SVGs بشكل عام */
+.quickLinksHeader svg, .cntactUsHeader svg {
+  display: none;
+}
+
+/* تحسين iframe */
+iframe {
+  border: none;
+  height: max-content;
+}
+.veelSubscription iframe {
+  height: 200px;
+}
+
+
+.veelFooter {
+  width: 100%;
+  height: 336px;
+  flex-shrink: 0;
+  background: #231F20;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.logoandSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logoandSocial iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 130px;
+}
+
+.contactUs {
+  color: white;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.veelPhoneCall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--primary--color);
+  width: 141px;
+  height: 30px;
+}
+.veelGmailContent, .veelLocationContent {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.veelGmailContent, .quickLinksList li, .quickLinksList a {
+  color: #FFF;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+}
+.quickLinksList ul {
+  list-style: none;
+}
+
+/* الخط الذهبي */
+.goldenLine {
+  width: 692.667px;
+  height: 3.932px;
+  background: var(--primary--color);
+  position: absolute;
+  bottom: 10px;
+}
+.veelLines {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.cntactUsHeader, .quickLinksHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  font-size:14px !important;
+  font-weight: 700 !important;
+  color: #ffffff;
+}
+.veelLocation {
+  color: #FFF;
+  text-align: right;
+  /* font-family: Almarai; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.023%;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+  .veelSubscription iframe {
+    width: 276px;
+    height: 205px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .veelFooter {
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quickLinksList, .veelGmailContent, .veelLocationContent, .veelPhoneCall {
+    display: none;
+  }
+  .cntactUsHeader, .quickLinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    font-size:14px !important;
+    font-weight: 700 !important;
+    color: #ffffff;
+  }
+  .goldenLine {
+    width: 390px;
+    justify-content: start;
+    align-items: start;
+  }
+  .veelLines {
+    width: 394px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footerLogo {
+    width: 140px;
+    height: 150.891px;
+    flex-shrink: 0;
+  }
+  .logoandSocial {
+    width: 240px;
+    height: 240px;
+    flex-shrink: 0;
+  }
+  .goldenLine {
+    width: 80% !important;
+    height: 1px !important;
+  }
+  .veelLines {
+    width: 80% !important;
+  }
+}

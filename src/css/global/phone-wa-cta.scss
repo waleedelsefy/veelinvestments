@@ -1,0 +1,41 @@
+.veelWa{
+  display: inline-flex;
+  padding: 3.857px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.643px;
+  border-radius: 4px;
+  background: #00DE3E;
+}
+.veelPhoneCall{
+  display: inline-flex;
+  padding: 0px 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.5px;
+  border-radius: 4px;
+  border: 1px solid var(--primary--color);
+}
+.veelPhoneCall p{
+color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 192.857% */
+  letter-spacing: 0.563px;
+  margin: 0;
+  height: 30px;
+}
+.veelPhoneCall svg{
+  color: black;
+
+  width: 19.286px;
+  height: 19.286px;
+
+}
+.veelWaPhoneCta{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  width: 240px;
+}

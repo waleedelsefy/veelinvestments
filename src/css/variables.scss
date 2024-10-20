@@ -1,0 +1,39 @@
+:root {
+  --veel--font-family :  "Almarai", sans-serif;
+  --veel--font-size-xxx-large : 28px;
+  --veel--font-size-xx-large : 24px;
+  --veel--font-size-x-large : 24px;
+  --veel--font-size-large : 16px;
+  --veel--font-size-medium : 18px;
+  --veel--font-size-small : 18px;
+  --veel--font-size-x--small : 18px;
+  --primary--color : #d1b671;
+  --secondary--color :  #f9f6ee;
+  --third--color :  #f9f6ee;
+  --fourth--color : #f3ecdc91;
+  --fifth--color :  #f9f6ee;
+  --veel--line-height: 24px;
+}
+@media screen and (max-width: 375px) {
+  :root {
+  --veel--font-size-xxx-large : 22px;
+  --veel--font-size-xx-large : 18px;
+  --veel--font-size-x-large : 18px;
+  --veel--font-size-large : 16px;
+  --veel--font-size-medium : 18px;
+  --veel--font-size-small : 18px;
+  --veel--font-size-x--small : 18px;
+}
+}
+@media screen and (max-width: 425px) {
+ :root {
+  --veel--font-size-xxx-large : 28px;
+  --veel--font-size-xx-large : 24px;
+  --veel--font-size-x-large : 16px;
+  --veel--font-size-large : 14px;
+  --veel--font-size-medium : 18px;
+  --veel--font-size-small : 18px;
+  --veel--font-size-x--small : 18px;
+   --veel--line-height: 22px;
+}
+}

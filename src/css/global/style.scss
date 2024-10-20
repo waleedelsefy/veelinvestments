@@ -1,0 +1,169 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+.showAllButton {
+  color: #000 ;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: right;
+  text-decoration: none;
+}
+.subHeadingParagraph p {
+  font-size: var(--veel--font-size-large) !important;
+  text-wrap: wrap !important;
+  line-height: var(--veel--line-height) !important;
+}
+.mobileOnly {
+  display: none !important;
+}
+.desktopOnly {
+  display: flex !important;
+}
+.flex {
+  display: flex !important;
+}
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.flex-column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+@media screen and (max-width: 425px) {
+  .mobileOnly {
+    display: flex !important;
+  }
+  .desktopOnly {
+    display: none !important;
+  }
+}
+.left-arrow, .right-arrow {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .desktopOnly {
+    display: flex !important;
+  }
+  .mobileOnly {
+    display: none !important;
+  }
+  .col-2 {
+    width: 16.6666667% !important;
+  }
+  .col-3 {
+    width: 25% !important;
+  }
+  .col-4 {
+    width: 33.33% !important;
+  }
+  .col-6 {
+    width: 50% !important;
+  }
+  .col-8 {
+    width: 66.66% !important;
+  }
+  .col-9 {
+    width: 75% !important;
+  }
+  .col-10 {
+    width: 83.33% !important;
+  }
+  .col-11 {
+    width: 91.66% !important;
+  }
+  .col-12 {
+    width: 100% !important;
+  }
+}
+
+.ProjectCardTitle , .realPrice, .ProjectCardDeveloper {
+  text-decoration: none !important;
+  color: #231F20 !important;
+}
+.ProjectCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 125px;
+}
+
+.ProjectCardCta { }
+
+.veelPrice {
+  width: 109px;
+  height: 28px;
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgProjectCard {
+  width: 285px;
+  height: 191px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center
+}
+
+.ProjectCard {
+  max-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectCardCta {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-inline-end: 15px;
+}
+
+.veelPrice {
+  width: fit-content;
+  height: 28px;
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+p.realPrice {
+  padding-inline: 15px;
+}
+
+.ProjectCardDeveloper {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 133%;
+  text-transform: capitalize;
+}
+
+.ProjectCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap: 12px;
+  height: 125px;
+  padding-top: 15px;
+}
