@@ -2,7 +2,7 @@
   <a  href="<?php echo get_permalink(get_the_ID()); ?>" class="imgProjectCard" style="background-image: url('<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>');">
   </a>
   <div class="ProjectCardContent">
-    <a class="ProjectCardTitle" href="<?php echo get_permalink(get_the_ID()); ?>"><?php the_title(); ?></a>
+    <a class="ProjectCardTitle" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
     <?php
     $terms = wp_get_post_terms(get_the_ID(), 'developer');
     if (!empty($terms) && !is_wp_error($terms)) {

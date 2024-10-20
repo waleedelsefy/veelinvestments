@@ -67,7 +67,7 @@
           <div class="Vector" style="width: 31px; height: 19px; border-radius: 3px; border: 1.41px white solid"></div>
         </div>
       </div>
-      <div class="Frame1171276246" style="width: 110px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 238px; top: 0px; position: absolute; background: #D1B671; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+      <div class="Frame1171276246" style="width: 110px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 238px; top: 0px; position: absolute; background: var(--primary--color); border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
         <div style="text-align: center; color: white; font-size: 15.75px; font-family: Almarai; font-weight: 700; line-height: 18px; word-wrap: break-word">اتصل بنا</div>
         <div class="Frame1000011657" style="padding: 4.50px; border-radius: 10.12px; justify-content: center; align-items: center; gap: 11.25px; display: flex">
           <div class="Call02" style="width: 22.50px; height: 22.50px; position: relative">

@@ -37,7 +37,7 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
     <div class="veel-related-card-details">
       <div class="veel-related-card-header">
         <div class="veel-related-card-icon-group">
-          <a class="veel-related-card-location-name" href="<?php echo get_permalink(get_the_ID()); ?>"><?php the_title(); ?></a>
+          <a class="veel-related-card-location-name" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
           <div class="veel-related-card-call-acton">
             <div>1</div>
             <div>1</div>

@@ -104,14 +104,16 @@ footer {
 .veelLocation {
   color: #FFF;
   text-align: right;
-  /* font-family: Almarai; */
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 133.023%;
   text-transform: capitalize;
 }
-
+.veelGmail a {
+  color: #fff !important;
+  text-decoration: none;
+}
 @media screen and (max-width: 1024px) {
   .veelSubscription iframe {
     width: 276px;

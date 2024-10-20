@@ -6,43 +6,12 @@ defined('ABSPATH') || exit;
  * Load required files efficiently
  */
 $required_files = array(
-  'inc/theme-setup.php',             // Theme setup and custom theme supports
-  'inc/columns.php',                 // Main/sidebar column width and breakpoints
-  'inc/comments.php',                // Comments
-  'inc/container.php',               // Container class
-  'inc/enable-html.php',             // Enable HTML in category and author description
-  'inc/enqueue.php',                 // Enqueue scripts and styles
-  'inc/excerpt.php',                 // Adds excerpt to pages
-  'inc/hooks.php',                   // Custom hooks
-  'inc/loop.php',                    // Loop items and pagination
-  'inc/pagination.php',              // Pagination
-  'inc/password-protected-form.php', // Password protected form
-  'inc/template-tags.php',           // Meta information like author, date, etc.
-  'inc/template-functions.php',      // Functions enhancing the theme
-  'inc/widgets.php',                 // Widget area and Gutenberg support
-  'inc/deprecated.php',              // Deprecated fallback functions
-  'admin/theme-options.php',         // Admin theme options
-  'inc/project-editor.php',          // Project page backend
-  'inc/city-editor.php',             // City editor backend
-  'inc/developer-editor.php',        // Developer editor backend
-  'inc/admin.php',                   // Admin functions
-//  'inc/posts/real-estate-advisor-card.php', // Real estate advisor card
+
   'ajax.php',                        // Ajax functionality
-  'inc/ajax-search.php',             // Ajax search
-  'inc/ajax-files/get-cities-data-callback.php',             // Ajax search
-  'inc/errors.php',                  // Error handling
-  'inc/schema/schema.php',           // General schema
-  'inc/schema/auther-schema.php',    // Author schema
-  'inc/schema/breadcrumb-schema.php',// Breadcrumb schema
-  'inc/schema/faq-schema.php',       // FAQ schema
-//  'inc/schema/review-schema.php',    // Review schema
-  'inc/schema/gallery-schema.php',   // Gallery schema
-  'inc/posts/preload-featured-image.php', // Preload featured image
-  'inc/posts/display-project-main-location.php', // Display project location
-  'inc/posts/render-project-facilities-metabox.php', // Project facilities metabox
-  'inc/schema/breadcrumb.php',       // Breadcrumb functionality
-  'inc/testimonials.php',       // Breadcrumb functionality
-  'inc/type-editor.php',       // Breadcrumb functionality
+  'inc/int.php', // Real estate advisor card
+  'inc/posts/int.php', // Real estate advisor card
+  'inc/schema/int.php', // Real estate advisor card
+
 );
 
 // Use include_once to avoid multiple inclusions

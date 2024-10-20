@@ -122,7 +122,7 @@ select#options {
 }
 button.submitButton {
   align-items: center;
-  background: #d1b671;
+  background: var(--primary--color);
   border-radius: 5px;
   display: flex;
   flex-shrink: 0;
@@ -197,7 +197,7 @@ textarea{
   }
   button.submitButton {
     align-items: center;
-    background: #d1b671;
+    background: var(--primary--color);
     border-radius: 5px;
     color: #fff;
     display: flex;

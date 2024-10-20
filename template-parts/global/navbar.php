@@ -11,13 +11,27 @@
       </svg>
     </div>
     <div class="navBarList">
-      <ul>
-        <li><a href="#">الرئيسية</a></li>
-        <li><a href="#">المطورين</a></li>
-        <li><a href="#">المدونة</a></li>
-        <li><a href="#">من نحن</a></li>
-        <li><a href="#">تواصل معنا</a></li>
-      </ul>
+      <?php
+      if (has_nav_menu('header-menu')) {
+        wp_nav_menu(array(
+          'theme_location' => 'header-menu',
+          'container' => 'nav',
+          'container_class' => 'header-nav',
+          'menu_class' => 'header-menu',
+          'depth' => 1,
+        ));
+      } else {
+        ?>
+        <ul>
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">المطورين</a></li>
+          <li><a href="#">المدونة</a></li>
+          <li><a href="#">من نحن</a></li>
+          <li><a href="#">تواصل معنا</a></li>
+        </ul>
+        <?php
+      }
+      ?>
     </div>
     <div class="veelCta">
       <div class="veelCtaInclude">
@@ -38,13 +52,27 @@
     <img src="<?php echo esc_url(get_template_directory_uri() . '/src/img/veel-logo.webp'); ?>" />
   </div>
   <div class="Mobile-navBarList">
-    <ul>
-      <li><a href="#">الرئيسية</a></li>
-      <li><a href="#">المطورين</a></li>
-      <li><a href="#">المدونة</a></li>
-      <li><a href="#">من نحن</a></li>
-      <li><a href="#">تواصل معنا</a></li>
-    </ul>
+    <?php
+    if (has_nav_menu('header-menu')) {
+      wp_nav_menu(array(
+        'theme_location' => 'header-menu',
+        'container' => 'nav',
+        'container_class' => 'header-nav',
+        'menu_class' => 'header-menu',
+        'depth' => 1,
+      ));
+    } else {
+      ?>
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">المطورين</a></li>
+        <li><a href="#">المدونة</a></li>
+        <li><a href="#">من نحن</a></li>
+        <li><a href="#">تواصل معنا</a></li>
+      </ul>
+      <?php
+    }
+    ?>
   </div>
 
   <div class="veelMobileCta">
@@ -56,6 +84,7 @@
     </div>
   </div>
 </div>
+
 <script>
   document.getElementById('humburgerMenu').addEventListener('click', function() {
     var navbar = document.getElementById('veelMobilenavbar');
@@ -65,5 +94,5 @@
   document.getElementById('xMark').addEventListener('click', function() {
     var navbar = document.getElementById('veelMobilenavbar');
     navbar.classList.remove('flex');
-
+  });
 </script>

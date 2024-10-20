@@ -96,7 +96,7 @@
 .veel-testimonial-arrow {
   width: 41px;
   height: 41px;
-  background: #D1B671;
+  background: var(--primary--color);
   border-radius: 6px;
   position: relative;
 }
@@ -139,7 +139,7 @@
 .veel-decor-highlight {
   width: 47px;
   height: 6px;
-  background-color: #D1B671;
+  background-color: var(--primary--color);
 }
 
 /* استعلامات الوسائط للشاشات المتوسطة (مقاس 1024 بكسل) */
