@@ -22,7 +22,7 @@ p {
 .project-facilities {
   display: flex;
   width: 90%;
-  height: 140px;
+  height: fit-content;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -35,7 +35,7 @@ p {
   flex-wrap: wrap;
   gap: 21px;
   grid-template-columns: repeat(4, 1fr);
-  height: 140px;
+  height: fit-content;
   justify-content: center;
   justify-items: start;
   width: 90%;
