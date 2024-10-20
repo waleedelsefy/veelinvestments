@@ -17,7 +17,6 @@ function enqueue_theme_assets() {
 
 function theme_enqueue_styles() {
         wp_enqueue_style('front-page-style', get_template_directory_uri() . '/dist/css/main.css', array(), '1.0');
-        wp_enqueue_style('awesome', get_template_directory_uri() . '/dist/css/awesome-pro.css', array(), '1.0');
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
