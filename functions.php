@@ -5,23 +5,11 @@ defined('ABSPATH') || exit;
 /**
  * Load required files efficiently
  */
-$required_files = array(
 
-  'ajax.php',                        // Ajax functionality
-  'inc/int.php', // Real estate advisor card
-  'inc/posts/int.php', // Real estate advisor card
-  'inc/schema/int.php', // Real estate advisor card
-
-);
-
-// Use include_once to avoid multiple inclusions
-foreach ($required_files as $file) {
-  $filepath = get_template_directory() . '/' . $file;
-  if (file_exists($filepath)) {
-    include_once $filepath;
-  }
-}
-
+include_once get_template_directory() . '/inc/int.php';
+include_once get_template_directory() . '/inc/admin/int.php';
+include_once get_template_directory() . '/inc/posts/int.php';
+include_once get_template_directory() . '/inc/schema/int.php';
 /**
  * Add theme supports
  */

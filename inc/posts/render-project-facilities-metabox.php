@@ -15,19 +15,13 @@ function render_project_facilities_metabox($post) {
     $stored_facilities = maybe_unserialize($stored_facilities);
 
     $facilities = [
-        'water_games' => __('Water Games', 'veelinvestments'),
-        'security' => __('Security', 'veelinvestments'),
-        'sports_clubs' => __('Sports Clubs', 'veelinvestments'),
-        'electronic_gates' => __('Electronic Gates', 'veelinvestments'),
-        'car_garages' => __('Car Garages', 'veelinvestments'),
-        'maintenance_cleaning' => __('Maintenance and Cleaning', 'veelinvestments'),
-        'internet_networks' => __('Internet Networks', 'veelinvestments'),
-        'cafes_restaurants' => __('Cafes and Restaurants', 'veelinvestments'),
-        'kids_area' => __('Kids Area', 'veelinvestments'),
-        'shopping_center' => __('Shopping Center', 'veelinvestments'),
-        'green_spaces' => __('Green Spaces', 'veelinvestments'),
-        'cycling_lanes' => __('Cycling Lanes', 'veelinvestments'),
-        'power_generators' => __('Power Generators', 'veelinvestments')
+      'electronic_gates' => __('Electronic Gates', 'veelinvestments'),
+      'security' => __('Security', 'veelinvestments'),
+      'commercial_area' => __('Commercial Area', 'veelinvestments'),
+      'social_club' => __('Social Club', 'veelinvestments'),
+      'schools' => __('Schools', 'veelinvestments'),
+      'shopping_center' => __('Shopping Center', 'veelinvestments'),
+      'maintenance_cleaning' => __('Maintenance and Cleaning', 'veelinvestments'),
     ];
 
     foreach ($facilities as $key => $facility) {
