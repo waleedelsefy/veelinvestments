@@ -12,7 +12,6 @@
     </div>
     <div class="navBarList">
       <?php
-      if (has_nav_menu('header-menu')) {
         wp_nav_menu(array(
           'theme_location' => 'header-menu',
           'container' => 'nav',
@@ -42,7 +41,6 @@
   </div>
   <div class="Mobile-navBarList">
     <?php
-    if (has_nav_menu('header-menu')) {
       wp_nav_menu(array(
         'theme_location' => 'header-menu',
         'container' => 'nav',
