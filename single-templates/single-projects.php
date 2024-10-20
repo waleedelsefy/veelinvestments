@@ -54,7 +54,7 @@ $author_instagram = get_the_author_meta('instagram', $author_id);
 <?php
 // Include additional template parts for the footer sections
 get_template_part('template-parts/help-form');
-get_template_part('template-parts/projects/releted-projects');
+get_template_part('template-parts/projects/related-projects');
 get_template_part('template-parts/home-page/blog');
 get_footer();
 ?>
