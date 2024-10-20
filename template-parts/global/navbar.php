@@ -20,17 +20,6 @@
           'menu_class' => 'header-menu',
           'depth' => 1,
         ));
-      } else {
-        ?>
-        <ul>
-          <li><a href="#">الرئيسية</a></li>
-          <li><a href="#">المطورين</a></li>
-          <li><a href="#">المدونة</a></li>
-          <li><a href="#">من نحن</a></li>
-          <li><a href="#">تواصل معنا</a></li>
-        </ul>
-        <?php
-      }
       ?>
     </div>
     <div class="veelCta">
@@ -61,17 +50,6 @@
         'menu_class' => 'header-menu',
         'depth' => 1,
       ));
-    } else {
-      ?>
-      <ul>
-        <li><a href="#">الرئيسية</a></li>
-        <li><a href="#">المطورين</a></li>
-        <li><a href="#">المدونة</a></li>
-        <li><a href="#">من نحن</a></li>
-        <li><a href="#">تواصل معنا</a></li>
-      </ul>
-      <?php
-    }
     ?>
   </div>
 
