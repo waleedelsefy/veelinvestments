@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Veel Investments\n"
-"POT-Creation-Date: 2024-10-21 05:55+0300\n"
-"PO-Revision-Date: 2024-10-21 06:00+0300\n"
+"POT-Creation-Date: 2024-10-21 09:07+0300\n"
+"PO-Revision-Date: 2024-10-21 09:08+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -452,17 +452,6 @@ msgstr "المشاريع"
 msgid "Units"
 msgstr "الوحدات"
 
-#: inc/posts/display-project-main-location.php:52
-#, php-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d دقيقية"
-msgstr[1] "%d دقيقية"
-msgstr[2] "%d دقيقتان"
-msgstr[3] "%d دقائق"
-msgstr[4] "%d دقيقية"
-msgstr[5] "%d دقيقية"
-
 #: inc/posts/finish-type.php:4 inc/posts/finish-type.php:12
 msgid "Finish Types"
 msgstr "نوع التشطيب"
@@ -814,7 +803,7 @@ msgstr "اسم غير معلوم"
 msgid "Brochure"
 msgstr "البرشور"
 
-#: inc/short-cods.php:52
+#: inc/short-cods.php:52 template-parts/projects/price-container.php:17
 msgid "Call Us"
 msgstr "اتصل بنا"
 
@@ -1122,20 +1111,27 @@ msgstr "تذييل #4"
 msgid "Sidebar Pages"
 msgstr "سايدبار الصفحات"
 
-#: single-templates/single-projects.php:19
-msgid "Facilities & Services"
-msgstr "المرافق والخدمات"
-
-#: single-templates/single-projects.php:25
+#: single-templates/single-projects.php:28
 msgid "Additional Information"
 msgstr "معلومات اخري"
 
 #: template-parts/content-project-card.php:11
-#: template-parts/projects/project-details.php:54
+#: template-parts/content-related-card.php:73
+#: template-parts/projects/price-container.php:9
+#: template-parts/projects/project-details.php:50
 msgid "EGP"
 msgstr "ج.م"
 
-#: template-parts/content-related-card.php:82
+#: template-parts/content-related-card.php:65
+#: template-parts/home-page/hero.php:41
+msgid "Price"
+msgstr "السعر"
+
+#: template-parts/content-related-card.php:69
+msgid "Deposit"
+msgstr "مقدم"
+
+#: template-parts/content-related-card.php:77
 msgid "years"
 msgstr "سنوات"
 
@@ -1264,10 +1260,6 @@ msgstr "4 غرف نوم"
 msgid "5 Bedrooms or more"
 msgstr "5 غرف نوم او اكثر"
 
-#: template-parts/home-page/hero.php:41
-msgid "Price"
-msgstr "السعر"
-
 #: template-parts/home-page/hero.php:42
 msgid "0 - 500,000 EGP"
 msgstr "0 - 500,000 جنية"
@@ -1328,12 +1320,12 @@ msgstr "أشهر المدن"
 msgid "Explore a selection of top compounds in the cities"
 msgstr "ابحث في مجموعة من ارقى الكمبوند بالمدن"
 
-#: template-parts/projects/author-card.php:43
+#: template-parts/projects/author-card.php:41
 #, php-format
 msgid "Author: %s"
 msgstr "الكاتب : %s"
 
-#: template-parts/projects/author-card.php:92
+#: template-parts/projects/author-card.php:90
 msgid "No bio available for this author."
 msgstr "لا توجد سيرة ذاتية متاحة للكاتب."
 
@@ -1355,42 +1347,51 @@ msgstr "5 سنوات"
 msgid "3 years"
 msgstr "3 سنوات"
 
-#: template-parts/projects/payment-systems.php:43
-msgid "No payment plans available."
-msgstr "لا توجد طرق سداد متاحة."
-
-#: template-parts/projects/project-details.php:34
-msgid "Project details"
-msgstr "تفاصيل المشروع"
-
-#: template-parts/projects/project-details.php:40
-msgid "Project Name"
-msgstr "اسم المشروع"
-
-#: template-parts/projects/project-details.php:43
-msgid "Project Location"
-msgstr "موقع المشروع"
-
-#: template-parts/projects/project-details.php:48
-msgid "Unit Space"
-msgstr "مساحة الوحدة"
-
-#: template-parts/projects/project-details.php:49
-#: template-parts/projects/project-details.php:56
-msgid "Meter"
-msgstr "متر"
-
-#: template-parts/projects/project-details.php:50
+#: template-parts/projects/price-container.php:7
+#: template-parts/projects/project-details.php:46
 msgid "Starting Price"
 msgstr "الأسعار تبدأ من"
 
-#: template-parts/projects/project-details.php:61
+#: template-parts/projects/price-container.php:24
+msgid "WhatsApp"
+msgstr "واتساب"
+
+#: template-parts/projects/price-container.php:31
+msgid "Zoom"
+msgstr "زووم"
+
+#: template-parts/projects/project-details.php:29
+msgid "Project details"
+msgstr "تفاصيل المشروع"
+
+#: template-parts/projects/project-details.php:33
+msgid "Project Name"
+msgstr "اسم المشروع"
+
+#: template-parts/projects/project-details.php:37
+msgid "Project Location"
+msgstr "موقع المشروع"
+
+#: template-parts/projects/project-details.php:42
+msgid "Unit Space"
+msgstr "مساحة الوحدة"
+
+#: template-parts/projects/project-details.php:43
+#: template-parts/projects/project-details.php:52
+msgid "Meter"
+msgstr "متر"
+
+#: template-parts/projects/project-details.php:59
 msgid "Unit Types"
 msgstr "انواع الوحدات"
 
 #: template-parts/projects/project-details.php:63
 msgid "Finish Type"
 msgstr "نوع التشطيب"
+
+#: template-parts/projects/project-facilities.php:17
+msgid "Facilities & Services"
+msgstr "المرافق والخدمات"
 
 #: template-parts/projects/related-projects.php:5
 msgid "Related Projects"
@@ -1505,6 +1506,18 @@ msgstr "وليد الصيفي"
 #. Author URI of the plugin/theme
 msgid "https://dido.pro/"
 msgstr "https://dido.pro/"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d دقيقية"
+#~ msgstr[1] "%d دقيقية"
+#~ msgstr[2] "%d دقيقتان"
+#~ msgstr[3] "%d دقائق"
+#~ msgstr[4] "%d دقيقية"
+#~ msgstr[5] "%d دقيقية"
+
+#~ msgid "No payment plans available."
+#~ msgstr "لا توجد طرق سداد متاحة."
 
 #~ msgid "Project Space:"
 #~ msgstr "مساحة المشروع:"

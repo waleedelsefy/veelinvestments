@@ -32,10 +32,42 @@ get_header();
       </div>
       <?php get_template_part('template-parts/projects/author-card'); ?>
     </div>
-    <div class="col-4"></div>
+    <div class="col-4">
+      <div class="sidebar">
+    <?php get_template_part('template-parts/projects/price-container'); ?>
+    </div>
+    </div>
   </div>
 </div>
+<style>
+  .sidebar {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+  }
+  .sidebar.fixed {
+    position: fixed;
+    top: 85px;
+    width: 300px;
+    z-index: 1000;
+  }
 
+</style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    var sidebar = $('.sidebar');
+    var sidebarOffset = sidebar.offset().top;
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() >= sidebarOffset) {
+        sidebar.addClass('fixed');
+      } else {
+        sidebar.removeClass('fixed');
+      }
+    });
+  });
+</script>
 <?php
 // Include additional template parts for the footer sections
 get_template_part('template-parts/help-form');

@@ -62,15 +62,15 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
             }
             ?>
           </span>
-          <span><?php _e('السعر', 'veelinvestments'); ?></span>
+          <span><?php _e('Price', 'veelinvestments'); ?></span>
         </div>
 
         <div class="veel-related-card-installment">
-          <span><?php _e('مقدم', 'veelinvestments'); ?></span>
+          <span><?php _e('Deposit', 'veelinvestments'); ?></span>
           <span>
             <?php
             if ($down_payment && $project_price) {
-              echo esc_html($project_price * ($down_payment / 100)) . ' ج/م';
+              echo esc_html($project_price * ($down_payment / 100)) .  _e('EGP', 'veelinvestments');
             }
 
             if ($installment) {
