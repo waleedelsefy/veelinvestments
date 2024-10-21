@@ -3,9 +3,13 @@
 $post_id = get_the_ID();
 get_header();
 ?>
-<div style="height:300px; min-height: 300px"></div>
+<?php get_template_part('template-parts/projects/project-post-header'); ?>
 
 <div class="project-body">
+  <?php
+  echo veel_display_gallery_or_featured_image($post_id, 'full');
+  echo  display_project_main_location();
+  ?>
   <div class="flex-row">
     <div class="col-8">
       <div class="project-details-card">
@@ -17,10 +21,7 @@ get_header();
       <div>
         <?php get_template_part('template-parts/projects/payment-systems'); ?>
       </div>
-      <div class="veelBlogHeaderTitle">
-        <h2><?php _e('Facilities & Services', 'veelinvestments'); ?></h2>
-      </div>
-      <div>
+    <div>
         <?php get_template_part('template-parts/projects/project-facilities'); ?>
       </div>
       <div class="veelBlogHeaderTitle">

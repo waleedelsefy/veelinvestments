@@ -31,7 +31,7 @@ if (!function_exists('the_breadcrumb')) :
 
         if (!is_home()) {
             echo '<nav aria-label="breadcrumb" class="breadcrumb-scroller bg-body-tertiary rounded">';
-            echo '<ul class="ul">';
+            echo '<ul class="breadcrumb-item list">';
             echo '<li class="cil"><a class="li breadcrumb-item" href="' . home_url() . '">' . __('Home', 'veelinvestments') . '</a><span class="separator"> &gt; </span></li>';
 
             // Breadcrumb for Developer taxonomy, displaying developer name as H1

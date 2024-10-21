@@ -152,7 +152,7 @@ function veel_display_gallery_or_featured_image($post_id, $size = 'full') {
   $gallery_image_ids = get_post_meta($post_id, '_gallery_image_ids', true);
 
   if ($gallery_enabled === '1' && !empty($gallery_image_ids) && is_array($gallery_image_ids)) {
-    echo '<div class="newaqar-gallery-grid">';
+    echo '<div class="veel-gallery-grid">';
 
     foreach ($gallery_image_ids as $attachment_id) {
       $img_url = wp_get_attachment_image_url($attachment_id, $size);
@@ -162,7 +162,7 @@ function veel_display_gallery_or_featured_image($post_id, $size = 'full') {
 
     echo '</div>';
   } elseif (has_post_thumbnail($post_id)) {
-    echo '<div class="newaqar-gallery-single">' . get_the_post_thumbnail($post_id, $size) . '</div>';
+    echo '<div class="veel-gallery-single">' . get_the_post_thumbnail($post_id, $size) . '</div>';
   }
 }
 

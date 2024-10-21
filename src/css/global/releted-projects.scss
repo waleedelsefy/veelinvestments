@@ -1,5 +1,5 @@
 .veelRelatedProjects{
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -8,12 +8,12 @@
   flex-direction: column;
   gap: 20px;
 }
-.relatedProjectsSection{
+.relatedProjectsSection {
   display: flex;
   justify-content: center;
   margin: auto;
   padding: 35px 0;
-  width: 100%;
+  width: 90%;
 }
 .veelSubHeading{
   display: flex;

@@ -12,14 +12,19 @@ $facilities = [
   'maintenance_cleaning' => __('Maintenance and Cleaning', 'veelinvestments'),
 ];
 
-if ($stored_facilities && is_array($stored_facilities)) {
-  echo '<div class="facility-content-box">';
-  echo '<div class="project-facilities">';
-  foreach ($stored_facilities as $facility_key) {
-    echo '<div class="facility-box">';
-    echo '<div class="facility-img">';
+if ($stored_facilities && is_array($stored_facilities)) : ?>
+  <div class="veelBlogHeaderTitle">
+    <h2><?php _e('Facilities & Services', 'veelinvestments'); ?></h2>
+  </div>
+  <div class="facility-content-box">
+    <div class="project-facilities">
+      <?php
+            foreach ($stored_facilities as $facility_key) {
+                if (array_key_exists($facility_key, $facilities)) {
+                    echo '<div class="facility-box">';
+                    echo '<div class="facility-img">';
+                  switch ($facility_key) {
 
-    switch ($facility_key) {
       case 'electronic_gates':
         echo '<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M13.0688 6.95C13.0688 10.0062 10.85 12.8687 7.81878 13.7062C7.61253 13.7625 7.38752 13.7625 7.18127 13.7062C4.15002 12.8687 1.93127 10.0062 1.93127 6.95V4.20624C1.93127 3.69374 2.31878 3.11249 2.80003 2.91874L6.28127 1.49376C7.06252 1.17501 7.94377 1.17501 8.72502 1.49376L12.2063 2.91874C12.6813 3.11249 13.075 3.69374 13.075 4.20624L13.0688 6.95Z" stroke="#707070" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
@@ -82,11 +87,12 @@ if ($stored_facilities && is_array($stored_facilities)) {
         break;
     }
 
-    echo '</div>';
-    echo '<div class="facility-txt">' . esc_html($facilities[$facility_key] ?? '') . '</div>';
-    echo '</div>';
-  }
-  echo '</div>';
-  echo '</div>';
-}
-?>
+                    echo '</div>'; // End of facility-img div
+                    echo '<div class="facility-txt">' . esc_html($facilities[$facility_key]) . '</div>';
+                    echo '</div>'; // End of facility-box div
+                }
+            }
+            ?>
+  </div>
+</div>
+<?php endif; ?>
