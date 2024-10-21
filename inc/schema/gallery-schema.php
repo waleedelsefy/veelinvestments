@@ -125,7 +125,7 @@ function veel_save_gallery_meta_box($post_id) {
   }
 
   // Check post type
-  if (!in_array(get_post_type($post_id), array('post', 'projects', 'units'))) {
+  if (!in_array(get_post_type($post_id), array('post', 'projects'))) {
     return;
   }
 
@@ -152,23 +152,81 @@ function veel_display_gallery_or_featured_image($post_id, $size = 'full') {
   $gallery_image_ids = get_post_meta($post_id, '_gallery_image_ids', true);
 
   if ($gallery_enabled === '1' && !empty($gallery_image_ids) && is_array($gallery_image_ids)) {
-    echo '<div class="veel-gallery-grid">';
+    $total_images = count($gallery_image_ids);
 
-    foreach ($gallery_image_ids as $attachment_id) {
+    if ($total_images > 3) {
+
+      echo '<div class="veel-gallery-grid veel-gallery-grid-more">';
+    } else {
+      echo '<div class="veel-gallery-grid veel-gallery-grid-thrd">';
+    }
+
+    foreach ($gallery_image_ids as $index => $attachment_id) {
       $img_url = wp_get_attachment_image_url($attachment_id, $size);
       $img_alt = get_post_meta($attachment_id, '_wp_attachment_image_alt', true);
-      echo '<div class="grid-item"><img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '"></div>';
+
+      if ($index == 0) {
+
+        echo '<div class="grid-item grid-item-large">';
+        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        echo '</div>';
+      } elseif ($index == 1) {
+        // الصورة الثانية
+        echo '<div class="grid-item grid-item-small-top">';
+        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        echo '</div>';
+      } elseif ($index == 2) {
+        // الصورة الثالثة
+        echo '<div class="grid-item grid-item-small-bottom">';
+        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        echo '</div>';
+      } elseif ($index == 3) {
+        // الصورة الرابعة
+        echo '<div class="grid-item grid-item-small-top">';
+        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        echo '</div>';
+      } elseif ($index == 4) {
+        // الصورة الخامسة
+        echo '<div class="grid-item grid-item-small-bottom">';
+        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        echo '</div>';
+      }
     }
 
     echo '</div>';
-  } elseif (has_post_thumbnail($post_id)) {
-    echo '<div class="veel-gallery-single">' . get_the_post_thumbnail($post_id, $size) . '</div>';
+  } else {
+    if (has_post_thumbnail($post_id)) {
+      $featured_image_url = get_the_post_thumbnail_url($post_id, 'full');
+      $image_data = wp_get_attachment_image_src(get_post_thumbnail_id($post_id), 'full');
+
+      $featured_image_id = get_post_thumbnail_id($post_id); // جلب معرف الصورة المميزة
+
+      if ($featured_image_id) {
+        $featured_image_url = get_the_post_thumbnail_url($post_id, 'full'); // جلب رابط الصورة
+        $image_data = wp_get_attachment_image_src($featured_image_id, 'full'); // جلب بيانات الصورة (العرض والارتفاع)
+        $image_alt = get_post_meta($featured_image_id, '_wp_attachment_image_alt', true);
+        if ($featured_image_url && $image_data) {
+          $image_width = $image_data[1];
+          $image_height = $image_data[2];
+
+          echo '<div class="veel-gallery-single">';
+          echo '<img src="' . esc_url($featured_image_url) . '" alt="' . esc_attr($image_alt) . '" width="' . esc_attr($image_width) . '" height="' . esc_attr($image_height) . '">';
+          echo '</div>';
+        }
+      }
+
+      return;
+
+
+    }
   }
+
+  return null;
 }
 
 //  Output gallery schema
 function veel_output_image_gallery_schema() {
-  if (is_singular(array('post', 'projects', 'units'))) {
+  if (is_singular(array('post', 'projects'))) {
     global $post;
     $post_id = $post->ID;
     $gallery_schema_enabled = get_post_meta($post_id, '_gallery_schema_enabled', true);

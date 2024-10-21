@@ -35,39 +35,44 @@ get_header();
     <div class="col-4">
       <div class="sidebar">
     <?php get_template_part('template-parts/projects/price-container'); ?>
+    <?php get_template_part('template-parts/projects/schedule-meeting'); ?>
     </div>
     </div>
   </div>
 </div>
-<style>
-  .sidebar {
-    position: relative;
-    width: 80%;
-    max-width: 300px;
-  }
-  .sidebar.fixed {
-    position: fixed;
-    top: 85px;
-    width: 300px;
-    z-index: 1000;
-  }
 
-</style>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $(document).ready(function() {
     var sidebar = $('.sidebar');
     var sidebarOffset = sidebar.offset().top;
+    var stopAt = 1800;
+    var isFixed = false;
 
     $(window).scroll(function() {
-      if ($(window).scrollTop() >= sidebarOffset) {
-        sidebar.addClass('fixed');
+      var scrollPosition = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      var documentHeight = $(document).height();
+
+      if (scrollPosition >= sidebarOffset && (documentHeight - (scrollPosition + windowHeight)) > stopAt) {
+        if (!isFixed) {
+          sidebar.fadeOut(50, function() {
+            $(this).addClass('fixed').fadeIn(150);
+          });
+          isFixed = true;
+        }
       } else {
-        sidebar.removeClass('fixed');
+        if (isFixed) {
+          sidebar.fadeOut(500, function() {
+            $(this).removeClass('fixed').fadeIn(150);
+          });
+          isFixed = false;
+        }
       }
     });
   });
 </script>
+
 <?php
 // Include additional template parts for the footer sections
 get_template_part('template-parts/help-form');
