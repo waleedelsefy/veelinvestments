@@ -62,3 +62,95 @@
         <input id="formSingleButton" type="submit" value="<?php _e('Send', 'veelinvestments'); ?>" class="submit">
     </form>
 </div>
+<style>
+  li.schedule-meeting-day {
+    display: flex;
+    width: 90px;
+    height: 70px;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 273px;
+    flex-shrink: 0;
+  }
+  select#fav-time {
+    text-align: right;
+  }
+  .schedule-meeting {
+    margin: 10px 0;
+    width: 100%;
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 12px;
+    background: #231F20;
+    padding: 10px 25px;
+  }
+  .schedule-meeting form{display: flex; flex-wrap: wrap;padding:10px; justify-content: space-between}
+
+  .schedule-meeting .form-inside-title{font-weight: bold; font-size: 0.9rem;margin-bottom: 5px; padding-right: 5px}
+
+  .schedule-meeting .input-box{width:98%;margin:0 1%}
+
+  .schedule-meeting .input-box label{font-size: 0.9rem;margin-bottom: 5px; font-weight: bold}
+
+  .schedule-meeting .form-bg,.schedule-meeting .comment{width:100%;padding-right:15px;height:40px;line-height:38px;color:#233F5A;display:block;font-family:"Cairo";font-size:0.85rem;margin-bottom:15px;border:1px solid #C0C0C0;font-weight: bold;background-color: #FFFFFF;border-radius: 10px}
+
+  .schedule-meeting .comment{height:100px;}
+
+  .schedule-meeting .search-select{appearance: none;
+
+    -moz-appearance: none;
+
+    -webkit-appearance: none;
+
+    background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+
+    background-position: 2%;
+
+    background-repeat: no-repeat;
+
+    color: rgba(35,63,90,0.7);}
+
+  .schedule-meeting .form-bg::placeholder,.schedule-meeting .comment::placeholder{opacity:.5; }
+
+  .schedule-meeting .submit{
+    display: flex;
+    width: 100%;
+    height: 42px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D1B671;
+  }
+
+  .schedule-meeting .submit:hover{cursor:pointer;background-color: #B3CB63}
+
+
+
+  /*radio*/
+
+  .schedule-meeting .radio-box{
+
+    display: flex; overflow-x: auto;width:100%;list-style-type: none;padding-right: 0; margin-bottom: 15px
+
+  }
+
+
+
+  .schedule-meeting  .radio-box [type="radio"]{display: none}
+
+  .schedule-meeting  .radio-box label{display: flex; justify-content: space-between; align-items: center;text-align: center; padding:5px 10px; width:100%; background-color: #F9F9F9; color: #70777E; font-size: 0.9rem; border-radius: 10px; cursor: pointer; border:2px solid #DADADA;transition: 0.2s;}
+
+  .schedule-meeting  .radio-box label:hover, .schedule-meeting  .radio-box input:checked ~ label{background-color: #EDF5F6;border-color:#00B0C4; color: #00B0C4}
+
+
+
+</style>
