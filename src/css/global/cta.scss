@@ -1,4 +1,4 @@
-.cta{
+.cta {
   display: flex;
   width: 48px;
   flex-direction: column;
@@ -6,6 +6,10 @@
   align-items: center;
   gap: 10px;
   border: none;
+  position: fixed !important;
+  bottom: 70vh !important;
+  left: 4vw !important;
+  z-index: 99 !important;
 }
 .call{
   display: flex;

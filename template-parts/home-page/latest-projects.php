@@ -1,7 +1,4 @@
 <div class="latestProjectsSection">
-  <div class="CTA">
-    <?php //get_template_part('template-parts/global/cta'); ?>
-  </div>
 
   <div class="veelLatestProjects">
     <div class="veelLatestProjectsHeader">

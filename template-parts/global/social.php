@@ -1,7 +1,7 @@
 <?php
 $theme_settings = get_option('veel_theme_settings');
 
-$facebook = isset($theme_settings['facebook']) ? esc_url($theme_settings['facebook']) : 'https://www.instagram.com/veel.investments/';
+$facebook = isset($theme_settings['facebook']) ? esc_url($theme_settings['facebook']) : 'https://www.facebook.com/profile.php?id=61564602942932';
 $youtube = isset($theme_settings['youtube']) ? esc_url($theme_settings['youtube']) : 'https://www.tiktok.com/@veel.investments';
 $linkedin = isset($theme_settings['linkedin']) ? esc_url($theme_settings['linkedin']) : '#';
 $instagram = isset($theme_settings['instagram']) ? esc_url($theme_settings['instagram']) : 'https://www.instagram.com/veel.investments/';

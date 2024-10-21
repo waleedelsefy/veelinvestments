@@ -86,27 +86,27 @@
 .CTA iframe{
     border: none;
     width: 60px;
-    position: relative;
     top: 30px;
 }
 
-.CTA{
-    width: max-content;
+.CTA {
+  width: max-content;
+  position: fixed !important;
+  bottom: 20vh !important;
+  left: 4vw !important;
+  z-index: 99 !important;
 }
 .rectangle1{
-    background: url("src/img/blog1.webp") no-repeat center center / cover, lightgray;
     width: 280px;
     border-radius: 15px;
 
 }
 .rectangle2{
-    background: url("src/img/blog2.webp") no-repeat center center / cover, lightgray;
     width: 280px;
     border-radius: 15px;
 
 }
 .rectangle3{
-    background: url("src/img/blog3.webp") no-repeat center center / cover, lightgray;
     width: 280px;
     border-radius: 15px;
 

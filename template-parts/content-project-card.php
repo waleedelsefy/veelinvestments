@@ -1,5 +1,5 @@
 <div class="ProjectCard">
-  <a  href="<?php echo get_permalink(get_the_ID()); ?>" class="imgProjectCard" style="background-image: url('<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>');">
+  <div  href="<?php echo get_permalink(get_the_ID()); ?>" class="imgProjectCard" style="background-image: url('<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>');">
     <div class="ProjectCardCta">
       <?php get_template_part('template-parts/global/img-cta'); ?>
     </div>
@@ -13,7 +13,7 @@
         ?>
       </p>
     </div>
-  </a>
+  </div>
   <div class="ProjectCardContent">
     <a class="ProjectCardTitle" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
     <?php

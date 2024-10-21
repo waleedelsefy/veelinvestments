@@ -2,7 +2,9 @@
   <div class="veelNavbarItems">
     <div class="veelLogo">
       <div class="logo">
-        <img src="<?php echo esc_url(get_template_directory_uri() .'/src/img/logo.png'); ?>">
+        <a href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>" aria-label="Go to homepage of <?php echo esc_attr(get_bloginfo('name')); ?>">
+          <img src="<?php echo esc_url(get_template_directory_uri() .'/src/img/logo.png'); ?>" alt="Logo of <?php echo esc_attr(get_bloginfo('name')); ?>" class="logo" width="130" height="40"/>
+        </a>
       </div>
     </div>
     <div class="humburgerMenu" id="humburgerMenu">

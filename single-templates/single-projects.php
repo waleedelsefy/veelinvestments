@@ -12,13 +12,16 @@ $author_linkedin = get_the_author_meta('linkedin', $author_id);
 $author_facebook = get_the_author_meta('facebook', $author_id);
 $author_instagram = get_the_author_meta('instagram', $author_id);
 ?>
+<div style="height:300px; min-height: 300px"></div>
 
 <div class="project-body">
   <div class="flex-row">
     <div class="col-8">
+      <div class="PaymentSystems">
       <div class="veelBlogHeaderTitle">
-        <h3><?php _e('Payment Systems', 'veelinvestments'); ?></h3>
-
+        <h3><?php _e('Payment Systems', 'veelinvestments'); ?></h3></div>
+        <div class="PaymentSystemsBlocks flex-row">
+      <div>
         <?php
         $project_details = get_post_meta($post_id, 'project_details', true);
         $installment_1 = !empty($project_details['installment_1']) ? esc_attr($project_details['installment_1']) : '';
@@ -26,9 +29,30 @@ $author_instagram = get_the_author_meta('instagram', $author_id);
 
         <div class="installment-div-box" style="width: 112px; height: 118px; background: #FDFCFB; border-radius: 15px; border: 1px black solid">
           <?php echo esc_html__('Down Payment', 'veelinvestments') . ' ' . esc_attr($installment_1) . '% ' . esc_html__('7 years', 'veelinvestments'); ?>
+        </div>.....
+        </div>
+      <div>
+        <?php
+        $project_details = get_post_meta($post_id, 'project_details', true);
+        $installment_1 = !empty($project_details['installment_1']) ? esc_attr($project_details['installment_1']) : '';
+        ?>
+
+        <div class="installment-div-box" style="width: 112px; height: 118px; background: #FDFCFB; border-radius: 15px; border: 1px black solid">
+          <?php echo esc_html__('Down Payment', 'veelinvestments') . ' ' . esc_attr($installment_1) . '% ' . esc_html__('7 years', 'veelinvestments'); ?>
+        </div>.....
+        </div>
+      <div>
+        <?php
+        $project_details = get_post_meta($post_id, 'project_details', true);
+        $installment_1 = !empty($project_details['installment_1']) ? esc_attr($project_details['installment_1']) : '';
+        ?>
+
+        <div class="installment-div-box" style="width: 112px; height: 118px; background: #FDFCFB; border-radius: 15px; border: 1px black solid">
+          <?php echo esc_html__('Down Payment', 'veelinvestments') . ' ' . esc_attr($installment_1) . '% ' . esc_html__('7 years', 'veelinvestments'); ?>
+        </div>.....
         </div>
       </div>
-
+      </div>
       <div class="veelBlogHeaderTitle">
         <h2><?php _e('Facilities & Services', 'veelinvestments'); ?></h2>
       </div>

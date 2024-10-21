@@ -3,6 +3,7 @@
 
   <?php get_template_part('template-parts/global/footer'); ?>
   <?php get_template_part('template-parts/global/copy-rights'); ?>
+  <?php get_template_part('template-parts/global/cta'); ?>
 
   <div id="target-section">
   </div>

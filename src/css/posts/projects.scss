@@ -18,6 +18,35 @@ p {
   font-weight: 400;
   line-height: 22px;
 }
+  ul {
+    display: flex;
+    list-style-type: disc;
+    gap: 8px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 9px;
+    margin-inline-end: 9px;
+    padding-inline-start: 50px;
+    unicode-bidi: isolate;
+    flex-direction: column;
+  }
+  li {
+    line-height: 22px;
+  }
+  table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: #cfb771;
+  }
+  td {
+    border: solid 1px black;
+    padding: 10px;
+    margin: 0;
+  }
 }
 .project-facilities {
   display: flex;
