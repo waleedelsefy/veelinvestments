@@ -49,13 +49,13 @@ function display_testimonial_meta_box($post) {
   ?>
   <table class="form-table">
     <tr>
-      <th><label for="testimonial_author_name"><?php _e('Author Name', 'veeltheme'); ?></label></th>
+      <th><label for="testimonial_author_name"><?php _e('Author Name', 'veelinvestments'); ?></label></th>
       <td>
         <input type="text" name="testimonial_author_name" id="testimonial_author_name" value="<?php echo esc_attr($author_name); ?>" size="25" />
       </td>
     </tr>
     <tr>
-      <th><label for="testimonial_author_job"><?php _e('Author Job', 'veeltheme'); ?></label></th>
+      <th><label for="testimonial_author_job"><?php _e('Author Job', 'veelinvestments'); ?></label></th>
       <td>
         <input type="text" name="testimonial_author_job" id="testimonial_author_job" value="<?php echo esc_attr($author_job); ?>" size="25" />
       </td>

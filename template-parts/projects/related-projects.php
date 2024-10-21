@@ -60,7 +60,7 @@
         endwhile;
         wp_reset_postdata();
       else :
-        echo '<p>' . __('No related projects to display.', 'veelinvestments') . '</p>';
+        echo '<p>' . __('No related projects to display.', 'veelinvestments') . $post_id . '</p>';
       endif;
       ?>
 

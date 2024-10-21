@@ -1,0 +1,1432 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Veel Investments\n"
+"POT-Creation-Date: 2024-10-21 03:01+0300\n"
+"PO-Revision-Date: 2024-10-21 03:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/int.php:8 admin/theme-options.php:24
+msgid "Theme Options"
+msgstr "إعدادات القالب"
+
+#: admin/int/theme_colors_section.php:5
+msgid "Colors Options"
+msgstr "اختيارات الالوان"
+
+#: admin/int/theme_colors_section.php:6
+msgid "Primary Color"
+msgstr "اللون الرئيسي"
+
+#: admin/int/theme_colors_section.php:7
+msgid "Secondary Color"
+msgstr "اللون الثانوي"
+
+#: admin/int/theme_colors_section.php:8
+msgid "Secondary Color 2"
+msgstr "اللون الثالث"
+
+#: admin/int/theme_contacts_section.php:5
+msgid "Contacts Options"
+msgstr "إعدادات الاتصال"
+
+#: admin/int/theme_contacts_section.php:6 template-parts/help-form.php:29
+#: template-parts/projects/schedule-meeting.php:14
+#: template-parts/projects/schedule-meeting.php:15
+msgid "Phone Number"
+msgstr "رقم  الموبيل"
+
+#: admin/int/theme_contacts_section.php:7
+msgid "WhatsApp Number"
+msgstr "رقم الوتساب"
+
+#: admin/int/theme_contacts_section.php:8
+msgid "WhatsApp Message"
+msgstr "رسالة الواتساب"
+
+#: admin/int/theme_contacts_section.php:9
+msgid "E-mail"
+msgstr "بريد إلكتروني"
+
+#: admin/int/theme_contacts_section.php:10
+msgid "Address English"
+msgstr "العنوان باللغة الإنجليزية"
+
+#: admin/int/theme_contacts_section.php:11
+msgid "Address Arabic"
+msgstr "العنوان عربي"
+
+#: admin/int/theme_contacts_section.php:12
+msgid "About Us English"
+msgstr "معلومات عنا الإنجليزية"
+
+#: admin/int/theme_contacts_section.php:13
+msgid "About Us Arabic"
+msgstr "معلومات عنا العربية"
+
+#: admin/int/theme_contacts_section.php:14
+msgid "Hero Description Arabic"
+msgstr "وصف السلايدر عربي"
+
+#: admin/int/theme_contacts_section.php:15
+msgid "Hero Description English"
+msgstr "وصف السلايدر انجليزية"
+
+#: admin/int/theme_footer_section.php:6
+msgid "Footer Options"
+msgstr "اعدادات الفوتر"
+
+#: admin/int/theme_footer_section.php:7
+msgid "Footer Logo"
+msgstr "اللوجو في الفوتر"
+
+#: admin/int/theme_footer_section.php:8
+msgid "Copyright Text"
+msgstr "نص حقوق النشر"
+
+#: admin/int/theme_footer_section.php:9 inc/admin/user-profile.php:17
+msgid "Facebook URL"
+msgstr "رابط فيسبوك"
+
+#: admin/int/theme_footer_section.php:10 inc/admin/user-profile.php:21
+msgid "Instagram URL"
+msgstr "رابط إنستجرام"
+
+#: admin/int/theme_footer_section.php:11 inc/admin/user-profile.php:9
+msgid "YouTube URL"
+msgstr "رابط يوتيوب"
+
+#: admin/int/theme_footer_section.php:12 inc/admin/user-profile.php:13
+msgid "LinkedIn URL"
+msgstr "رابط لينكد إن"
+
+#: admin/int/theme_footer_section.php:56 admin/int/theme_options_section.php:21
+#: admin/int/theme_options_section.php:36
+#: admin/int/theme_options_section.php:51
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+#: admin/int/theme_options_section.php:4
+msgid "General Options"
+msgstr "الاعدادت الاساسية"
+
+#: admin/int/theme_options_section.php:5 template-parts/global/footer.php:27
+msgid "Logo"
+msgstr "اللوجو"
+
+#: admin/int/theme_options_section.php:6
+msgid "Slider Background URL"
+msgstr "صورة السلايدر"
+
+#: admin/int/theme_options_section.php:7
+msgid "Default Image card"
+msgstr "الصورة الافتراضية للكارت"
+
+#: admin/int/theme_options_section.php:8
+msgid "Allowed Links"
+msgstr "الروابط المسموح بها"
+
+#: admin/int/theme_options_section.php:60
+msgid "Enter allowed links, each on a new line."
+msgstr "أدخل الروابط المسموح بها، كل منها في سطر جديد."
+
+#: admin/theme-options.php:19
+msgid "Theme options description goes here."
+msgstr "وصف خيارات القالب يأتي هنا."
+
+#: admin/theme-options.php:30
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: functions.php:26
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:27 inc/theme-setup.php:75
+msgid "Header Menu"
+msgstr "قائمة الرأس"
+
+#: functions.php:28 inc/theme-setup.php:74
+msgid "Footer Menu"
+msgstr "قائمة التذييل"
+
+#: inc/admin/user-profile.php:5
+msgid "Social Media Information"
+msgstr "معلومات وسائل التواصل الاجتماعية"
+
+#: inc/ajax-files/get-cities-data-callback.php:33
+msgid "No projects available in this city."
+msgstr "لا توجد مشاريع مماثلة متاحة في المدينة."
+
+#: inc/ajax-files/load_more_latest_projects_in_city_callback.php:42
+msgid "No more projects in this city"
+msgstr "لا مزيد من المشاريع في هذه المدينة"
+
+#: inc/ajax-files/load_more_latest_units.php:48
+msgid "Are you looking for a unit with special recipes?!"
+msgstr "هل تبحث عن وحدة بموصفات خاصة ؟!"
+
+#: inc/ajax-files/load_more_latest_units.php:49
+msgid "Contact us and do not hesitate, you will find what you want"
+msgstr "تواصل معانا واحصل على طلبك في اسرع وقت"
+
+#: inc/city-editor.php:13 inc/city-editor.php:23 inc/posts/breadcrumb.php:51
+#: inc/schema/breadcrumb-schema.php:86
+msgid "Cities"
+msgstr "المدن"
+
+#: inc/city-editor.php:14
+msgid "City"
+msgstr "مدينة"
+
+#: inc/city-editor.php:15
+msgid "Search Cities"
+msgstr "البحث في المدن"
+
+#: inc/city-editor.php:16
+msgid "All Cities"
+msgstr "كل المدن"
+
+#: inc/city-editor.php:17
+msgid "Parent City"
+msgstr "المدينة الأم"
+
+#: inc/city-editor.php:18
+msgid "Parent City:"
+msgstr "المدينة الأم:"
+
+#: inc/city-editor.php:19
+msgid "Edit City"
+msgstr "تحرير المدينة"
+
+#: inc/city-editor.php:20
+msgid "Update City"
+msgstr "تحديث المدينة"
+
+#: inc/city-editor.php:21
+msgid "Add New City"
+msgstr "اصافة مدينة جديدة"
+
+#: inc/city-editor.php:22
+msgid "New City Name"
+msgstr "اسم المدينة الجديد"
+
+#: inc/city-editor.php:56
+msgid "City Image"
+msgstr "صورة المدينة"
+
+#: inc/city-editor.php:60 inc/developer-editor.php:61 inc/type-editor.php:61
+msgid "Upload Image"
+msgstr "ارفع صورة"
+
+#: inc/city-editor.php:62
+msgid "Upload an image for the city."
+msgstr "تحميل صورة للمدينة."
+
+#: inc/city-editor.php:75 inc/developer-editor.php:76 inc/type-editor.php:76
+msgid "Select or Upload Image"
+msgstr "حدد أو قم بتحميل الصورة"
+
+#: inc/city-editor.php:77 inc/developer-editor.php:78 inc/type-editor.php:78
+msgid "Use this image"
+msgstr "استخدم هذه الصورة"
+
+#: inc/city-editor.php:110 inc/developer-editor.php:111 inc/type-editor.php:111
+msgid "Image"
+msgstr "صورة"
+
+#: inc/city-editor.php:124 inc/developer-editor.php:125 inc/type-editor.php:125
+msgid "No Image"
+msgstr "لا توجد صورة"
+
+#: inc/city-editor.php:142
+msgid "City FAQs"
+msgstr "أسئلة وأجوبة المدينة"
+
+#: inc/city-editor.php:149 inc/city-editor.php:171 inc/developer-editor.php:150
+#: inc/developer-editor.php:172 inc/project-editor.php:188
+#: inc/type-editor.php:150 inc/type-editor.php:172
+msgid "Question"
+msgstr "سؤال"
+
+#: inc/city-editor.php:153 inc/city-editor.php:173 inc/developer-editor.php:154
+#: inc/developer-editor.php:174 inc/project-editor.php:189
+#: inc/type-editor.php:154 inc/type-editor.php:174
+msgid "Answer"
+msgstr "إجابة"
+
+#: inc/city-editor.php:156 inc/city-editor.php:175 inc/developer-editor.php:157
+#: inc/developer-editor.php:176 inc/type-editor.php:157 inc/type-editor.php:176
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/city-editor.php:161 inc/developer-editor.php:162 inc/type-editor.php:162
+msgid "Add FAQ"
+msgstr "أضف الأسئلة الشائعة"
+
+#: inc/city-editor.php:162
+msgid "Add frequently asked questions for the city."
+msgstr "إضافة الأسئلة المتداولة للمدينة."
+
+#: inc/city-editor.php:221
+msgid "City Content"
+msgstr "محتوى المدينة"
+
+#: inc/city-editor.php:231
+msgid "Add detailed content for the city."
+msgstr "إضافة محتوى تفصيلي للمدينة."
+
+#: inc/comments.php:33
+msgid "Pingback:"
+msgstr "تنبيه:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/comments.php:33 inc/comments.php:50 inc/template-tags.php:126
+msgid "Edit"
+msgstr "تحرير"
+
+#: inc/comments.php:44
+#, php-format
+msgid "%s <span class=\"says d-none\">says:</span>"
+msgstr "%s <span class=\"says d-none\">يقول:</span>"
+
+#: inc/comments.php:48
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: inc/comments.php:53
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر الموافقة عليه."
+
+#: inc/comments.php:93
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"احفظ اسمي، بريدي الإلكتروني، والموقع الإلكتروني في هذا المتصفح لاستخدامها في "
+"المرة القادمة التي أقوم فيها بالتعليق."
+
+#: inc/developer-editor.php:14 inc/developer-editor.php:24
+#: inc/posts/breadcrumb.php:39 inc/schema/breadcrumb-schema.php:68
+#: template-parts/home-page/developers-section.php:13
+msgid "Developers"
+msgstr "المطورين"
+
+#: inc/developer-editor.php:15
+msgid "Developer"
+msgstr "مطور"
+
+#: inc/developer-editor.php:16
+msgid "Search Developers"
+msgstr "بحث المطورين"
+
+#: inc/developer-editor.php:17
+msgid "All Developers"
+msgstr "كل المطورين"
+
+#: inc/developer-editor.php:18
+msgid "Parent Developer"
+msgstr "المطور الاب"
+
+#: inc/developer-editor.php:19
+msgid "Parent Developer:"
+msgstr "المطور الاب :"
+
+#: inc/developer-editor.php:20
+msgid "Edit Developer"
+msgstr "تحرير المطور"
+
+#: inc/developer-editor.php:21
+msgid "Update Developer"
+msgstr "تحديث المطور"
+
+#: inc/developer-editor.php:22
+msgid "Add New Developer"
+msgstr "إضافة مطور جديد"
+
+#: inc/developer-editor.php:23
+msgid "New Developer Name"
+msgstr "اسم المطور الجديد"
+
+#: inc/developer-editor.php:57
+msgid "Developer Image"
+msgstr "شعار المطور"
+
+#: inc/developer-editor.php:63
+msgid "Upload an image for the developer."
+msgstr "قم بتحميل صورة للمطور."
+
+#: inc/developer-editor.php:143
+msgid "Developer FAQs"
+msgstr "الأسئلة الشائعة للمطور"
+
+#: inc/developer-editor.php:163
+msgid "Add frequently asked questions for the developer."
+msgstr "إضافة الأسئلة المتداولة للمطور."
+
+#: inc/developer-editor.php:222
+msgid "Developer Content"
+msgstr "محتوى المطور"
+
+#: inc/developer-editor.php:232
+msgid "Add detailed content for the developer."
+msgstr "إضافة محتوى تفصيلي للمطور."
+
+#: inc/hooks.php:28 inc/hooks.php:36 single-templates/single-projects.php:20
+msgid "Payment Systems"
+msgstr "أنظمة الدفع"
+
+#: inc/hooks.php:29
+msgid "payment system"
+msgstr "نظام الدفعات"
+
+#: inc/hooks.php:30
+msgid "Search Payment Systems"
+msgstr "بحث في أنظمة الدفع"
+
+#: inc/hooks.php:31
+msgid "All Payment Systems"
+msgstr "جميع أنظمة الدفع"
+
+#: inc/hooks.php:32
+msgid "Edit Payment System"
+msgstr "تعديل أنظمة الدفع"
+
+#: inc/hooks.php:33
+msgid "Update Payment System"
+msgstr "تحديث نظام الدفع"
+
+#: inc/hooks.php:34
+msgid "Add New Payment System"
+msgstr "اضف نظام دفع جديد"
+
+#: inc/hooks.php:35
+msgid "New Payment System Name"
+msgstr "أسم نظام الدفع الجديد"
+
+#: inc/hooks.php:87
+msgid "Table of Contents"
+msgstr "جدول المحتوى"
+
+#: inc/hooks.php:87 inc/hooks.php:118
+msgid "show"
+msgstr "عرض"
+
+#: inc/hooks.php:118
+msgid "hide"
+msgstr "اخفاء"
+
+#: inc/pagination.php:14
+msgid "Prev"
+msgstr "السابق"
+
+#: inc/pagination.php:33
+msgid "Next"
+msgstr "التالي"
+
+#: inc/password-protected-form.php:17
+msgid "Password"
+msgstr "كلمة السر"
+
+#: inc/password-protected-form.php:18 template-parts/help-form.php:36
+msgid "Submit"
+msgstr "ارسال"
+
+#: inc/posts/breadcrumb.php:35 inc/schema/breadcrumb-schema.php:24
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/posts/breadcrumb.php:63 inc/project-editor.php:10
+#: inc/project-editor.php:21 inc/schema/breadcrumb-schema.php:33
+msgid "Projects"
+msgstr "المشاريع"
+
+#: inc/posts/breadcrumb.php:76 inc/schema/breadcrumb-schema.php:104
+#: inc/unit-editor.php:157 inc/unit-editor.php:168
+msgid "Units"
+msgstr "الوحدات"
+
+#: inc/posts/display-project-main-location.php:52
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d دقيقية"
+msgstr[1] "%d دقيقية"
+msgstr[2] "%d دقيقتان"
+msgstr[3] "%d دقائق"
+msgstr[4] "%d دقيقية"
+msgstr[5] "%d دقيقية"
+
+#: inc/posts/real-estate-advisor-card.php:35
+msgid "Contact our real estate advisor"
+msgstr "تواصل مع مستشارنا العقاري"
+
+#: inc/posts/real-estate-advisor-card.php:39
+msgid "Call Now"
+msgstr "اتصل الان"
+
+#: inc/posts/render-project-facilities-metabox.php:5
+msgid "Project Facilities"
+msgstr "مميزات المشروع"
+
+#: inc/posts/render-project-facilities-metabox.php:18
+#: template-parts/projects/project-facilities.php:6
+msgid "Electronic Gates"
+msgstr "البوابات الإلكترونية"
+
+#: inc/posts/render-project-facilities-metabox.php:19
+#: template-parts/projects/project-facilities.php:7
+msgid "Security"
+msgstr "أمن وحراسه"
+
+#: inc/posts/render-project-facilities-metabox.php:20
+#: template-parts/projects/project-facilities.php:8
+msgid "Commercial Area"
+msgstr "منطقة تجارية"
+
+#: inc/posts/render-project-facilities-metabox.php:21
+#: template-parts/projects/project-facilities.php:9
+msgid "Social Club"
+msgstr "اندية اجتماعية"
+
+#: inc/posts/render-project-facilities-metabox.php:22
+#: template-parts/projects/project-facilities.php:10
+#: template-parts/projects/schedule-meeting.php:5
+msgid "Schools"
+msgstr "مدارس"
+
+#: inc/posts/render-project-facilities-metabox.php:23
+#: template-parts/projects/project-facilities.php:11
+msgid "Shopping Center"
+msgstr "مركز تجاري"
+
+#: inc/posts/render-project-facilities-metabox.php:24
+#: template-parts/projects/project-facilities.php:12
+msgid "Maintenance and Cleaning"
+msgstr "خدمات الصيانة والنظافة"
+
+#: inc/posts/secondary-title-meta.php:14 inc/posts/secondary-title-meta.php:15
+msgid "Secondary Title"
+msgstr "العنوان المصغر"
+
+#: inc/project-editor.php:11
+msgid "Project"
+msgstr "مشروع"
+
+#: inc/project-editor.php:12 inc/project-editor.php:13
+msgid "Add New Project"
+msgstr "إضافة مشروع جديد"
+
+#: inc/project-editor.php:14
+msgid "Edit Project"
+msgstr "تحرير المشروع"
+
+#: inc/project-editor.php:15
+msgid "New Project"
+msgstr "مشروع جديد"
+
+#: inc/project-editor.php:16
+msgid "All Projects"
+msgstr "كل المشاريع"
+
+#: inc/project-editor.php:17
+msgid "View Project"
+msgstr "عرض مشروع"
+
+#: inc/project-editor.php:18
+msgid "Search for Project"
+msgstr "البحث عن المشروع"
+
+#: inc/project-editor.php:19
+msgid "No project found"
+msgstr "لم يتم العثور على مشروع"
+
+#: inc/project-editor.php:20
+msgid "No project found in trash"
+msgstr "لم يتم العثور على أي مشروع في سلة المهملات"
+
+#: inc/project-editor.php:54
+msgctxt "taxonomy general name"
+msgid "Types"
+msgstr "الانواع"
+
+#: inc/project-editor.php:55
+msgctxt "taxonomy singular name"
+msgid "Type"
+msgstr "النوع"
+
+#: inc/project-editor.php:56
+msgid "Search Types"
+msgstr "البحث في الانواع"
+
+#: inc/project-editor.php:57
+msgid "All Types"
+msgstr "كل الانواع"
+
+#: inc/project-editor.php:58
+msgid "Edit Type"
+msgstr "تحرير النوع"
+
+#: inc/project-editor.php:59
+msgid "Update Type"
+msgstr "تحديث النوع"
+
+#: inc/project-editor.php:60
+msgid "Add New Type"
+msgstr "إضافة نوع جديد"
+
+#: inc/project-editor.php:61
+msgid "New Type Name"
+msgstr "اسم النوع الجديد"
+
+#: inc/project-editor.php:62
+msgid "Types"
+msgstr "الانواع"
+
+#: inc/project-editor.php:82
+msgid "Project Details"
+msgstr "تفاصيل  المشروع"
+
+#: inc/project-editor.php:110
+msgid "Project Space:"
+msgstr "مساحة المشروع:"
+
+#: inc/project-editor.php:111
+msgid "Enter Project Space"
+msgstr "أدخل مساحة المشروع"
+
+#: inc/project-editor.php:114
+msgid "Project Price:"
+msgstr "سعر المشروع:"
+
+#: inc/project-editor.php:115
+msgid "Enter Project Price"
+msgstr "أدخل سعر المشروع"
+
+#: inc/project-editor.php:118 inc/unit-editor.php:260
+msgid "Payment Systems:"
+msgstr "أنظمة الدفع:"
+
+#: inc/project-editor.php:121
+msgid "Cash"
+msgstr "نقدي"
+
+#: inc/project-editor.php:122
+msgid "Installment"
+msgstr "تقسيط"
+
+#: inc/project-editor.php:123
+msgid "Both Cash and Installment"
+msgstr "كاش وقسط"
+
+#: inc/project-editor.php:125
+msgid "Enter Down Payment"
+msgstr "أدخل الدفعة الأولى"
+
+#: inc/project-editor.php:126
+msgid "Enter Installment Payment"
+msgstr "أدخل دفع القسط"
+
+#: inc/project-editor.php:130
+msgid "7 Years:"
+msgstr "7 سنوات:"
+
+#: inc/project-editor.php:131
+msgid "Enter for 7 Years"
+msgstr "أدخل لمدة 7 سنوات"
+
+#: inc/project-editor.php:134
+msgid "5 Years:"
+msgstr "5 سنوات:"
+
+#: inc/project-editor.php:135
+msgid "Enter for 5 Years"
+msgstr "أدخل لمدة 5 سنوات"
+
+#: inc/project-editor.php:138
+msgid "3 Years:"
+msgstr "3 سنوات:"
+
+#: inc/project-editor.php:139
+msgid "Enter for 3 Years"
+msgstr "أدخل لمدة 3 سنوات"
+
+#: inc/project-editor.php:175
+msgid "FAQs"
+msgstr "الأسئلة الشائعة"
+
+#: inc/project-editor.php:198 inc/project-editor.php:205
+#: inc/project-editor.php:218
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/project-editor.php:210
+msgid "Add New Question"
+msgstr "إضافة سؤال جديد"
+
+#: inc/project-editor.php:260
+msgid "Project price saved successfully."
+msgstr "تم حفظ سعر المشروع بنجاح."
+
+#: inc/project-editor.php:262
+msgid "Please enter a valid project price."
+msgstr "الرجاء إدخال سعر صالح للمشروع."
+
+#: inc/schema/gallery-schema.php:7
+msgid "Image Gallery and Gallery Schema"
+msgstr "معرض الصور ومخطط المعرض"
+
+#: inc/schema/gallery-schema.php:38
+msgid "Enable Gallery Display"
+msgstr "تمكين عرض المعرض"
+
+#: inc/schema/gallery-schema.php:44
+msgid "Enable Gallery Schema"
+msgstr "تمكين سكيما المعرض"
+
+#: inc/schema/gallery-schema.php:57
+msgid "Add Images"
+msgstr "إضافة الصور"
+
+#: inc/schema/gallery-schema.php:79
+msgid "Choose Images"
+msgstr "اختر الصور"
+
+#: inc/schema/gallery-schema.php:81
+msgid "Add to Gallery"
+msgstr "أضف إلى المعرض"
+
+#: inc/schema/review-schema.php:7
+msgid "Real Estate Expert"
+msgstr "خبير عقاري"
+
+#: inc/schema/review-schema.php:23
+msgid "Expert Real Estate Review"
+msgstr "خبير مراجعة العقارات"
+
+#: inc/schema/review-schema.php:53
+msgid "Enable Real Estate Expert Review"
+msgstr "تمكين مراجعة الخبراء العقاريين"
+
+#: inc/schema/review-schema.php:59
+msgid "Reviewer:"
+msgstr "المراجع:"
+
+#: inc/schema/review-schema.php:63
+msgid "Select Reviewer"
+msgstr "حدد المراجع"
+
+#: inc/schema/review-schema.php:74
+msgid "Rating (from 1 to 5):"
+msgstr "التقييم (من 1 إلى 5):"
+
+#: inc/schema/review-schema.php:78
+msgid "Select Rating"
+msgstr "حدد التقييم"
+
+#: inc/schema/review-schema.php:89
+msgid "Review Content:"
+msgstr "مراجعة المحتوى:"
+
+#: inc/schema/schema.php:5
+msgid "Schema Options"
+msgstr "اعدادت المنشور"
+
+#: inc/schema/schema.php:27
+msgid "Enable Product Schema"
+msgstr "تمكين سكيما المنتج"
+
+#: inc/schema/schema.php:33
+msgid "Enable FAQ Schema"
+msgstr "تمكين سكيما الأسئلة الشائعة"
+
+#: inc/schema/schema.php:39
+msgid "Enable Breadcrumb Schema"
+msgstr "تمكين سيكما البريدكرمب"
+
+#: inc/schema/schema.php:45
+msgid "Enable Author Schema"
+msgstr "تمكين سيكما المؤلف"
+
+#: inc/short-cods.php:28 inc/short-cods.php:36
+msgid "Unknown Title"
+msgstr "اسم غير معلوم"
+
+#: inc/short-cods.php:46
+msgid "Brochure"
+msgstr "البرشور"
+
+#: inc/short-cods.php:52
+msgid "Call Us"
+msgstr "اتصل بنا"
+
+#: inc/short-cods.php:58
+msgid "Whatsapp"
+msgstr "واتساب"
+
+#: inc/short-cods.php:105
+msgid "Share"
+msgstr "شارك"
+
+#: inc/short-cods.php:105
+msgid "The Content"
+msgstr "المحتوى"
+
+#: inc/short-cods.php:286 inc/short-cods.php:298
+msgid "More Posts"
+msgstr "المشاركات"
+
+#: inc/short-cods.php:339
+msgid "Unknown Developer"
+msgstr "مطور غير مسجل"
+
+#: inc/short-cods.php:340
+msgid "No description available for the developer"
+msgstr "لا يوجد وصف للمطور"
+
+#: inc/short-cods.php:344
+msgid "Developer ID is required"
+msgstr "ID المطور مطلوب"
+
+#: inc/short-cods.php:370
+msgid "Contact the company representative"
+msgstr "تواصل مع ممثل الشركة"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:39
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:80
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "بواسطة  %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:100
+msgid "Leave a Comment"
+msgstr "اترك تعليقًا"
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#. comments_popup_link( sprintf( __( 'Leave a comment<span class="screen-reader-text"> on %s</span>', 'veelinvestments' ), get_the_title() ) );
+#: inc/template-tags.php:152
+msgid "Leave a comment"
+msgstr "اترك تعليقًا"
+
+#: inc/template-tags.php:171
+msgid "Tagged"
+msgstr "تم الوسم"
+
+#: inc/testimonials.php:4 inc/testimonials.php:15
+msgid "Testimonials"
+msgstr "اراء العملاء"
+
+#: inc/testimonials.php:5
+msgid "Testimonial"
+msgstr "مراجعة عميل"
+
+#: inc/testimonials.php:6 inc/testimonials.php:7
+msgid "Add New Testimonial"
+msgstr "إضافة رأئ عميل جديدة"
+
+#: inc/testimonials.php:8
+msgid "Edit Testimonial"
+msgstr "تحرير  شهادة عميل"
+
+#: inc/testimonials.php:9
+msgid "New Testimonial"
+msgstr "شهادة عميل جديدة"
+
+#: inc/testimonials.php:10
+msgid "All Testimonials"
+msgstr "جميع الشهادات"
+
+#: inc/testimonials.php:11
+msgid "View Testimonial"
+msgstr "عرض مراجعة العميل"
+
+#: inc/testimonials.php:12
+msgid "Search Testimonials"
+msgstr "البحث في اراء العملاء"
+
+#: inc/testimonials.php:13
+msgid "No testimonials found"
+msgstr "لا يوجد مراجعات للعملاء"
+
+#: inc/testimonials.php:14
+msgid "No testimonials found in trash"
+msgstr "لا يوجد مراجعات للعملاء في المهملات"
+
+#: inc/testimonials.php:36
+msgid "Testimonial Details"
+msgstr "تفاصيل المراجعة"
+
+#: inc/testimonials.php:52
+msgid "Author Name"
+msgstr "اسم المراجع"
+
+#: inc/testimonials.php:58
+msgid "Author Job"
+msgstr "وظيفة المراجع"
+
+#: inc/theme-setup.php:93
+msgid "Logo Settings"
+msgstr "إعدادات الشعار"
+
+#: inc/theme-setup.php:101
+msgid "Upload Logo"
+msgstr "رفع اللوجو"
+
+#: inc/type-editor.php:14 inc/type-editor.php:24
+msgid "Property types"
+msgstr "أنواع العقارات"
+
+#: inc/type-editor.php:15
+msgid "Property type"
+msgstr "نوع العقار"
+
+#: inc/type-editor.php:16
+msgid "Search Property types"
+msgstr "البحث في أنواع العقارات"
+
+#: inc/type-editor.php:17
+msgid "All Property types"
+msgstr "كل أنواع العقارات"
+
+#: inc/type-editor.php:18
+msgid "Parent Property type"
+msgstr "نوع العقارات الاب"
+
+#: inc/type-editor.php:19
+msgid "Parent Property type:"
+msgstr "نوع العقارات الاب:"
+
+#: inc/type-editor.php:20
+msgid "Edit Property type"
+msgstr "تحرير نوع العقارات"
+
+#: inc/type-editor.php:21
+msgid "Update Property type"
+msgstr "تحديث نوع العقارات"
+
+#: inc/type-editor.php:22
+msgid "Add New Property type"
+msgstr "إضافة نوع عقارات جديد"
+
+#: inc/type-editor.php:23
+msgid "New Property type Name"
+msgstr "اسم نوع العقارات الجديد"
+
+#: inc/type-editor.php:57
+msgid "Property type Image"
+msgstr "صورة نوع العقار"
+
+#: inc/type-editor.php:63
+msgid "Upload an image for the property_type."
+msgstr "قم بتحميل صورة لـلنوع العقار."
+
+#: inc/type-editor.php:143
+msgid "Property type FAQs"
+msgstr "الأسئلة الشائعة حول نوع العقار"
+
+#: inc/type-editor.php:163
+msgid "Add frequently asked questions for the property_type."
+msgstr "أضف الأسئلة المتداولة بخصوص نوع العقار."
+
+#: inc/type-editor.php:222
+msgid "Property type Content"
+msgstr "محتوى نوع العقار"
+
+#: inc/type-editor.php:232
+msgid "Add detailed content for the property_type."
+msgstr "أضف محتوى تفصيليًا لنوع العقار."
+
+#: inc/unit-editor.php:33
+msgid "Project Information"
+msgstr "معلومات المشروع"
+
+#: inc/unit-editor.php:45
+msgid "Select Project:"
+msgstr "اختر المشروع:"
+
+#: inc/unit-editor.php:47
+msgid "Select Project"
+msgstr "اختر المشروع"
+
+#: inc/unit-editor.php:158
+msgid "Unit"
+msgstr "وحدة"
+
+#: inc/unit-editor.php:159 inc/unit-editor.php:160
+msgid "Add New Unit"
+msgstr "إضافة وحدة جديدة"
+
+#: inc/unit-editor.php:161
+msgid "Edit Unit"
+msgstr "تحرير الوحدة"
+
+#: inc/unit-editor.php:162
+msgid "New Unit"
+msgstr "وحدة جديدة"
+
+#: inc/unit-editor.php:163
+msgid "All Units"
+msgstr "جميع الوحدات"
+
+#: inc/unit-editor.php:164
+msgid "View Unit"
+msgstr "شاهد الوحدة"
+
+#: inc/unit-editor.php:165
+msgid "Search for Unit"
+msgstr "البحث عن وحدة"
+
+#: inc/unit-editor.php:166
+msgid "No unit found"
+msgstr "لم يتم العثور على وحدة"
+
+#: inc/unit-editor.php:167
+msgid "No unit found in trash"
+msgstr "لم يتم العثور على وحدة في سلة المهملات"
+
+#: inc/unit-editor.php:233
+msgid "Unit Space:"
+msgstr "مساحة الوحدة:"
+
+#: inc/unit-editor.php:236
+msgid "Enter the unit space"
+msgstr "أدخل مساحة الوحدة"
+
+#: inc/unit-editor.php:241
+msgid "Unit Price:"
+msgstr "سعر الوحدة:"
+
+#: inc/unit-editor.php:244
+msgid "Enter the unit price"
+msgstr "أدخل سعر الوحدة"
+
+#: inc/unit-editor.php:249
+msgid "Votes:"
+msgstr "التصويتات:"
+
+#: inc/unit-editor.php:253
+msgid "Enable Votes"
+msgstr "تفعيل التصويتات (ضروري)"
+
+#: inc/unit-editor.php:254
+msgid "Votes"
+msgstr "التقييم"
+
+#: inc/unit-editor.php:255
+msgid "Voters"
+msgstr "عدد المصوتين"
+
+#: inc/unit-editor.php:263
+msgid "Enter payment systems"
+msgstr "أدخل أنظمة الدفع"
+
+#: inc/unit-editor.php:264
+msgid "Enter down payment"
+msgstr "ادخل سعر المقدم"
+
+#: inc/unit-editor.php:265
+msgid "Enter unit installment"
+msgstr "أدخل أقساط الوحدة"
+
+#: inc/unit-editor.php:266
+msgid "Enter unit delivery"
+msgstr "موعد تسليم الوحدة"
+
+#: inc/widgets.php:36
+msgid "Footer #1"
+msgstr "تذييل #1"
+
+#: inc/widgets.php:38
+msgid ""
+"Widgets in this area will be displayed in the first column in the footer."
+msgstr "سيتم عرض الأدوات في هذه المنطقة في العمود الأول في التذييل."
+
+#: inc/widgets.php:47
+msgid "Footer #2"
+msgstr "تذييل #2"
+
+#: inc/widgets.php:49 inc/widgets.php:60 inc/widgets.php:71
+msgid ""
+"Widgets in this area will be displayed in the second column in the footer."
+msgstr "سيتم عرض الأدوات في هذه المنطقة في العمود الثاني في التذييل."
+
+#: inc/widgets.php:58
+msgid "Footer #3"
+msgstr "تذييل #3"
+
+#: inc/widgets.php:69
+msgid "Footer #4"
+msgstr "تذييل #4"
+
+#: inc/widgets.php:79
+msgid "Sidebar Pages"
+msgstr "سايدبار الصفحات"
+
+#: single-templates/single-projects.php:28
+msgid "Down Payment"
+msgstr "المقدم"
+
+#: single-templates/single-projects.php:28
+msgid "7 years"
+msgstr "7 سنوات"
+
+#: single-templates/single-projects.php:33
+msgid "Facilities & Services"
+msgstr "المرافق والخدمات"
+
+#: single-templates/single-projects.php:41
+msgid "Additional Information"
+msgstr "معلومات اخري"
+
+#: template-parts/content-project-card.php:11
+msgid "EGP"
+msgstr "ج/م"
+
+#: template-parts/content-related-card.php:82
+msgid "years"
+msgstr "سنوات"
+
+#: template-parts/global/copy-rights.php:5
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: template-parts/global/copy-rights.php:7
+msgid "Terms of Use"
+msgstr "شروط الاستخدام"
+
+#: template-parts/global/copy-rights.php:11
+#, php-format
+msgid "All rights reserved © %s %s"
+msgstr "جميع الحقوق محفوظة © %s %s"
+
+#: template-parts/global/footer-subscription.php:2
+msgid "Newsletter"
+msgstr "القائمة البريدية"
+
+#: template-parts/global/footer-subscription.php:5
+msgid "Your Email Address"
+msgstr "عنوان بريدك  الإلكتروني"
+
+#: template-parts/global/footer-subscription.php:8
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: template-parts/global/footer.php:18
+#, php-format
+msgid "I would like to inquire about %s coming from %s"
+msgstr "أود الاستفسار عن %s القادمة من %s"
+
+#: template-parts/global/footer.php:39
+msgid "Quick Links"
+msgstr "روابط سريعة"
+
+#: template-parts/global/footer.php:60
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+#: template-parts/help-form.php:3
+msgid "Contact Form Image"
+msgstr "صورة نموذج الاتصال"
+
+#: template-parts/help-form.php:8
+msgid "Need Real Estate Help?"
+msgstr "هل تحتاج إلى مساعدة عقارية؟"
+
+#: template-parts/help-form.php:9
+msgid ""
+"Fill in your details, and a real estate expert will contact you shortly."
+msgstr "املأ بياناتك وسيقوم أحد الخبراء العقاريين بالتواصل معك قريبًا."
+
+#: template-parts/help-form.php:15
+msgid "Name"
+msgstr "الاسم"
+
+#: template-parts/help-form.php:18
+msgid "Preferred Location"
+msgstr "الموقع المفضل"
+
+#: template-parts/help-form.php:33
+msgid "Your Message"
+msgstr "رسالتك"
+
+#: template-parts/home-page/blog.php:5
+msgid "Blog"
+msgstr "المدونة"
+
+#: template-parts/home-page/blog.php:7 template-parts/home-page/blog.php:18
+#: template-parts/home-page/developers-section.php:15
+#: template-parts/home-page/developers-section.php:24
+#: template-parts/projects/related-projects.php:7
+msgid "Show All"
+msgstr "عرض الكل"
+
+#: template-parts/home-page/blog.php:15
+msgid ""
+"The latest real estate news in all of our partner’s residential, commercial, "
+"and administrative projects."
+msgstr ""
+"آخر الأخبار العقارية في جميع مشاريع شركائنا السكنية والتجارية والإدارية."
+
+#: template-parts/home-page/blog.php:45
+msgid "No posts found."
+msgstr "لم يتم العثور على أي مشاركات."
+
+#: template-parts/home-page/hero.php:4
+msgid "Find Your Home"
+msgstr "ابحث عن منزلك"
+
+#: template-parts/home-page/hero.php:7
+msgid "Search through a selection of the finest properties at the best prices."
+msgstr "ابحث في مجموعة من ارقى العقارات بأفضل الأسعار."
+
+#: template-parts/home-page/hero.php:13
+msgid "Search by compound, location, developer"
+msgstr "البحث بالكمبوند، الموقع، المطور العقاري"
+
+#: template-parts/home-page/hero.php:22
+msgid "Property Type"
+msgstr "أنواع الوحدات"
+
+#: template-parts/home-page/hero.php:32
+msgid "Bedrooms"
+msgstr "غرف النوم"
+
+#: template-parts/home-page/hero.php:33
+msgid "1 Bedroom"
+msgstr "1 غرف نوم"
+
+#: template-parts/home-page/hero.php:34
+msgid "2 Bedrooms"
+msgstr "2 غرف نوم"
+
+#: template-parts/home-page/hero.php:35
+msgid "3 Bedrooms"
+msgstr "3 غرف نوم"
+
+#: template-parts/home-page/hero.php:36
+msgid "4 Bedrooms"
+msgstr "4 غرف نوم"
+
+#: template-parts/home-page/hero.php:37
+msgid "5 Bedrooms or more"
+msgstr "5 غرف نوم او اكثر"
+
+#: template-parts/home-page/hero.php:41
+msgid "Price"
+msgstr "السعر"
+
+#: template-parts/home-page/hero.php:42
+msgid "0 - 500,000 EGP"
+msgstr "0 - 500,000 جنية"
+
+#: template-parts/home-page/hero.php:43
+msgid "500,000 - 1,000,000 EGP"
+msgstr "500,000 - 1,000,000 جنية"
+
+#: template-parts/home-page/hero.php:44
+msgid "1,000,000 - 2,000,000 EGP"
+msgstr "1,000,000 - 2,000,000 جنية"
+
+#: template-parts/home-page/hero.php:45
+msgid "2,000,000 - 5,000,000 EGP"
+msgstr "2,000,000 - 5,000,000 جنية"
+
+#: template-parts/home-page/hero.php:46
+msgid "More than 5,000,000 EGP"
+msgstr "اكثر من 5,000,000 EGP"
+
+#: template-parts/home-page/hero.php:51
+msgid "Search"
+msgstr "بحث"
+
+#: template-parts/home-page/latest-projects.php:9
+msgid "Latest Projects"
+msgstr "أحدث المشاريع"
+
+#: template-parts/home-page/latest-projects.php:15
+msgid ""
+"Latest real estate news in all residential, commercial, and administrative "
+"partner projects."
+msgstr "ابحث في مجموعة من ارقى العقارات بأفضل الأسعار."
+
+#: template-parts/home-page/latest-projects.php:18
+#: template-parts/home-page/top-city.php:8
+#: template-parts/home-page/top-city.php:74
+msgid "View All"
+msgstr "عرض الكل"
+
+#: template-parts/home-page/latest-projects.php:58
+msgid "No projects available to display."
+msgstr "لا توجد مشاريع متاحة للعرض."
+
+#: template-parts/home-page/testimonial.php:17
+msgid "What Our Clients Say"
+msgstr "ماذا يقول عملاؤنا عنا"
+
+#: template-parts/home-page/testimonial.php:20
+msgid "Simply dummy text used in the printing industry."
+msgstr "مراجعة من عملائنا نفتخر بها."
+
+#: template-parts/home-page/top-city.php:6
+msgid "Top Cities"
+msgstr "أشهر المدن"
+
+#: template-parts/home-page/top-city.php:16
+msgid "Explore a selection of top compounds in the cities"
+msgstr "ابحث في مجموعة من ارقى الكمبوند بالمدن"
+
+#: template-parts/projects/author-card.php:43
+#, php-format
+msgid "Author: %s"
+msgstr "الكاتب : %s"
+
+#: template-parts/projects/author-card.php:92
+msgid "No bio available for this author."
+msgstr "لا توجد سيرة ذاتية متاحة للكاتب."
+
+#: template-parts/projects/related-projects.php:5
+msgid "Related Projects"
+msgstr "المشاريع ذات الصلة"
+
+#: template-parts/projects/related-projects.php:63
+msgid "No related projects to display."
+msgstr "لا توجد مشاريع ذات صلة لعرضها."
+
+#: template-parts/projects/schedule-meeting.php:4
+msgid "Meeting Form"
+msgstr "فورم الميتنج"
+
+#: template-parts/projects/schedule-meeting.php:9
+#: template-parts/projects/schedule-meeting.php:10
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: template-parts/projects/schedule-meeting.php:10
+msgid "Your Name"
+msgstr "اسمك"
+
+#: template-parts/projects/schedule-meeting.php:15
+msgid "Contact Phone"
+msgstr "رقم  الموبيل"
+
+#: template-parts/projects/schedule-meeting.php:18
+msgid "Choose the date"
+msgstr "اختر التاريخ"
+
+#: template-parts/projects/schedule-meeting.php:40
+msgid "Choose the time"
+msgstr "اختر الوقت"
+
+#: template-parts/projects/schedule-meeting.php:41
+msgid "Select time"
+msgstr "حدد الوقت"
+
+#: template-parts/projects/schedule-meeting.php:42
+msgid "10:00 AM"
+msgstr "10:00 صباحا"
+
+#: template-parts/projects/schedule-meeting.php:43
+msgid "11:00 AM"
+msgstr "11:00 صباحا"
+
+#: template-parts/projects/schedule-meeting.php:44
+#: template-parts/projects/schedule-meeting.php:56
+msgid "12:00 PM"
+msgstr "12:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:45
+msgid "1:00 PM"
+msgstr "1:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:46
+msgid "2:00 PM"
+msgstr "2:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:47
+msgid "3:00 PM"
+msgstr "3:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:48
+msgid "4:00 PM"
+msgstr "4:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:49
+msgid "5:00 PM"
+msgstr "5:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:50
+msgid "6:00 PM"
+msgstr "6:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:51
+msgid "7:00 PM"
+msgstr "7:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:52
+msgid "8:00 PM"
+msgstr "8:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:53
+msgid "9:00 PM"
+msgstr "9:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:54
+msgid "10:00 PM"
+msgstr "10:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:55
+msgid "11:00 PM"
+msgstr "11:00 مساءاً"
+
+#: template-parts/projects/schedule-meeting.php:60
+msgid "Appointment Confirmation"
+msgstr "تأكيد الاختيار"
+
+#. Theme Name of the plugin/theme
+msgid "Veel Investments"
+msgstr "Veel Investments"
+
+#. Theme URI of the plugin/theme
+msgid "https://veelinvestments.com"
+msgstr "https://veelinvestments.com"
+
+#. Author of the plugin/theme
+msgid "Waleed Elsefy"
+msgstr "وليد الصيفي"
+
+#. Author URI of the plugin/theme
+msgid "https://dido.pro/"
+msgstr "https://dido.pro/"
+
+#~ msgid "معرض الصور وسكيما المعرض"
+#~ msgstr "معرض الصور وسكيما المعرض"
+
+#, fuzzy
+#~ msgid "3 سنوات:"
+#~ msgstr "تذييل #3"
+
+#~ msgid "Delivery Time:"
+#~ msgstr "موعد التسليم :"

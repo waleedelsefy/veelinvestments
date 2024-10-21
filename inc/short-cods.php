@@ -214,7 +214,7 @@ function author_info_shortcode() {
                 border-radius: var(--all-border-radius);
                 margin-top: 10px;
                 margin-bottom: 10px;
-                margin-left: 10px;
+                margin-inline-end: 10px;
             }
             .authorbox{
                 color: rgba(0, 0, 0, 0.87);
@@ -260,7 +260,7 @@ function author_info_shortcode() {
             border-radius: var(--all-border-radius);
             margin-top: 10px;
             margin-bottom: 10px;
-            margin-left: 10px;
+            margin-inline-end: 10px;
         }
         .authorbox-inline-name {
             width: 60%;

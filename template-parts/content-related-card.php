@@ -79,7 +79,7 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
             }
 
             if (isset($project_details['installment'])) {
-              echo esc_html($project_details['installment']) . ' / سنوات';
+              echo esc_html($project_details['installment']) . '/' . __('years', 'veelinvestments');
             }
             ?>
             </span>

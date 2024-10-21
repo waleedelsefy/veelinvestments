@@ -1,6 +1,6 @@
 <?php
 $args = array(
-  'post_type' => 'testimonial',
+  'post_type'      => 'testimonial',
   'posts_per_page' => -1,
 );
 
@@ -14,22 +14,23 @@ if ($testimonial_query->have_posts()) :
     <div class="veel-testimonial-background-layer"></div>
     <div class="veel-author-layer-header">
       <div class="veel-header-text">
-        <h1>ماذا يقول عملائنا عنا</h1>
+        <h1><?php _e('What Our Clients Say', 'veelinvestments'); ?></h1>
       </div>
       <div class="veel-testimonial-subtext">
-        هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعة
+        <?php _e('Simply dummy text used in the printing industry.', 'veelinvestments'); ?>
       </div>
     </div>
 
     <div class="all-testimonials">
       <?php
       $index = 0;
-      while ($testimonial_query->have_posts()) : $testimonial_query->the_post();
+      while ($testimonial_query->have_posts()) :
+        $testimonial_query->the_post();
         $author_name = get_post_meta(get_the_ID(), 'testimonial_author_name', true);
         $author_job = get_post_meta(get_the_ID(), 'testimonial_author_job', true);
         $active_class = ($index === 0) ? 'active' : '';
         ?>
-        <div class="veel-testimonial-box <?php echo $active_class; ?>">
+        <div class="veel-testimonial-box <?php echo esc_attr($active_class); ?>">
           <?php the_content(); ?>
           <div class="veel-testimonial-author">
             <p class="veel-author-testimonial-name"><?php echo esc_html($author_name); ?></p>
@@ -61,34 +62,30 @@ if ($testimonial_query->have_posts()) :
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const testimonials = document.querySelectorAll('.veel-testimonial-box');
-      const testimonialLeftArrow = document.querySelector('.veel-left-arrow');
-      const testimonialRightArrow = document.querySelector('.veel-right-arrow');
+      const rightArrow = document.getElementById('veel-right-arrow');
+      const leftArrow = document.getElementById('veel-left-arrow');
       let currentIndex = 0;
 
-      if (testimonials.length === 0) {
-        return;
-      }
+      if (testimonials.length === 0) return;
+
       function updateTestimonialDisplay() {
         testimonials.forEach(function(testimonial, index) {
-          if (index === currentIndex) {
-            testimonial.style.display = 'block';
-          } else {
-            testimonial.style.display = 'none';
-          }
+          testimonial.style.display = (index === currentIndex) ? 'block' : 'none';
         });
       }
+
       updateTestimonialDisplay();
-      testimonialRightArrow.addEventListener('click', function () {
-        currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+
+      rightArrow.addEventListener('click', function () {
+        currentIndex = (currentIndex + 1) % testimonials.length;
         updateTestimonialDisplay();
       });
-      testimonialLeftArrow.addEventListener('click', function () {
+
+      leftArrow.addEventListener('click', function () {
         currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
         updateTestimonialDisplay();
       });
     });
   </script>
 
-<?php
-endif;
-?>
+<?php endif; ?>

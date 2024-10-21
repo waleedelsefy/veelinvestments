@@ -8,7 +8,7 @@
         <?php
         $project_details = get_post_meta(get_the_ID(), 'project_details', true);
         if (isset($project_details['project_price'])) {
-          echo esc_html($project_details['project_price']) . ' ج/م';
+          echo esc_html($project_details['project_price']) . ' ' . __('EGP', 'veelinvestments');
         }
         ?>
       </p>

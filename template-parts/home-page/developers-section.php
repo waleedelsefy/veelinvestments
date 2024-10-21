@@ -10,9 +10,9 @@ if (!empty($developers) && !is_wp_error($developers)) :
   <div class="veelDevelopersSection">
     <div class="veelDevelopersHeader">
       <div class="veelDevelopersHeaderTitle">
-        <h2><?php _e('المطورين', 'veeltheme'); ?></h2>
+        <h2><?php _e('Developers', 'veelinvestments'); ?></h2>
         <div class="veelDevelopersHeaderShowAll mobileOnly">
-          <a class="showAllButton"><?php _e('عرض الكل', 'veeltheme'); ?></a>
+          <a class="showAllButton"><?php _e('Show All', 'veelinvestments'); ?></a>
           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15" fill="none">
             <path d="M2.32537 7.39485L7.43045 12.4959C7.80801 12.8735 7.80801 13.484 7.43045 13.8575C7.05289 14.2311 6.44237 14.2311 6.06481 13.8575L0.280927 8.07767C-0.0845857 7.71216 -0.0926156 7.12574 0.252809 6.74818L6.0608 0.928141C6.24958 0.739363 6.49861 0.64698 6.74362 0.64698C6.98863 0.64698 7.23766 0.739363 7.42644 0.928141C7.80399 1.3057 7.80399 1.91622 7.42644 2.28976L2.32537 7.39485Z" fill="black"/>
           </svg>
@@ -21,7 +21,7 @@ if (!empty($developers) && !is_wp_error($developers)) :
       <div class="veelDevelopersSubHeading">
         <div class="subHeadingParagraph"></div>
         <div class="veelDevelopersHeaderShowAll desktopOnly">
-          <a class="showAllButton"><?php _e('عرض الكل', 'veeltheme'); ?></a>
+          <a class="showAllButton"><?php _e('Show All', 'veelinvestments'); ?></a>
           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15" fill="none">
             <path d="M2.32537 7.39485L7.43045 12.4959C7.80801 12.8735 7.80801 13.484 7.43045 13.8575C7.05289 14.2311 6.44237 14.2311 6.06481 13.8575L0.280927 8.07767C-0.0845857 7.71216 -0.0926156 7.12574 0.252809 6.74818L6.0608 0.928141C6.24958 0.739363 6.49861 0.64698 6.74362 0.64698C6.98863 0.64698 7.23766 0.739363 7.42644 0.928141C7.80399 1.3057 7.80399 1.91622 7.42644 2.28976L2.32537 7.39485Z" fill="black"/>
           </svg>
@@ -31,13 +31,12 @@ if (!empty($developers) && !is_wp_error($developers)) :
 
     <div class="developerIcons" id="developer-icons">
       <div class="veelDeveloperGallery">
-        <?php
-        foreach ($developers as $developer) :
+        <?php foreach ($developers as $developer) :
           $developer_image = get_term_meta($developer->term_id, 'developer_image', true);
           ?>
           <div class="developersImg">
             <a href="<?php echo esc_url(get_term_link($developer)); ?>">
-              <img src="<?php echo !empty($developer_image) ? esc_url($developer_image) : esc_url(get_template_directory_uri() . '/src/img/default-developer.png'); ?>" alt="<?php echo esc_attr($developer->name); ?>" class="developer-logo">
+              <img src="<?php echo esc_url(!empty($developer_image) ? $developer_image : get_template_directory_uri() . '/src/img/default-developer.png'); ?>" alt="<?php echo esc_attr($developer->name); ?>" class="developer-logo">
             </a>
           </div>
         <?php endforeach; ?>
@@ -57,26 +56,27 @@ if (!empty($developers) && !is_wp_error($developers)) :
     </div>
 
   </div>
+
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const developerIcons = document.querySelector('#developer-icons .veelDeveloperGallery');
-      const veelDevelopersrightArrow = document.getElementById('veelDevelopersright-arrow');
-      const veelDevelopersleftArrow = document.getElementById('veelDevelopersleft-arrow');
+      const rightArrow = document.getElementById('veelDevelopersright-arrow');
+      const leftArrow = document.getElementById('veelDevelopersleft-arrow');
 
-      if (developerIcons && veelDevelopersrightArrow && veelDevelopersleftArrow) {
-        veelDevelopersrightArrow.addEventListener('click', function() {
+      if (developerIcons && rightArrow && leftArrow) {
+        rightArrow.addEventListener('click', function() {
           developerIcons.scrollBy({ left: 200, behavior: 'smooth' });
         });
 
-        veelDevelopersleftArrow.addEventListener('click', function() {
+        leftArrow.addEventListener('click', function() {
           developerIcons.scrollBy({ left: -200, behavior: 'smooth' });
         });
       } else {
-        console.error('العناصر المطلوبة للتمرير غير موجودة.');
+        console.error('Required elements for scrolling are missing.');
       }
     });
-
   </script>
+
   <style>
     .developersImg {
       width: 150px;
@@ -94,8 +94,4 @@ if (!empty($developers) && !is_wp_error($developers)) :
     }
   </style>
 
-<?php
-endif;
-?>
-
-
+<?php endif; ?>

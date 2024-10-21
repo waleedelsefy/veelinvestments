@@ -45,14 +45,14 @@
     <div style="left: 39px; top: 6px; position: absolute; text-align: right; color: white; font-size: 24px; font-family: Almarai; font-weight: 700; line-height: 32px; word-wrap: break-word">زيد إيست في القاهرة الجديدة من اورا للتطوير العقاري</div>
   </div>
   <div style="left: 1049px; top: 160px; position: absolute; text-align: right; color: white; font-size: 16px; font-family: Almarai; font-weight: 400; word-wrap: break-word">الرئيسيه > التجمع الخامس > اسم المشروع</div>
-  <div class="Frame1171276248" style="width: 389px; height: 179px; padding-left: 22px; padding-right: 22px; padding-top: 16px; padding-bottom: 16px; left: 120px; top: 721px; position: absolute; border-radius: 12px; border: 3px #231F20 solid; flex-direction: column; justify-content: center; align-items: center; gap: 12px; display: inline-flex">
+  <div class="Frame1171276248" style="width: 389px; height: 179px; padding-inline-end: 22px; padding-inline-start: 22px; padding-top: 16px; padding-bottom: 16px; left: 120px; top: 721px; position: absolute; border-radius: 12px; border: 3px #231F20 solid; flex-direction: column; justify-content: center; align-items: center; gap: 12px; display: inline-flex">
     <div style="align-self: stretch; text-align: center; color: black; font-size: 22px; font-family: Almarai; font-weight: 400; line-height: 32px; word-wrap: break-word">الأسعار تبدأ من</div>
     <div class="Frame1171276244" style="align-self: stretch; justify-content: center; align-items: center; gap: 14px; display: inline-flex">
       <div style="text-align: center; color: black; font-size: 24px; font-family: Almarai; font-weight: 700; line-height: 32px; word-wrap: break-word">جنية</div>
       <div class="263000" style="text-align: center; color: black; font-size: 24px; font-family: Almarai; font-weight: 700; line-height: 32px; word-wrap: break-word">12,263,000</div>
     </div>
     <div class="Group1000011768" style="width: 348px; position: relative">
-      <div class="Frame1171276247" style="width: 110px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 119px; top: 0px; position: absolute; background: #00DE3E; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+      <div class="Frame1171276247" style="width: 110px; height: 45px; padding-inline-end: 18px; padding-inline-start: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 119px; top: 0px; position: absolute; background: #00DE3E; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
         <div style="text-align: center; color: white; font-size: 15.75px; font-family: Almarai; font-weight: 700; line-height: 18px; word-wrap: break-word">واتساب</div>
         <div class="Frame1171276224" style="padding: 4.50px; border-radius: 10.12px; justify-content: center; align-items: center; gap: 11.25px; display: flex">
           <div class="Whatsapp" style="width: 22.50px; height: 22.50px; position: relative">
@@ -61,13 +61,13 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276658" style="width: 110px; height: 44.82px; padding-left: 19.46px; padding-right: 19.46px; padding-top: 7.30px; padding-bottom: 7.30px; left: 0px; top: 0px; position: absolute; background: #357CDC; border-radius: 9.73px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+      <div class="Frame1171276658" style="width: 110px; height: 44.82px; padding-inline-end: 19.46px; padding-inline-start: 19.46px; padding-top: 7.30px; padding-bottom: 7.30px; left: 0px; top: 0px; position: absolute; background: #357CDC; border-radius: 9.73px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
         <div style="text-align: center; color: white; font-size: 17.03px; font-family: Almarai; font-weight: 700; line-height: 19.46px; word-wrap: break-word">زووم</div>
         <div class="Frame1171276224" style="padding: 5.61px; border-radius: 12.63px; justify-content: center; align-items: center; gap: 14.03px; display: flex">
           <div class="Vector" style="width: 31px; height: 19px; border-radius: 3px; border: 1.41px white solid"></div>
         </div>
       </div>
-      <div class="Frame1171276246" style="width: 110px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 238px; top: 0px; position: absolute; background: var(--primary--color); border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+      <div class="Frame1171276246" style="width: 110px; height: 45px; padding-inline-end: 18px; padding-inline-start: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 238px; top: 0px; position: absolute; background: var(--primary--color); border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
         <div style="text-align: center; color: white; font-size: 15.75px; font-family: Almarai; font-weight: 700; line-height: 18px; word-wrap: break-word">اتصل بنا</div>
         <div class="Frame1000011657" style="padding: 4.50px; border-radius: 10.12px; justify-content: center; align-items: center; gap: 11.25px; display: flex">
           <div class="Call02" style="width: 22.50px; height: 22.50px; position: relative">
@@ -92,8 +92,8 @@
       </div>
       <div class="Ellipse35" style="width: 89px; height: 89px; background: #D9D9D9; border-radius: 9999px"></div>
     </div>
-    <div class="Frame1171276249" style="padding-left: 103px; padding-right: 113px; justify-content: center; align-items: center; gap: 15px; display: inline-flex">
-      <div class="Frame1171276247" style="padding-left: 16px; padding-right: 16px; padding-top: 6px; padding-bottom: 6px; background: #FBFBFB; border-radius: 8px; justify-content: center; align-items: center; display: flex">
+    <div class="Frame1171276249" style="padding-inline-end: 103px; padding-inline-start: 113px; justify-content: center; align-items: center; gap: 15px; display: inline-flex">
+      <div class="Frame1171276247" style="padding-inline-end: 16px; padding-inline-start: 16px; padding-top: 6px; padding-bottom: 6px; background: #FBFBFB; border-radius: 8px; justify-content: center; align-items: center; display: flex">
         <div style="text-align: center; color: #00DE3E; font-size: 14px; font-family: Almarai; font-weight: 700; line-height: 16px; word-wrap: break-word">واتساب</div>
         <div class="Frame1171276224" style="padding: 4px; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: flex">
           <div class="Whatsapp" style="width: 20px; height: 20px; position: relative">
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276246" style="padding-left: 16px; padding-right: 16px; padding-top: 6px; padding-bottom: 6px; background: #FBFBFB; border-radius: 8px; justify-content: center; align-items: center; display: flex">
+      <div class="Frame1171276246" style="padding-inline-end: 16px; padding-inline-start: 16px; padding-top: 6px; padding-bottom: 6px; background: #FBFBFB; border-radius: 8px; justify-content: center; align-items: center; display: flex">
         <div style="text-align: center; color: black; font-size: 14px; font-family: Almarai; font-weight: 700; line-height: 16px; word-wrap: break-word">اتصل بنا</div>
         <div class="Frame1000011657" style="padding: 4px; border-radius: 9px; justify-content: center; align-items: center; gap: 10px; display: flex">
           <div class="Call02" style="width: 20px; height: 20px; position: relative">
@@ -188,7 +188,7 @@
         <div style="left: 0px; top: 0px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Almarai; font-weight: 700; line-height: 32px; word-wrap: break-word">المرافق والخدمات</div>
         <div class="Rectangle11938" style="width: 6px; height: 32px; left: 193px; top: 0px; position: absolute; background: #D1B671"></div>
       </div>
-      <div class="Frame1171276575" style="width: 132px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 614px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276575" style="width: 132px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 614px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">نادي اجتماعي</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -199,7 +199,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276649" style="width: 137px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 374px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276649" style="width: 137px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 374px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">منطقة تجارية</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -220,7 +220,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276650" style="width: 121px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 390px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276650" style="width: 121px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 390px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">مركز تجاري</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -238,7 +238,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276651" style="width: 146px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 0px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276651" style="width: 146px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 0px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">بوابات إلكترونية</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -254,7 +254,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276652" style="width: 196px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 550px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276652" style="width: 196px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 550px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">خدمات الصيانة والنظافة</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -263,7 +263,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276648" style="width: 109px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 213px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276648" style="width: 109px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 213px; top: 100px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">المدراس</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -277,7 +277,7 @@
           </div>
         </div>
       </div>
-      <div class="Frame1171276653" style="width: 130px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-left: 20px; left: 192px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
+      <div class="Frame1171276653" style="width: 130px; height: 33px; padding-top: 8px; padding-bottom: 8px; padding-inline-end: 20px; left: 192px; top: 55px; position: absolute; border-radius: 16px; border: 1px #D1B671 solid; justify-content: flex-end; align-items: center; gap: 8px; display: inline-flex">
         <div style="text-align: right; color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">أمن وحراسة</div>
         <div class="Group1000008072" style="width: 31px; height: 31px; position: relative">
           <div class="Ellipse1026" style="width: 31px; height: 31px; left: 0px; top: 0px; position: absolute; border-radius: 9999px"></div>
@@ -295,7 +295,7 @@
   <div style="width: 747px; height: 88px; left: 556px; top: 1591px; position: absolute; text-align: right"><span style="color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">ن الحصول على وحدة في هذا المشروع يضمن للعملاء الحصول على نسب نجاح عالية لكافة الأنشطة الاستثمارية، لأن الشركة المطورة قامت باختيارها باهتمام فائق، الأمر الذي يجعله الفرصة الاسثتمارية الأهم في القاهرة الجديدة، وتستطيع التعرف على أهم المميزات التي يتمتع بها المشروع كالتالي:<br/></span><span style="color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">يحظى المول بموقع مميز للغاية في قلب القاهرة الجديدة، الأمر الذي يزيد من فرص نجاحه بشكل كبير ويسهل من ناحية أخرى الوصول له من أي مكان في وقت قياسي.<br/>إن التصميمات المعمارية لا تقل أهمية عن الموقع، فهي التي تمنحه إطلالة فاخرة تميزه عن غيره من المشروعات وتوفر في الوقت نفسه تجربة فاخرة وفريدة لأصحاب الوحدات والزوار طوال الوقت.<br/>كما نجحت شركة ماين لاندس في توفير أكثر المساحات في مول بيزنس بلس التجمع الخامس، والتي تلائم طبيعة الأنشطة الاستثمارية المختلفة ويشمل ذلك المحلات والمكاتب الإدارية.<br/>جاءت أسعار المشروع على نحو معقول يلائم حجم المميزات التي يحصل عليها المستثمرون، وفي نفس الوقت يسهل عليهم شراء الوحدات التي يرغبون فيها، كما يتم السداد وفق أنظمة مرنة في الدفع والسداد.<br/>يوجد داخل المول عدد كبير ومتنوع من الوسائل الخدمية والترفيهية والتي تجعل تجربة العمل والتنزه داخله تتسم المرونة والمتعة.</span></div>
   <div style="width: 747px; height: 125px; left: 556px; top: 2000px; position: absolute; text-align: right"><span style="color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">ن الحصول على وحدة في هذا المشروع يضمن للعملاء الحصول على نسب نجاح عالية لكافة الأنشطة الاستثمارية، لأن الشركة المطورة قامت باختيارها باهتمام فائق، الأمر الذي يجعله الفرصة الاسثتمارية الأهم في القاهرة الجديدة، وتستطيع التعرف على أهم المميزات التي يتمتع بها المشروع كالتالي:<br/></span><span style="color: #707070; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">يحظى المول بموقع مميز للغاية في قلب القاهرة الجديدة، الأمر الذي يزيد من فرص نجاحه بشكل كبير ويسهل من ناحية أخرى الوصول له من أي مكان في وقت قياسي.</span></div>
   <div class="Group1000011706" style="width: 1200px; height: 303px; left: 120px; top: 2816px; position: absolute">
-    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-left: 9px; padding-right: 9px; padding-top: 15px; padding-bottom: 15px; left: 915px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-inline-end: 9px; padding-inline-start: 9px; padding-top: 15px; padding-bottom: 15px; left: 915px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
       <div class="Frame1171276241" style="width: 267px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
         <div class="Group1000011660" style="width: 267px; height: 177px; position: relative">
           <img class="Rectangle5823" style="width: 267px; height: 177px; left: 0px; top: 0px; position: absolute; border-radius: 15px" src="https://via.placeholder.com/267x177" />
@@ -333,7 +333,7 @@
             </div>
           </div>
           <div class="Frame1171276226" style="align-self: stretch; padding: 4px; border-radius: 6px; border: 1px rgba(106.06, 150.41, 210.37, 0.50) solid; justify-content: center; align-items: center; gap: 19px; display: inline-flex">
-            <div class="Frame1171276220" style="padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+            <div class="Frame1171276220" style="padding-inline-end: 6px; padding-inline-start: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
               <div class="11292007" style="text-align: center"><span style="color: black; font-size: 10px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">مقدم</span><span style="color: black; font-size: 12px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word"> 1,129,200 /7 سنوات</span></div>
             </div>
             <div class="Frame1171276219" style="justify-content: flex-start; align-items: center; gap: 11px; display: flex">
@@ -344,7 +344,7 @@
         </div>
       </div>
     </div>
-    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-left: 9px; padding-right: 9px; padding-top: 15px; padding-bottom: 15px; left: 610px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-inline-end: 9px; padding-inline-start: 9px; padding-top: 15px; padding-bottom: 15px; left: 610px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
       <div class="Frame1171276241" style="width: 267px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
         <div class="Group1000011660" style="width: 267px; height: 177px; position: relative">
           <img class="Rectangle5823" style="width: 267px; height: 177px; left: 0px; top: 0px; position: absolute; border-radius: 15px" src="https://via.placeholder.com/267x177" />
@@ -382,7 +382,7 @@
             </div>
           </div>
           <div class="Frame1171276226" style="align-self: stretch; padding: 4px; border-radius: 6px; border: 1px rgba(106.06, 150.41, 210.37, 0.50) solid; justify-content: center; align-items: center; gap: 19px; display: inline-flex">
-            <div class="Frame1171276220" style="padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+            <div class="Frame1171276220" style="padding-inline-end: 6px; padding-inline-start: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
               <div class="11292007" style="text-align: center"><span style="color: black; font-size: 10px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">مقدم</span><span style="color: black; font-size: 12px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word"> 1,129,200 /7 سنوات</span></div>
             </div>
             <div class="Frame1171276219" style="justify-content: flex-start; align-items: center; gap: 11px; display: flex">
@@ -393,7 +393,7 @@
         </div>
       </div>
     </div>
-    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-left: 9px; padding-right: 9px; padding-top: 15px; padding-bottom: 15px; left: 305px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-inline-end: 9px; padding-inline-start: 9px; padding-top: 15px; padding-bottom: 15px; left: 305px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
       <div class="Frame1171276241" style="width: 267px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
         <div class="Group1000011660" style="width: 267px; height: 177px; position: relative">
           <img class="Rectangle5823" style="width: 267px; height: 177px; left: 0px; top: 0px; position: absolute; border-radius: 15px" src="https://via.placeholder.com/267x177" />
@@ -431,7 +431,7 @@
             </div>
           </div>
           <div class="Frame1171276226" style="align-self: stretch; padding: 4px; border-radius: 6px; border: 1px rgba(106.06, 150.41, 210.37, 0.50) solid; justify-content: center; align-items: center; gap: 19px; display: inline-flex">
-            <div class="Frame1171276220" style="padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+            <div class="Frame1171276220" style="padding-inline-end: 6px; padding-inline-start: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
               <div class="11292007" style="text-align: center"><span style="color: black; font-size: 10px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">مقدم</span><span style="color: black; font-size: 12px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word"> 1,129,200 /7 سنوات</span></div>
             </div>
             <div class="Frame1171276219" style="justify-content: flex-start; align-items: center; gap: 11px; display: flex">
@@ -442,7 +442,7 @@
         </div>
       </div>
     </div>
-    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-left: 9px; padding-right: 9px; padding-top: 15px; padding-bottom: 15px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+    <div class="Frame1171276242" style="width: 285px; height: 303px; padding-inline-end: 9px; padding-inline-start: 9px; padding-top: 15px; padding-bottom: 15px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10); border-radius: 16px; border: 1px solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
       <div class="Frame1171276241" style="width: 267px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: inline-flex">
         <div class="Group1000011660" style="width: 267px; height: 177px; position: relative">
           <img class="Rectangle5823" style="width: 267px; height: 177px; left: 0px; top: 0px; position: absolute; border-radius: 15px" src="https://via.placeholder.com/267x177" />
@@ -480,7 +480,7 @@
             </div>
           </div>
           <div class="Frame1171276226" style="align-self: stretch; padding: 4px; border-radius: 6px; border: 1px rgba(106.06, 150.41, 210.37, 0.50) solid; justify-content: center; align-items: center; gap: 19px; display: inline-flex">
-            <div class="Frame1171276220" style="padding-left: 6px; padding-right: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+            <div class="Frame1171276220" style="padding-inline-end: 6px; padding-inline-start: 6px; padding-top: 5px; padding-bottom: 5px; border-radius: 8px; border: 1px solid; justify-content: center; align-items: center; gap: 10px; display: flex">
               <div class="11292007" style="text-align: center"><span style="color: black; font-size: 10px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word">مقدم</span><span style="color: black; font-size: 12px; font-family: Almarai; font-weight: 400; line-height: 16px; word-wrap: break-word"> 1,129,200 /7 سنوات</span></div>
             </div>
             <div class="Frame1171276219" style="justify-content: flex-start; align-items: center; gap: 11px; display: flex">
@@ -504,7 +504,7 @@
       <div class="Rectangle4698" style="width: 66px; height: 2px; left: 377px; top: 29px; position: absolute; background: #D1B671; border: 1px solid"></div>
     </div>
     <div class="Group1000011678" style="width: 160px; height: 27px; left: 121px; top: 16px; position: absolute">
-      <div class="Frame1171275933" style="width: 125.37px; height: 27px; padding-left: 13px; padding-right: 13px; left: 0px; top: 0px; position: absolute; border-radius: 4px; border: 1px #D1B671 solid; justify-content: center; align-items: center; gap: 13.50px; display: inline-flex">
+      <div class="Frame1171275933" style="width: 125.37px; height: 27px; padding-inline-end: 13px; padding-inline-start: 13px; left: 0px; top: 0px; position: absolute; border-radius: 4px; border: 1px #D1B671 solid; justify-content: center; align-items: center; gap: 13.50px; display: inline-flex">
         <div class="Frame1171275931" style="justify-content: flex-start; align-items: center; gap: 3.38px; display: flex">
           <div style="color: white; font-size: 14px; font-family: Cairo; font-weight: 700; line-height: 27px; letter-spacing: 0.56px; word-wrap: break-word">0123456789</div>
           <div class="Vector" style="width: 13px; height: 13px; background: white"></div>
@@ -532,7 +532,7 @@
           <div class="Frame1171276258" style="width: 260px; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 11px; display: inline-flex">
             <div style="width: 131px; text-align: right; color: white; font-size: 14px; font-family: Almarai; font-weight: 700; line-height: 22px; word-wrap: break-word">تواصل معنا</div>
             <div class="Frame1171276257" style="align-self: stretch; height: 108px; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 11px; display: flex">
-              <div class="Frame1171276226" style="padding-left: 17px; padding-right: 17px; padding-top: 4px; padding-bottom: 4px; border-radius: 4px; border: 1px #D1B671 solid; justify-content: center; align-items: center; gap: 12px; display: inline-flex">
+              <div class="Frame1171276226" style="padding-inline-end: 17px; padding-inline-start: 17px; padding-top: 4px; padding-bottom: 4px; border-radius: 4px; border: 1px #D1B671 solid; justify-content: center; align-items: center; gap: 12px; display: inline-flex">
                 <div class="Frame1171275931" style="justify-content: flex-start; align-items: center; gap: 7px; display: flex">
                   <div style="color: white; font-size: 16px; font-family: Cairo; font-weight: 700; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">0123456789</div>
                   <div class="Vector" style="width: 13px; height: 13px; background: white"></div>
@@ -568,7 +568,7 @@
         </div>
         <div class="Group1000007572" style="width: 1439px; height: 47px; left: 1px; top: 271px; position: absolute">
           <div class="Line1" style="width: 1060px; height: 0px; left: 190px; top: 0px; position: absolute; border: 1px #D0B872 solid"></div>
-          <div class="Frame1171275966" style="width: 1439px; height: 34px; padding-left: 190px; padding-right: 190px; padding-top: 8px; padding-bottom: 8px; left: 0px; top: 13px; position: absolute; background: linear-gradient(90deg, #D0B872 0%, #D0B872 100%); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+          <div class="Frame1171275966" style="width: 1439px; height: 34px; padding-inline-end: 190px; padding-inline-start: 190px; padding-top: 8px; padding-bottom: 8px; left: 0px; top: 13px; position: absolute; background: linear-gradient(90deg, #D0B872 0%, #D0B872 100%); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
             <div class="Frame1171275936" style="justify-content: flex-start; align-items: flex-start; gap: 639px; display: inline-flex">
               <div class="Frame420" style="justify-content: center; align-items: flex-start; gap: 10px; display: flex">
                 <div style="text-align: center; color: #231F20; font-size: 12px; font-family: Almarai; font-weight: 400; line-height: 18px; word-wrap: break-word">شروط الاستخدام</div>
@@ -613,17 +613,17 @@
       <div class="Group1000011661" style="width: 618px; height: 230px; left: 47px; top: 37px; position: absolute">
         <div style="left: 342px; top: 0px; position: absolute; color: white; font-size: 24px; font-family: Almarai; font-weight: 700; line-height: 24px; letter-spacing: 0.50px; word-wrap: break-word">تحتاج إلى مساعدة عقارية؟</div>
         <div style="left: 207px; top: 37px; position: absolute; color: white; font-size: 16px; font-family: Almarai; font-weight: 400; line-height: 24px; word-wrap: break-word">املأ بياناتك و سوف يقوم خبير عقارى بالاتصال بك فى اقرب وقت</div>
-        <div style="width: 305px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 87px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
+        <div style="width: 305px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 87px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
           <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاسم</div>
         </div>
-        <div style="width: 304px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 137px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="width: 304px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 137px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: space-between; align-items: center; display: inline-flex">
           <div class="Path" style="width: 10px; height: 6px; background: #062679"></div>
           <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الموقع المفضل</div>
         </div>
-        <div style="width: 304px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 188px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
+        <div style="width: 304px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 313px; top: 188px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
           <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">رقم الهاتف</div>
         </div>
-        <div style="width: 305px; height: 92px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 87px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: flex-start; gap: 273px; display: inline-flex">
+        <div style="width: 305px; height: 92px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 87px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: flex-start; gap: 273px; display: inline-flex">
           <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">رسالتك</div>
         </div>
         <div class="Button" style="width: 305px; height: 42px; padding: 12px; left: 0px; top: 188px; position: absolute; background: #D1B671; border-radius: 5px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
@@ -670,26 +670,26 @@
     <div style="width: 340px; left: 24px; top: 59px; position: absolute; text-align: right; color: white; font-size: 16px; font-family: Almarai; font-weight: 400; line-height: 24px; word-wrap: break-word">املأ بياناتك لتحديد موعد للاجابة علي الاستفسار الخاص بكم</div>
     <div style="width: 340px; left: 24px; top: 232px; position: absolute; text-align: right; color: white; font-size: 16px; font-family: Almarai; font-weight: 400; line-height: 24px; word-wrap: break-word">اختر التاريخ</div>
     <div style="width: 340px; left: 24px; top: 349px; position: absolute; text-align: right; color: white; font-size: 16px; font-family: Almarai; font-weight: 400; line-height: 24px; word-wrap: break-word">اختر الوقت</div>
-    <div style="width: 340px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 122px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
+    <div style="width: 340px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 122px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
       <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاسم</div>
     </div>
-    <div style="width: 339px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 177px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
+    <div style="width: 339px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 177px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: flex-end; align-items: center; gap: 273px; display: inline-flex">
       <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">رقم الهاتف</div>
     </div>
     <div class="Frame1171276702" style="width: 340px; height: 70px; left: 24px; top: 264px; position: absolute; justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
-      <div style="width: 90px; height: 70px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 3px #D1B671 solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
+      <div style="width: 90px; height: 70px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 3px #D1B671 solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
         <div class="Text" style="text-align: right; color: black; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">23 ديسمبر</div>
         <div class="Text" style="text-align: right; color: black; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاثنين</div>
       </div>
-      <div style="width: 90px; height: 70px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
+      <div style="width: 90px; height: 70px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">23 ديسمبر</div>
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاثنين</div>
       </div>
-      <div style="width: 90px; height: 70px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
+      <div style="width: 90px; height: 70px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">23 ديسمبر</div>
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاثنين</div>
       </div>
-      <div style="width: 90px; height: 70px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
+      <div style="width: 90px; height: 70px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: center; align-items: flex-start; gap: 273px; display: flex">
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">23 ديسمبر</div>
         <div class="Text" style="text-align: right; color: #A1AECB; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">الاثنين</div>
       </div>
@@ -701,13 +701,13 @@
       <div class="Rectangle11962" style="width: 148px; height: 45.47px; left: 0px; top: 0px; position: absolute; background: #D9D9D9"></div>
       <img class="Veel011" style="width: 186.53px; height: 185.88px; left: -19.17px; top: -70.39px; position: absolute" src="https://via.placeholder.com/187x186" />
     </div>
-    <div style="width: 340px; height: 42px; padding-left: 12px; padding-right: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 381px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: space-between; align-items: center; display: inline-flex">
+    <div style="width: 340px; height: 42px; padding-inline-end: 12px; padding-inline-start: 12px; padding-top: 10px; padding-bottom: 10px; left: 24px; top: 381px; position: absolute; background: white; border-radius: 5px; border: 1px #E1E4EA solid; justify-content: space-between; align-items: center; display: inline-flex">
       <div class="Path" style="width: 10px; height: 6px; background: #062679"></div>
       <div class="Text" style="text-align: right; color: black; font-size: 14px; font-family: Almarai; font-weight: 400; line-height: 22px; word-wrap: break-word">9:00 PM</div>
     </div>
   </div>
   <div class="Group1000011767" style="width: 677px; left: 592px; top: 1880px; position: absolute">
-    <div class="Frame1171276247" style="width: 210.41px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 241.62px; top: 0px; position: absolute; background: #00DE3E; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+    <div class="Frame1171276247" style="width: 210.41px; height: 45px; padding-inline-end: 18px; padding-inline-start: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 241.62px; top: 0px; position: absolute; background: #00DE3E; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
       <div style="text-align: center; color: white; font-size: 15.75px; font-family: Almarai; font-weight: 700; line-height: 18px; word-wrap: break-word">واتساب</div>
       <div class="Frame1171276224" style="padding: 4.50px; border-radius: 10.12px; justify-content: center; align-items: center; gap: 11.25px; display: flex">
         <div class="Whatsapp" style="width: 22.50px; height: 22.50px; position: relative">
@@ -716,13 +716,13 @@
         </div>
       </div>
     </div>
-    <div class="Frame1171276658" style="width: 227.48px; height: 44.82px; padding-left: 19.46px; padding-right: 19.46px; padding-top: 7.30px; padding-bottom: 7.30px; left: 0px; top: 0px; position: absolute; background: #357CDC; border-radius: 9.73px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+    <div class="Frame1171276658" style="width: 227.48px; height: 44.82px; padding-inline-end: 19.46px; padding-inline-start: 19.46px; padding-top: 7.30px; padding-bottom: 7.30px; left: 0px; top: 0px; position: absolute; background: #357CDC; border-radius: 9.73px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
       <div style="text-align: center; color: white; font-size: 17.03px; font-family: Almarai; font-weight: 700; line-height: 19.46px; word-wrap: break-word">زووم</div>
       <div class="Frame1171276224" style="padding: 5.61px; border-radius: 12.63px; justify-content: center; align-items: center; gap: 14.03px; display: flex">
         <div class="Vector" style="width: 31px; height: 19px; border-radius: 3px; border: 1.41px white solid"></div>
       </div>
     </div>
-    <div class="Frame1171276246" style="width: 210.41px; height: 45px; padding-left: 18px; padding-right: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 466.59px; top: 0px; position: absolute; background: #D1B671; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
+    <div class="Frame1171276246" style="width: 210.41px; height: 45px; padding-inline-end: 18px; padding-inline-start: 18px; padding-top: 6.75px; padding-bottom: 6.75px; left: 466.59px; top: 0px; position: absolute; background: #D1B671; border-radius: 9px; border: 1px solid; justify-content: center; align-items: center; display: inline-flex">
       <div style="text-align: center; color: white; font-size: 15.75px; font-family: Almarai; font-weight: 700; line-height: 18px; word-wrap: break-word">اتصل بنا</div>
       <div class="Frame1000011657" style="padding: 4.50px; border-radius: 10.12px; justify-content: center; align-items: center; gap: 11.25px; display: flex">
         <div class="Call02" style="width: 22.50px; height: 22.50px; position: relative">
