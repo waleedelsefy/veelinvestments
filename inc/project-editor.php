@@ -89,13 +89,12 @@ add_action('add_meta_boxes', 'add_project_details_meta_boxes');
 function render_project_details_metabox($post) {
   wp_nonce_field('save_project_meta_data', 'project_meta_box_nonce');
   $project_details = get_post_meta($post->ID, 'project_details', true);
-
-  // Initialize default values
-  $project_space = $project_details['project_space'] ?? '';
-  $project_price = $project_details['project_price'] ?? '';
+  $unit_price = get_post_meta($post->ID, 'unit_price', true);
+  $unit_space = $project_details['unit_space'] ?? '';
   $payment_systems = $project_details['payment_systems'] ?? '';
   $down_payment = $project_details['down_payment'] ?? '';
   $installment = $project_details['installment'] ?? '';
+  $project_location = $project_details['project_location'] ?? '';
   $delivery = $project_details['delivery'] ?? '';
   $installment_1 = $project_details['installment_1'] ?? '';
   $installment_2 = $project_details['installment_2'] ?? '';
@@ -107,12 +106,16 @@ function render_project_details_metabox($post) {
   ?>
   <table class="form-table">
     <tr>
-      <th><?php _e('Project Space:', 'veelinvestments'); ?></th>
-      <td><input type="number" name="project_details[project_space]" value="<?php echo esc_attr($project_space); ?>" placeholder="<?php esc_attr_e('Enter Project Space', 'veelinvestments'); ?>"></td>
+      <th><?php _e('Unit Space:', 'veelinvestments'); ?></th>
+      <td><input type="number" name="project_details[unit_space]" value="<?php echo esc_attr($unit_space); ?>" placeholder="<?php esc_attr_e('Enter Unit Space', 'veelinvestments'); ?>"></td>
     </tr>
     <tr>
-      <th><?php _e('Project Price:', 'veelinvestments'); ?></th>
-      <td><input type="number" name="project_details[project_price]" value="<?php echo esc_attr($project_price); ?>" placeholder="<?php esc_attr_e('Enter Project Price', 'veelinvestments'); ?>"></td>
+      <th><?php _e('Unit Location:', 'veelinvestments'); ?></th>
+      <td><input type="text" name="project_details[project_location]" value="<?php echo esc_attr($project_location); ?>" placeholder="<?php esc_attr_e('Enter Unit Location', 'veelinvestments'); ?>"></td>
+    </tr>
+    <tr>
+      <th><?php _e('unit Price:', 'veelinvestments'); ?></th>
+      <td><input type="number" name="unit_price" value="<?php echo esc_attr($unit_price); ?>" placeholder="<?php esc_attr_e('Enter Unit Price', 'veelinvestments'); ?>"></td>
     </tr>
     <tr>
       <th><?php _e('Payment Systems:', 'veelinvestments'); ?></th>
@@ -126,6 +129,8 @@ function render_project_details_metabox($post) {
         <input type="number" min="0" max="30" name="project_details[installment]" value="<?php echo esc_attr($installment); ?>" placeholder="<?php esc_attr_e('Enter Installment Payment', 'veelinvestments'); ?>">
       </td>
     </tr>
+    <th></th>
+    <td> <h2 style="font-size: 22px; font-weight: 800"><?php _e('Installments for several years', 'veelinvestments'); ?></h2></td>
     <tr>
       <th><?php _e('7 Years:', 'veelinvestments'); ?></th>
       <td><input type="number" name="project_details[installment_1]" value="<?php echo esc_attr($installment_1); ?>" placeholder="<?php esc_attr_e('Enter for 7 Years', 'veelinvestments'); ?>"></td>
@@ -146,27 +151,37 @@ function render_project_details_metabox($post) {
  * Save project meta data.
  */
 function save_project_meta($post_id) {
+  // Check for nonce security
   if (!isset($_POST['project_meta_box_nonce']) || !wp_verify_nonce($_POST['project_meta_box_nonce'], 'save_project_meta_data')) {
     return;
   }
 
+  // Prevent auto-save from overwriting the data
   if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
     return;
   }
 
+  // Ensure the user has permission to edit the post
   if (!current_user_can('edit_post', $post_id)) {
     return;
   }
 
-  if (!isset($_POST['project_details']) || !is_array($_POST['project_details'])) {
-    return;
+  // Check if the project_details array is set and is an array
+  if (isset($_POST['project_details']) && is_array($_POST['project_details'])) {
+    // Sanitize and save the meta data
+    $sanitized_project_details = array_map('sanitize_text_field', $_POST['project_details']);
+    update_post_meta($post_id, 'project_details', $sanitized_project_details);
   }
 
-  // Sanitize and save the meta data
-  $sanitized_project_details = array_map('sanitize_text_field', $_POST['project_details']);
-  update_post_meta($post_id, 'project_details', $sanitized_project_details);
+  // Check if the unit_price field is set
+  if (isset($_POST['unit_price'])) {
+    // Sanitize the unit price and save it separately
+    $sanitized_unit_price = sanitize_text_field($_POST['unit_price']);
+    update_post_meta($post_id, 'unit_price', $sanitized_unit_price);
+  }
 }
 add_action('save_post', 'save_project_meta');
+
 
 /**
  * Add FAQ meta box.

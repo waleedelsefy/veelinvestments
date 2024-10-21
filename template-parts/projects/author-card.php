@@ -1,8 +1,6 @@
 <?php
 // Get the post ID
 $post_id = get_the_ID();
-get_header();
-
 $cache_key = 'author_info_' . $post_id;
 $author_info = wp_cache_get($cache_key);
 

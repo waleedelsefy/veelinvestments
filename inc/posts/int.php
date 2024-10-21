@@ -21,3 +21,5 @@ defined('ABSPATH') || exit;
   include_once get_template_directory() . '/inc/posts/breadcrumb.php';
 // Handle the form submission (e.g., send email, save to DB, etc.)
 include_once get_template_directory() . '/inc/posts/contact-form.php';
+
+include_once get_template_directory() . '/inc/posts/finish-type.php';

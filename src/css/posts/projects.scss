@@ -82,3 +82,26 @@ p {
   border: 1px solid var(--primary--color);
 }
 
+.PaymentSystemsBlocks {
+  gap: 14px;
+  margin-inline-start: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.PaymentSystemsBlock {
+  width: 112px;
+  height: 118px;
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: #FDFCFB;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.installment-percent {
+  font-weight: 800;
+}

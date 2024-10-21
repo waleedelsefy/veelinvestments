@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Veel Investments\n"
-"POT-Creation-Date: 2024-10-21 03:01+0300\n"
-"PO-Revision-Date: 2024-10-21 03:01+0300\n"
+"POT-Creation-Date: 2024-10-21 05:55+0300\n"
+"PO-Revision-Date: 2024-10-21 06:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -260,13 +260,13 @@ msgid "City FAQs"
 msgstr "أسئلة وأجوبة المدينة"
 
 #: inc/city-editor.php:149 inc/city-editor.php:171 inc/developer-editor.php:150
-#: inc/developer-editor.php:172 inc/project-editor.php:188
+#: inc/developer-editor.php:172 inc/project-editor.php:203
 #: inc/type-editor.php:150 inc/type-editor.php:172
 msgid "Question"
 msgstr "سؤال"
 
 #: inc/city-editor.php:153 inc/city-editor.php:173 inc/developer-editor.php:154
-#: inc/developer-editor.php:174 inc/project-editor.php:189
+#: inc/developer-editor.php:174 inc/project-editor.php:204
 #: inc/type-editor.php:154 inc/type-editor.php:174
 msgid "Answer"
 msgstr "إجابة"
@@ -389,13 +389,14 @@ msgstr "محتوى المطور"
 msgid "Add detailed content for the developer."
 msgstr "إضافة محتوى تفصيلي للمطور."
 
-#: inc/hooks.php:28 inc/hooks.php:36 single-templates/single-projects.php:20
+#: inc/hooks.php:28 inc/hooks.php:36
+#: template-parts/projects/payment-systems.php:11
 msgid "Payment Systems"
-msgstr "أنظمة الدفع"
+msgstr "أنظمة السداد"
 
-#: inc/hooks.php:29
+#: inc/hooks.php:29 inc/posts/finish-type.php:5
 msgid "payment system"
-msgstr "نظام الدفعات"
+msgstr "نظام السداد"
 
 #: inc/hooks.php:30
 msgid "Search Payment Systems"
@@ -403,15 +404,15 @@ msgstr "بحث في أنظمة الدفع"
 
 #: inc/hooks.php:31
 msgid "All Payment Systems"
-msgstr "جميع أنظمة الدفع"
+msgstr "جميع أنظمة السداد"
 
 #: inc/hooks.php:32
 msgid "Edit Payment System"
-msgstr "تعديل أنظمة الدفع"
+msgstr "تعديل أنظمة السداد"
 
 #: inc/hooks.php:33
 msgid "Update Payment System"
-msgstr "تحديث نظام الدفع"
+msgstr "تحديث نظام السداد"
 
 #: inc/hooks.php:34
 msgid "Add New Payment System"
@@ -420,18 +421,6 @@ msgstr "اضف نظام دفع جديد"
 #: inc/hooks.php:35
 msgid "New Payment System Name"
 msgstr "أسم نظام الدفع الجديد"
-
-#: inc/hooks.php:87
-msgid "Table of Contents"
-msgstr "جدول المحتوى"
-
-#: inc/hooks.php:87 inc/hooks.php:118
-msgid "show"
-msgstr "عرض"
-
-#: inc/hooks.php:118
-msgid "hide"
-msgstr "اخفاء"
 
 #: inc/pagination.php:14
 msgid "Prev"
@@ -473,6 +462,34 @@ msgstr[2] "%d دقيقتان"
 msgstr[3] "%d دقائق"
 msgstr[4] "%d دقيقية"
 msgstr[5] "%d دقيقية"
+
+#: inc/posts/finish-type.php:4 inc/posts/finish-type.php:12
+msgid "Finish Types"
+msgstr "نوع التشطيب"
+
+#: inc/posts/finish-type.php:6
+msgid "Search Finish Types"
+msgstr "البحث في أنواع التشطيبات"
+
+#: inc/posts/finish-type.php:7
+msgid "All Finish Types"
+msgstr "كل انوع التشطيب"
+
+#: inc/posts/finish-type.php:8
+msgid "Edit Finish Type"
+msgstr "تحرير نوع التشطيب"
+
+#: inc/posts/finish-type.php:9
+msgid "Update Finish Type"
+msgstr "تحديث نوع التشطيب"
+
+#: inc/posts/finish-type.php:10
+msgid "Add New Finish Type"
+msgstr "إضافة نوع تشطيب جديد"
+
+#: inc/posts/finish-type.php:11
+msgid "New Finish Type Name"
+msgstr "اسم النوع الجديد للتشطيب"
 
 #: inc/posts/real-estate-advisor-card.php:35
 msgid "Contact our real estate advisor"
@@ -525,6 +542,18 @@ msgstr "خدمات الصيانة والنظافة"
 #: inc/posts/secondary-title-meta.php:14 inc/posts/secondary-title-meta.php:15
 msgid "Secondary Title"
 msgstr "العنوان المصغر"
+
+#: inc/posts/toc.php:33
+msgid "Table of Contents"
+msgstr "جدول المحتوى"
+
+#: inc/posts/toc.php:33 inc/posts/toc.php:64
+msgid "show"
+msgstr "عرض"
+
+#: inc/posts/toc.php:64
+msgid "hide"
+msgstr "اخفاء"
 
 #: inc/project-editor.php:11
 msgid "Project"
@@ -604,88 +633,100 @@ msgstr "الانواع"
 msgid "Project Details"
 msgstr "تفاصيل  المشروع"
 
-#: inc/project-editor.php:110
-msgid "Project Space:"
-msgstr "مساحة المشروع:"
+#: inc/project-editor.php:109 inc/unit-editor.php:233
+msgid "Unit Space:"
+msgstr "مساحة الوحدة:"
 
-#: inc/project-editor.php:111
-msgid "Enter Project Space"
-msgstr "أدخل مساحة المشروع"
+#: inc/project-editor.php:110
+msgid "Enter Unit Space"
+msgstr "أدخل مساحة الوحدة"
+
+#: inc/project-editor.php:113
+msgid "Unit Location:"
+msgstr "موقع المشروع:"
 
 #: inc/project-editor.php:114
-msgid "Project Price:"
-msgstr "سعر المشروع:"
+msgid "Enter Unit Location"
+msgstr "ادخل موقع المشروع"
 
-#: inc/project-editor.php:115
-msgid "Enter Project Price"
-msgstr "أدخل سعر المشروع"
+#: inc/project-editor.php:117
+msgid "unit Price:"
+msgstr "سعر الوحدة:"
 
-#: inc/project-editor.php:118 inc/unit-editor.php:260
+#: inc/project-editor.php:118
+msgid "Enter Unit Price"
+msgstr "أدخل سعر الوحدة"
+
+#: inc/project-editor.php:121 inc/unit-editor.php:260
 msgid "Payment Systems:"
 msgstr "أنظمة الدفع:"
 
-#: inc/project-editor.php:121
+#: inc/project-editor.php:124
 msgid "Cash"
 msgstr "نقدي"
 
-#: inc/project-editor.php:122
+#: inc/project-editor.php:125
 msgid "Installment"
 msgstr "تقسيط"
 
-#: inc/project-editor.php:123
+#: inc/project-editor.php:126
 msgid "Both Cash and Installment"
 msgstr "كاش وقسط"
 
-#: inc/project-editor.php:125
+#: inc/project-editor.php:128
 msgid "Enter Down Payment"
 msgstr "أدخل الدفعة الأولى"
 
-#: inc/project-editor.php:126
+#: inc/project-editor.php:129
 msgid "Enter Installment Payment"
 msgstr "أدخل دفع القسط"
 
-#: inc/project-editor.php:130
+#: inc/project-editor.php:133
+msgid "Installments for several years"
+msgstr "التقسيط متعدد السنوات"
+
+#: inc/project-editor.php:135
 msgid "7 Years:"
 msgstr "7 سنوات:"
 
-#: inc/project-editor.php:131
+#: inc/project-editor.php:136
 msgid "Enter for 7 Years"
 msgstr "أدخل لمدة 7 سنوات"
 
-#: inc/project-editor.php:134
+#: inc/project-editor.php:139
 msgid "5 Years:"
 msgstr "5 سنوات:"
 
-#: inc/project-editor.php:135
+#: inc/project-editor.php:140
 msgid "Enter for 5 Years"
 msgstr "أدخل لمدة 5 سنوات"
 
-#: inc/project-editor.php:138
+#: inc/project-editor.php:143
 msgid "3 Years:"
 msgstr "3 سنوات:"
 
-#: inc/project-editor.php:139
+#: inc/project-editor.php:144
 msgid "Enter for 3 Years"
 msgstr "أدخل لمدة 3 سنوات"
 
-#: inc/project-editor.php:175
+#: inc/project-editor.php:190
 msgid "FAQs"
 msgstr "الأسئلة الشائعة"
 
-#: inc/project-editor.php:198 inc/project-editor.php:205
-#: inc/project-editor.php:218
+#: inc/project-editor.php:213 inc/project-editor.php:220
+#: inc/project-editor.php:233
 msgid "Delete"
 msgstr "حذف"
 
-#: inc/project-editor.php:210
+#: inc/project-editor.php:225
 msgid "Add New Question"
 msgstr "إضافة سؤال جديد"
 
-#: inc/project-editor.php:260
+#: inc/project-editor.php:275
 msgid "Project price saved successfully."
 msgstr "تم حفظ سعر المشروع بنجاح."
 
-#: inc/project-editor.php:262
+#: inc/project-editor.php:277
 msgid "Please enter a valid project price."
 msgstr "الرجاء إدخال سعر صالح للمشروع."
 
@@ -1007,10 +1048,6 @@ msgstr "لم يتم العثور على وحدة"
 msgid "No unit found in trash"
 msgstr "لم يتم العثور على وحدة في سلة المهملات"
 
-#: inc/unit-editor.php:233
-msgid "Unit Space:"
-msgstr "مساحة الوحدة:"
-
 #: inc/unit-editor.php:236
 msgid "Enter the unit space"
 msgstr "أدخل مساحة الوحدة"
@@ -1085,25 +1122,18 @@ msgstr "تذييل #4"
 msgid "Sidebar Pages"
 msgstr "سايدبار الصفحات"
 
-#: single-templates/single-projects.php:28
-msgid "Down Payment"
-msgstr "المقدم"
-
-#: single-templates/single-projects.php:28
-msgid "7 years"
-msgstr "7 سنوات"
-
-#: single-templates/single-projects.php:33
+#: single-templates/single-projects.php:19
 msgid "Facilities & Services"
 msgstr "المرافق والخدمات"
 
-#: single-templates/single-projects.php:41
+#: single-templates/single-projects.php:25
 msgid "Additional Information"
 msgstr "معلومات اخري"
 
 #: template-parts/content-project-card.php:11
+#: template-parts/projects/project-details.php:54
 msgid "EGP"
-msgstr "ج/م"
+msgstr "ج.م"
 
 #: template-parts/content-related-card.php:82
 msgid "years"
@@ -1262,23 +1292,23 @@ msgstr "اكثر من 5,000,000 EGP"
 msgid "Search"
 msgstr "بحث"
 
-#: template-parts/home-page/latest-projects.php:9
+#: template-parts/home-page/latest-projects.php:6
 msgid "Latest Projects"
 msgstr "أحدث المشاريع"
 
-#: template-parts/home-page/latest-projects.php:15
+#: template-parts/home-page/latest-projects.php:12
 msgid ""
 "Latest real estate news in all residential, commercial, and administrative "
 "partner projects."
 msgstr "ابحث في مجموعة من ارقى العقارات بأفضل الأسعار."
 
-#: template-parts/home-page/latest-projects.php:18
+#: template-parts/home-page/latest-projects.php:15
 #: template-parts/home-page/top-city.php:8
 #: template-parts/home-page/top-city.php:74
 msgid "View All"
 msgstr "عرض الكل"
 
-#: template-parts/home-page/latest-projects.php:58
+#: template-parts/home-page/latest-projects.php:55
 msgid "No projects available to display."
 msgstr "لا توجد مشاريع متاحة للعرض."
 
@@ -1306,6 +1336,61 @@ msgstr "الكاتب : %s"
 #: template-parts/projects/author-card.php:92
 msgid "No bio available for this author."
 msgstr "لا توجد سيرة ذاتية متاحة للكاتب."
+
+#: template-parts/projects/payment-systems.php:18
+#: template-parts/projects/payment-systems.php:28
+#: template-parts/projects/payment-systems.php:37
+msgid "Down Payment"
+msgstr "المقدم"
+
+#: template-parts/projects/payment-systems.php:19
+msgid "7 years"
+msgstr "7 سنوات"
+
+#: template-parts/projects/payment-systems.php:29
+msgid "5 years"
+msgstr "5 سنوات"
+
+#: template-parts/projects/payment-systems.php:38
+msgid "3 years"
+msgstr "3 سنوات"
+
+#: template-parts/projects/payment-systems.php:43
+msgid "No payment plans available."
+msgstr "لا توجد طرق سداد متاحة."
+
+#: template-parts/projects/project-details.php:34
+msgid "Project details"
+msgstr "تفاصيل المشروع"
+
+#: template-parts/projects/project-details.php:40
+msgid "Project Name"
+msgstr "اسم المشروع"
+
+#: template-parts/projects/project-details.php:43
+msgid "Project Location"
+msgstr "موقع المشروع"
+
+#: template-parts/projects/project-details.php:48
+msgid "Unit Space"
+msgstr "مساحة الوحدة"
+
+#: template-parts/projects/project-details.php:49
+#: template-parts/projects/project-details.php:56
+msgid "Meter"
+msgstr "متر"
+
+#: template-parts/projects/project-details.php:50
+msgid "Starting Price"
+msgstr "الأسعار تبدأ من"
+
+#: template-parts/projects/project-details.php:61
+msgid "Unit Types"
+msgstr "انواع الوحدات"
+
+#: template-parts/projects/project-details.php:63
+msgid "Finish Type"
+msgstr "نوع التشطيب"
 
 #: template-parts/projects/related-projects.php:5
 msgid "Related Projects"
@@ -1420,6 +1505,18 @@ msgstr "وليد الصيفي"
 #. Author URI of the plugin/theme
 msgid "https://dido.pro/"
 msgstr "https://dido.pro/"
+
+#~ msgid "Project Space:"
+#~ msgstr "مساحة المشروع:"
+
+#~ msgid "Enter Project Space"
+#~ msgstr "أدخل مساحة المشروع"
+
+#~ msgid "Project Price:"
+#~ msgstr "سعر المشروع:"
+
+#~ msgid "Enter Project Price"
+#~ msgstr "أدخل سعر المشروع"
 
 #~ msgid "معرض الصور وسكيما المعرض"
 #~ msgstr "معرض الصور وسكيما المعرض"
