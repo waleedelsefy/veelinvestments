@@ -6,7 +6,16 @@ if ($city_terms && !is_wp_error($city_terms)) {
 }
 ?>
 <div class="project-header-details-card">
-  <div class="project-image"></div>
+  <?php
+  $developer_img_url = '';
+  $terms = wp_get_post_terms(get_the_ID(), 'developer');
+  if (!empty($terms) && !is_wp_error($terms)) {
+    $developer_id = $terms[0]->term_id;
+    $developer_img_url = get_term_meta($developer_id, 'developer_image', true);
+
+    echo '<div class="project-image" style="background-image: url(' . esc_url($developer_img_url) . '); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>';
+  }
+  ?>
   <div class="project-header-details-card-info">
     <div class="project-header-details-card-title"><?php echo esc_html(get_the_title(get_the_ID())); ?></div>
     <div class="project-header-details-card-location">
