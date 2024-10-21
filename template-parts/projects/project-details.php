@@ -41,18 +41,18 @@ if ($finish_types && !is_wp_error($finish_types)) {
   <?php if (!empty($unit_space)) : ?>
     <div class="project-details-grid-item-title"><?php _e('Unit Space', 'veelinvestments'); ?></div>
     <div class="project-details-grid-item-value"><?php echo esc_html($unit_space) .' ' . __('Meter', 'veelinvestments'); ?></div>
-
-    <?php if (!empty($unit_price)) : ?>
+    <?php if (!empty($unit_price) && !empty($unit_space) && is_numeric($unit_price) && is_numeric($unit_space) && $unit_space != 0) : ?>
       <div class="project-details-grid-item-title"><?php _e('Starting Price', 'veelinvestments'); ?></div>
       <div class="project-details-grid-item-value">
         <?php
-        echo esc_html(round($unit_price / $unit_space)) . ' ';
+        echo esc_html(round(floatval($unit_price) / floatval($unit_space))) . ' ';
         _e('EGP', 'veelinvestments');
         echo ' / ';
         _e('Meter', 'veelinvestments');
         ?>
       </div>
     <?php endif; ?>
+
   <?php endif; ?>
 
   <?php if (!empty($types_name)) : ?>
