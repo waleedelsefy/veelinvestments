@@ -1,10 +1,10 @@
 <?php
-$project_details = get_post_meta($post->ID, 'project_details', true);
+$project_details = get_post_meta(get_the_ID(), 'project_details', true);
 $project_price = isset($project_details['project_price']) ? esc_attr($project_details['project_price']) : '';
 $installment = isset($project_details['installment']) ? esc_attr($project_details['installment']) : '';
 $down_payment = isset($project_details['down_payment']) ? esc_attr($project_details['down_payment']) : '';
-
 ?>
+
 <div class="veel-related-card">
   <div class="veel-related-card-content">
     <div class="veel-related-card-image">
@@ -17,8 +17,6 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
               <path d="M15.4153 2.60195L11.2426 6.75788M15.4153 2.60195C15.0439 2.23058 12.5417 2.2652 12.0128 2.27271M15.4153 2.60195C15.7867 2.97332 15.7521 5.47504 15.7446 6.00392" stroke="#141B34" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <div class="veel-related-card-vector">
-          </div>
         </div>
       </div>
       <?php
@@ -28,22 +26,16 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
         $developer_id = $terms[0]->term_id;
         $developer_img_url = get_term_meta($developer_id, 'developer_image', true);
 
-        echo '<div class="veel-related-card-badge" style="background-image: url(' . esc_url($developer_img_url) . ');background-size: contain;background-position: center;background-repeat: no-repeat;"></div>';
-      } else {
-        echo '';
+        echo '<div class="veel-related-card-badge" style="background-image: url(' . esc_url($developer_img_url) . '); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>';
       }
       ?>
     </div>
+
     <div class="veel-related-card-details">
       <div class="veel-related-card-header">
-        <div class="veel-related-card-icon-group">
-          <a class="veel-related-card-location-name" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
-          <div class="veel-related-card-call-acton">
-            <div>1</div>
-            <div>1</div>
-            </div>
-          </div>
-        </div>
+        <a class="veel-related-card-location-name" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
+      </div>
+
       <div class="veel-related-card-location">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
           <path d="M9.66671 5.99998C9.66671 6.92045 8.92051 7.66665 8.00004 7.66665C7.07957 7.66665 6.33337 6.92045 6.33337 5.99998C6.33337 5.07951 7.07957 4.33331 8.00004 4.33331C8.92051 4.33331 9.66671 5.07951 9.66671 5.99998Z" stroke="#707070"/>
@@ -51,38 +43,41 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
           <path d="M12 13.3333C12 14.0697 10.2091 14.6666 8 14.6666C5.79086 14.6666 4 14.0697 4 13.3333" stroke="#707070" stroke-linecap="round"/>
         </svg>
         <span>
-<?php
+          <?php
           $terms = wp_get_post_terms(get_the_ID(), 'city');
           if (!empty($terms) && !is_wp_error($terms)) {
             $city_link = get_term_link($terms[0]->term_id, 'city');
             echo '<a class="relatedCardCity" href="' . esc_url($city_link) . '">' . esc_html($terms[0]->name) . '</a>';
           }
-          ?></span>
+          ?>
+        </span>
       </div>
+
       <div class="veel-related-card-price-details">
         <div class="veel-related-card-total-price">
-          <span><?php
-            $project_details = get_post_meta(get_the_ID(), 'project_details', true);
-            if (isset($project_details['project_price'])) {
-              echo esc_html($project_details['project_price']);
-            }
-            ?></span>
-          <span>السعر</span>
-        </div>
-        <div class="veel-related-card-installment">
-          <span>مقدم</span>
           <span>
             <?php
-            $project_details = get_post_meta(get_the_ID(), 'project_details', true);
-            if (isset($project_details['project_price'])) {
-              echo esc_html($project_details['project_price'] * ($project_details['down_payment'] / 100)) . ' ج/م';
-            }
-
-            if (isset($project_details['installment'])) {
-              echo esc_html($project_details['installment']) . '/' . __('years', 'veelinvestments');
+            if ($project_price) {
+              echo esc_html($project_price);
             }
             ?>
-            </span>
+          </span>
+          <span><?php _e('السعر', 'veelinvestments'); ?></span>
+        </div>
+
+        <div class="veel-related-card-installment">
+          <span><?php _e('مقدم', 'veelinvestments'); ?></span>
+          <span>
+            <?php
+            if ($down_payment && $project_price) {
+              echo esc_html($project_price * ($down_payment / 100)) . ' ج/م';
+            }
+
+            if ($installment) {
+              echo esc_html($installment) . '/' . __('years', 'veelinvestments');
+            }
+            ?>
+          </span>
         </div>
       </div>
     </div>
