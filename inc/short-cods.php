@@ -207,7 +207,7 @@ function author_info_shortcode() {
         @media only screen and (max-width:992px){
             .boximgauthor {
                 padding: 0;
-                overflow: hidden;
+                overflow: auto;
                 width: 70px;
                 height: 70px;
                 box-shadow: 0 14px 37px -12px rgba(0, 0, 0, 0.6), 0 4px 20px 0px rgba(0, 0, 0, 0.15), 0 6px 10px -6px rgba(0, 0, 0, 0.4);
@@ -249,7 +249,7 @@ function author_info_shortcode() {
         }
         .boximgauthor {
             padding: 0;
-            overflow: hidden;
+            overflow: auto;
             width: 100px;
             min-width: 99px;
             max-width: 125px;

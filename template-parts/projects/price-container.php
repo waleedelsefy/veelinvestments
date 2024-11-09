@@ -49,7 +49,7 @@ if (!empty($unit_price)): ?>
 
 <style>
   .price-container {
-    width: 100%;
+    width: 96%;
     height: 150px;
     padding: 16px 22px;
     border-radius: 12px;
@@ -96,8 +96,8 @@ if (!empty($unit_price)): ?>
 
   .whatsapp-button, .zoom-button, .call-button {
     width: 33%;
-    height: 30px;
-    min-width: 95px;
+    height: 40px;
+    min-width: 100px;
     padding: 5px 2px;
     border-radius: 9px;
     border: 1px solid #FFFFFF;

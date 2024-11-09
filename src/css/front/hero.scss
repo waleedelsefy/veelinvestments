@@ -145,7 +145,7 @@
     text-align: center;
   }
 }
-@media screen and ( max-width: 425px) {
+@media screen and ( max-width: 430px) {
 
   .veelSocialAndArrow {
     bottom: 4% !important;
@@ -168,7 +168,6 @@
     padding-top: 85px;
   }
 .heroH1 {
-  margin-top: 140px;
   color: #FFF;
   font-size: 28px;
   font-style: normal;
@@ -229,7 +228,7 @@
     height: 310px;
     justify-content: center;
     padding: 21px 20px;
-    width: 0 !important;
+    width: fit-content;
   }
 }
 @media screen and (max-width: 1024px) {

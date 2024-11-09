@@ -78,7 +78,7 @@
   }
   .schedule-meeting {
     margin: 10px 0;
-    width: 100%;
+    width: 96%;
     color: #FFF;
     text-align: right;
     font-size: 16px;

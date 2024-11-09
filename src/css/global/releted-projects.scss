@@ -101,7 +101,7 @@
   gap: 15px;
   justify-content: center;
   margin-top: 15px;
-  overflow: hidden;
+  overflow-x: scroll;
   width: 99%;
   padding: 15px;
 }
@@ -194,7 +194,7 @@
   width: 90%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .veelRelatedProjects {
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@
     display: flex;
     gap: 70px;
     justify-content: start;
-    overflow: hidden;
+    overflow: auto;
     width: 400px;
     margin-top: 20px;
     position: relative;
@@ -245,7 +245,7 @@ width: 354px;
   }
   .relatedProjectsImgGallery {
     gap: 15px;
-    overflow: hidden;
+    overflow-x: scroll;
     width: 100%;
   }
 }
@@ -292,7 +292,7 @@ width: 354px;
     display: flex;
     align-content: center;
     justify-content: start;
-    overflow: hidden;
+    overflow-x: scroll;
   }
   .image{
     width: 1000px;

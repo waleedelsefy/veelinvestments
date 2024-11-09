@@ -81,7 +81,7 @@ if (!empty($developers) && !is_wp_error($developers)) :
     .developersImg {
       width: 150px;
       height: 150px;
-      overflow: hidden;
+      overflow: auto;
       display: flex;
       align-items: center;
       justify-content: center;

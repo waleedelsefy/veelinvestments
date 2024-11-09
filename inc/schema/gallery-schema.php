@@ -60,7 +60,7 @@ function veel_gallery_meta_box_callback($post) {
   <input type="hidden" name="gallery_image_ids" id="gallery_image_ids" value="<?php echo esc_attr(implode(',', $gallery_image_ids)); ?>" />
 
   <style>
-    #gallery-wrapper ul { list-style: none; margin: 0; padding: 0; overflow: hidden; }
+    #gallery-wrapper ul { list-style: none; margin: 0; padding: 0; overflow: auto; }
     #gallery-wrapper ul li { float: left; margin: 5px; position: relative; }
     #gallery-wrapper ul li img { max-width: 100px; height: auto; display: block; }
     .remove-image-button { position: absolute; top: 2px; right: 2px; background: #9f0303; color: #fff; border: none; border-radius: 8px; cursor: pointer; padding: 2px 5px; }

@@ -23,3 +23,4 @@ defined('ABSPATH') || exit;
 include_once get_template_directory() . '/inc/posts/contact-form.php';
 
 include_once get_template_directory() . '/inc/posts/finish-type.php';
+include_once get_template_directory() . '/inc/posts/post_views_count.php';

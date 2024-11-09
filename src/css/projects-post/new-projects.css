@@ -72,7 +72,7 @@
     justify-content: start;
     align-items: center;
     gap: 15px;
-    overflow: hidden;
+    overflow: auto;
 
 }
 .imgContent{
@@ -94,7 +94,7 @@
   position: fixed !important;
   bottom: 20vh !important;
   left: 4vw !important;
-  z-index: 99 !important;
+  z-index: 999 !important;
 }
 .rectangle1{
     width: 280px;

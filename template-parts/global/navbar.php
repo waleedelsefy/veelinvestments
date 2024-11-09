@@ -54,7 +54,7 @@
   </div>
 
   <div class="veelMobileCta">
-    <?php get_template_part('template-parts/global/phone-wa-cta.php'); ?>
+    <?php get_template_part('template-parts/global/phone-wa-cta'); ?>
   </div>
   <div class="veelMobileSocial">
     <div class="socialMobile">

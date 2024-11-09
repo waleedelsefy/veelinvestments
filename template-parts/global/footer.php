@@ -32,7 +32,6 @@ $whatsapp_link = "https://wa.me/2{$whatsapp_number}?text={$whatsapp_message}";
   </div>
 
   <div class="veelLines mobileOnly">
-    <div class="goldenLine"></div>
   </div>
 
   <div class="quickLinks">

@@ -1,119 +1,106 @@
+/* تطبيق box-sizing لجميع العناصر لضمان احتساب الحشو والحدود ضمن العرض */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* قسم المدينة العلوية */
 .topCitySection {
-  align-content: center;
-  background-color: var(--fourth--color);
   display: flex;
-  height: 511px;
+  align-content: center;
   justify-content: center;
+  background-color: var(--fourth--color);
+  height: 511px;
   max-width: 100%;
-  overflow: hidden;
+  overflow: auto;
   padding: 45px 0 74px 37px;
   margin: 31px auto;
 }
+
 .topCity {
   display: flex;
   flex-direction: column;
   width: 85%;
 }
-.veelCityHeaderTitle {
-  align-items: center;
-  border-inline-start: solid 6px var(--primary--color);
-  display: flex;
-  height: 32px;
-  padding-inline-start: 9px;
-  justify-content: space-between;
-}
-.veelCitySubHeading {
-  color: #000;
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 9;
-}
+
 .veeltopCitySection {
-  align-content: center;
-  background-color: var(--fourth--color);
   display: flex;
-  height: 511px;
+  align-content: center;
   justify-content: center;
+  background-color: var(--fourth--color);
+  height: 511px;
   max-width: 100%;
-  overflow: hidden;
+  overflow: auto;
   padding: 45px 0 37px;
 }
 
-.frame .div-wrapper:hover{
-  border-radius: 20px;
-  border: 2px solid var(--primary--color);
-  color: black;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-
-.topCitySubHeading{
-  display: grid;
-  justify-content: start;
+/* عنوان رأس المدينة */
+.veelCityHeaderTitle {
+  display: flex;
   align-items: center;
-  width: 20%;
-  margin-inline-start: 20px;
-
-}
-.subHeadingParagraph p{
-  color: #000;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  justify-content: space-between;
+  border-inline-start: solid 6px var(--primary--color);
+  height: 32px;
+  padding-inline-start: 9px;
 }
 
-.veelBlogHeaderTitle h2 {
+.veelCityHeaderTitle h2 {
   color: #000 !important;
   font-size: var(--veel--font-size-xx-large);
   font-style: normal;
   font-weight: 700;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   line-height: 24px;
 }
-.veelBlogHeaderTitle {
-  align-items: center;
-  border-inline-start: solid 6px var(--primary--color);
-  display: flex;
-  height: 32px;
-  padding-inline-start: 9px;
-}
+
 .veelTopCityHeader {
-  color: #000;
   display: flex;
   flex-direction: column;
-  font-style: normal;
-  font-weight: 700;
+  align-items: center;
+  justify-content: center;
   gap: 28px;
   height: 150px;
-  letter-spacing: .5px;
-  line-height: 24px;
   margin: 0 0 29px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 24px;
 }
 
+/* العناوين الفرعية للمدينة */
+.veelCitySubHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-inline-start: 20px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
 
-.image{
+.subHeadingParagraph p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* قسم الصور */
+.image {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
-  gap: 20px;
-  height: 350px;
-  display: flex;
-  grid-template-columns: auto auto;
   justify-content: start;
-  align-content: start;
+  width: 70%;
+  height: 350px;
+  gap: 20px;
   border-radius: 50%;
-
+  overflow: auto;
 }
 
-.imgContent{
+.imgContent {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -121,29 +108,36 @@
   width: 250px;
   height: 125px;
 }
-.imgContent h4{
+
+.imgContent h4 {
   margin: 0;
 }
 
-.rectangle1{
-  background: url("src/img/img1.webp") no-repeat center center / cover, lightgray;
+/* المستطيلات */
+.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 15px;
 }
-.rectangle2{
-  background: url("src/img/img2.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
 
+.rectangle1 {
+  background-image: url("src/img/img1.webp"), lightgray;
 }
-.rectangle3{
-  background: url("src/img/im3.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
 
+.rectangle2 {
+  background-image: url("src/img/img2.webp"), lightgray;
 }
-.rectangle4{
-  background: url("src/img/img1.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
 
+.rectangle3 {
+  background-image: url("src/img/im3.webp"), lightgray;
 }
+
+.rectangle4 {
+  background-image: url("src/img/img1.webp"), lightgray;
+}
+
+/* إطار الأزرار */
 .frame {
   display: inline-flex;
   align-items: center;
@@ -155,41 +149,62 @@
 }
 
 .frame .div-wrapper {
-  border: 1px solid;
   display: flex;
-  width: 139px;
-  height: 40px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  position: relative;
+  width: 139px;
+  height: 40px;
+  border: 2px solid var(--primary--color);
   border-radius: 20px;
-  border-color: var(--primary--color);
   color: #D8C18B;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.frame .div-wrapper:hover {
+  border-radius: 20px;
+  border: 2px solid var(--primary--color);
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .frame .text-wrapper {
-  font-weight: 400;
-  color: #d8c18b;
   position: relative;
   width: fit-content;
+  white-space: nowrap;
+  color: #d8c18b;
+  font-weight: 400;
   font-size: 14px;
   text-align: left;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
-  direction: rtl;
 }
 
+.priceBox {
+  position: absolute;
+  top: 40%;
+  margin-inline-start: 15px;
+  width: 109px;
+  height: 28px;
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
+/* خط */
 .line {
   background-color: black;
   width: 177px;
   height: 1px;
 }
+
+/* عرض الكل */
 .showAll {
   display: flex;
   align-items: center;
@@ -197,11 +212,14 @@
   gap: 30px;
   width: 100%;
 }
+
 .show {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
+/* زر الدعوة للعمل */
 .cta {
   position: absolute;
 }
@@ -214,107 +232,91 @@
   top: 5px;
 }
 
-.priceBox {
-  position: absolute;
-top: 40%;
-  margin-inline-start: 15px;
-  width: 109px;
-  height: 28px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  background: #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.cityImgGallery{
+/* معرض صور المدينة */
+.cityImgGallery {
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 15px;
-  overflow: hidden;
+  overflow: auto;
 }
+
+/* مؤشر المدينة */
 .veelCursorsCity {
-  align-items: start;
   display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 90%;
   height: 1px;
   max-height: 0;
-  justify-content: space-between;
-  margin-inline: -30px;
+  margin: -200px -30px 0;
   position: absolute;
-  margin-top: -200px;
-  width: 90%;
 }
-.veelCitybox {
+
+.veelCitybox, .veelCitylc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 34px;
   height: 81px;
   background-color: var(--primary--color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.veelCitylc {
-  width: 34px;
-  height: 81px;
-  background-color: var(--primary--color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+/* عنوان عرض الكل في المدينة */
 .veelCityHeaderShowAll {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 10px;
+  flex-direction: row;
 }
-@media screen and (max-width: 425px){
+
+/* تعديلات الاستجابة */
+@media screen and (max-width: 768px) {
+  .veelCursorsCity {
+    max-height: 0;
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .topCitySection {
+    padding: 45px 0px 74px 24px;
+  }
+
   .veelCityHeaderTitle, .veelCitySubHeading {
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
   }
+
   .veelCitybox, .veelCitylc {
-    align-items: center;
-    display: flex;
-    height: 63px;
-    justify-content: center;
     width: 23px;
+    height: 63px;
   }
+
   .veelCursorsCity {
     max-height: 0;
     width: 98%;
   }
 }
-@media screen and (max-width: 425px){
+
+@media screen and (max-width: 375px) {
   .topCitySection {
-    padding: 45px 0px 74px 24px
-  }
-}
-@media screen and (max-width: 375px){
-  .topCitySection {
-    align-content: center;
-    background-color: var(--fourth--color);
     display: flex;
-    height: 511px;
+    align-content: center;
     justify-content: center;
+    background-color: var(--fourth--color);
+    height: 511px;
     margin: 31px auto;
     max-width: 100%;
-    overflow: hidden;
+    overflow: auto;
     padding: 29px 0 49px 0px;
   }
+
   .veelCursorsCity {
     max-height: 0;
     width: 100%;
   }
-}
-@media screen and (max-width: 768px){
-
-.veelCursorsCity {
-  max-height: 0;
-  width: 90%;
-}
 }

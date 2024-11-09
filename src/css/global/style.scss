@@ -1,10 +1,18 @@
+/* تطبيق box-sizing لجميع العناصر لضمان احتساب الحشو والحدود ضمن العرض */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* إعدادات الجسم والـ HTML */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
 }
+
+/* أزرار عرض الكل */
 .showAllButton {
-  color: #000 ;
+  color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -12,48 +20,61 @@ html, body {
   text-align: right;
   text-decoration: none;
 }
+
+/* فقرات العناوين الفرعية */
 .subHeadingParagraph p {
   font-size: var(--veel--font-size-large) !important;
-  text-wrap: wrap !important;
+  word-wrap: break-word !important;
   line-height: var(--veel--line-height) !important;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
+
+/* التحكم في عرض العناصر حسب الجهاز */
 .mobileOnly {
-  display: none !important;
+  display: none;
 }
+
 .desktopOnly {
-  display: flex !important;
+  display: flex;
 }
+
 .flex {
   display: flex !important;
 }
+
 .flex-row {
   display: flex !important;
   flex-direction: row !important;
 }
+
 .flex-column {
   display: flex !important;
   flex-direction: column !important;
 }
 
-@media screen and (max-width: 425px) {
+/* استعلامات الوسائط للتحكم في العرض على الشاشات الصغيرة */
+@media screen and (max-width: 430px) {
   .mobileOnly {
-    display: flex !important;
+    display: flex;
   }
   .desktopOnly {
-    display: none !important;
+    display: none ;
+  }
+  .topCitySection {
+    padding: 45px 0px 74px 24px;
   }
 }
-.left-arrow, .right-arrow {
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-}
-@media screen and (min-width: 768px) {
+
+/* أعمدة العرض المختلفة على الشاشات الأكبر */
+@media screen and (min-width: 767px) {
   .desktopOnly {
-    display: flex !important;
+    display: flex;
   }
   .mobileOnly {
-    display: none !important;
+    display: none ;
   }
   .col-2 {
     width: 16.6666667% !important;
@@ -84,46 +105,32 @@ html, body {
   }
 }
 
-.ProjectCardTitle , .realPrice, .ProjectCardDeveloper {
+/* عناوين وباقات المشروع */
+.ProjectCardTitle,
+.realPrice,
+.ProjectCardDeveloper {
   text-decoration: none !important;
   color: #231F20 !important;
 }
+
+.ProjectCardDeveloper {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 133%;
+  text-transform: capitalize;
+}
+
+/* محتوى بطاقة المشروع */
 .ProjectCardContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 250px;
+  gap: 12px;
   height: 125px;
-}
-
-.ProjectCardCta { }
-
-.veelPrice {
-  width: 109px;
-  height: 28px;
-  border-radius: 5px;
-  background: #FFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.imgProjectCard {
-  width: 285px;
-  height: 191px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-decoration: none;
-  background-size: cover;
-  background-position: center
-}
-
-.ProjectCard {
-  max-height: 280px;
-  display: flex;
-  flex-direction: column;
+  padding-top: 15px;
 }
 
 .ProjectCardCta {
@@ -133,6 +140,7 @@ html, body {
   margin-inline-end: 15px;
 }
 
+/* صندوق السعر */
 .veelPrice {
   width: fit-content;
   height: 28px;
@@ -145,25 +153,166 @@ html, body {
   margin-inline-end: 10px;
 }
 
-p.realPrice {
-  padding-inline: 15px;
-}
-
-.ProjectCardDeveloper {
-  color: #000;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 133%;
-  text-transform: capitalize;
-}
-
-.ProjectCardContent {
+/* صورة بطاقة المشروع */
+.imgProjectCard {
+  width: 285px;
+  height: 191px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+}
+
+/* بطاقة المشروع */
+.ProjectCard {
+  max-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* أزرار الأسهم */
+.left-arrow,
+.right-arrow {
+  display: flex;
+  cursor: pointer;
   align-items: center;
-  width: 250px;
-  gap: 12px;
-  height: 125px;
-  padding-top: 15px;
+}
+
+/* معرض صور المدينة */
+.cityImgGallery {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  overflow: auto;
+}
+
+/* مؤشر المدينة */
+.veelCursorsCity {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 90%;
+  height: 1px;
+  max-height: 0;
+  margin: -200px -30px 0;
+  position: absolute;
+}
+
+/* صناديق المدينة */
+.veelCitybox,
+.veelCitylc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 81px;
+  background-color: var(--primary--color);
+}
+
+/* عنوان عرض الكل في المدينة */
+.veelCityHeaderShowAll {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+/* تهيئة أزرار عرض الكل */
+.frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  position: relative;
+  padding: 20px 0;
+  height: 100px;
+}
+
+.frame .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 139px;
+  height: 40px;
+  border: 2px solid var(--primary--color);
+  border-radius: 20px;
+  color: #D8C18B;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.frame .div-wrapper:hover {
+  border-radius: 20px;
+  border: 2px solid var(--primary--color);
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+  color: #d8c18b;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* خط */
+.line {
+  background-color: black;
+  width: 177px;
+  height: 1px;
+}
+
+/* زر الدعوة للعمل */
+.cta {
+  position: absolute;
+}
+
+.ctaStyle {
+  width: max-content;
+  border: none;
+  position: relative;
+  right: 70px;
+  top: 5px;
+}
+
+/* تحسينات الاستجابة على شاشات صغيرة جدًا */
+@media screen and (max-width: 375px) {
+  .topCitySection {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--fourth--color);
+    height: 511px;
+    margin: 31px auto;
+    max-width: 100%;
+    overflow: auto;
+    padding: 29px 0 49px 0px;
+  }
+
+  .veelCursorsCity {
+    max-height: 0;
+    width: 100%;
+  }
+}
+
+/* تحسينات الاستجابة على شاشات متوسطة الحجم */
+@media screen and (max-width: 768px) {
+  .veelCursorsCity {
+    max-height: 0;
+    width: 92%;
+  }
 }

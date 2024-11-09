@@ -1,0 +1,44 @@
+.blogContentPageHeader{
+  background-color: #555555;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogContentPageImgContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 30px;
+  width: 1000px;
+  height: 10px;
+}
+.blogContentPageHeading{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: max-content;
+  height: 47px;
+  flex-shrink: 0;
+  background: #D1B671;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.blogContentPageBreadcrumbs{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -15,6 +15,8 @@
 @import 'global/social';
 @import 'global/footer-subscription';
 @import 'global/copy-rights';
+@import 'global/author-date';
+@import 'global/most-read';
 @import 'front/blog';
 @import 'front/developers-section';
 @import 'front/top-city';
@@ -23,3 +25,8 @@
 @import 'front/testmonials';
 @import 'posts/projects';
 @import 'posts/project-details';
+@import 'blog-content-page/blog-content-page-header';
+@import 'blog-content-page/blog-content-page-related-news';
+@import 'blog-content-page/blog-image-and-content';
+@import 'blog-content-page/related-news-incontent';
+

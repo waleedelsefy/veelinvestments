@@ -1,6 +1,6 @@
 .contactForm {
   width: 90%;
-  height: 307px;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   border-radius: 12px;
@@ -103,7 +103,7 @@ textarea#message {
   background: #FFF;
   display: flex;
   width: 305px;
-  height: 61px;
+  height: 85px;
   padding: 10px 12px;
   justify-content: flex-end;
   align-items: flex-start;
@@ -115,7 +115,7 @@ select#options {
   border: 1px solid var(--Color-Dark-Blue-100, #E1E4EA);
   background: #FFF;
   display: flex;
-  width: 330px;
+  width: 305px;
   padding: 10px 12px;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +130,7 @@ button.submitButton {
   height: 42px;
   justify-content: center;
   padding: 12px;
-  width: 332px;
+  width: 308px;
   color: #fff;
 }
 .contactFormGap {
@@ -140,7 +140,7 @@ button.submitButton {
   margin-inline-start: 0;
 }
 .contactFormBox {
-  padding: 20px 90px;
+  padding: 20px 75px;
 }
 .contactFormHeading {
   h2 {
@@ -183,7 +183,7 @@ textarea{
     gap: 258px;
     justify-content: flex-end;
     padding: 10px 12px;
-    width: 200px;
+    width: 225px;
   }
   select#options {
     align-items: center;
@@ -213,12 +213,10 @@ textarea{
     flex-direction: column;
   }
 
-  .img{
-    display: none;
-  }
+
 
 }
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 430px) and (max-width: 768px){
 
   .contactFormBox {
     margin-inline-start: -142px;
@@ -244,8 +242,11 @@ textarea{
     display: flex;
     justify-content: end;
   }
+  .contactFormImg {
+    display: none;
+  }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   form.flex-row.contactFormGap {
     display: flex;
     flex-direction: column !important;
@@ -258,7 +259,7 @@ textarea{
     padding: 0;
   }
   input#name, input#phone, textarea#message {
-    width: 215px;
+    width: 242px;
   }
   select#options {
     width: 241px;

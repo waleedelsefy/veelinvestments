@@ -14,7 +14,7 @@
   justify-content: start;
   align-items: center;
   gap: 15px;
-  overflow: hidden;
+  overflow: auto;
 }
 .testmonialsContent{
   flex-direction: column;
@@ -148,7 +148,7 @@
 .left-arrow, .right-arrow{
   cursor: pointer;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 430px){
   .testmonialsH2{
     color: #000;
     text-align: center;
@@ -223,7 +223,7 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 430px) and (max-width: 768px) {
   .testmonialsBox{
     width: 600px;
   }

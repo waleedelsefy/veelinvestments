@@ -101,7 +101,7 @@
   justify-content: start;
   align-items: center;
   gap: 15px;
-  overflow: hidden;
+  overflow: auto;
 
 }
 .imgContent{
@@ -179,7 +179,7 @@
   background: var(--primary--color);
 }
 .latestProjectsSectiongreyLine{
-  width: 1096.667px;
+  width: 90%;
   height: 1.333px;
   flex-shrink: 0;
   background: #F6FAFF;
@@ -193,7 +193,7 @@
   width: 90%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .veelLatestProjects {
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@
     display: flex;
     gap: 70px;
     justify-content: start;
-    overflow: hidden;
+    overflow: auto;
     width: 400px;
     margin-top: 20px;
     position: relative;
@@ -217,7 +217,7 @@
     justify-content: space-between;
   }
   .latestProjectsSectiongreyLine {
-width: 354px;
+width: 50%;
 
   }
   .latestProjectsSectiongoldenLine{
@@ -244,7 +244,7 @@ width: 354px;
   }
   .latestProjectsImgGallery {
     gap: 15px;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
   }
 }
@@ -259,7 +259,7 @@ width: 354px;
     justify-content: space-between;
   }
   .latestProjectsCursors {
-    width: 100% !important;
+    width: 95% !important;
   }
   .latestProjectsSectionright-arrow , .latestProjectsSectionleft-arrow {
     background: var(--primary--color)99;
@@ -284,14 +284,14 @@ width: 354px;
   }
 
   .latestProjectsCursors{
-    width: 100%;
+    width: 95%;
   }
   .latestProjectsImgGallery{
     width: 95%;
     display: flex;
     align-content: center;
     justify-content: start;
-    overflow: hidden;
+    overflow: auto;
   }
   .image{
     width: 1000px;
