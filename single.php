@@ -19,7 +19,6 @@ $post_id = get_the_ID();
           get_template_part('template-parts/blog-content-page/blog-image-and-content');
           ?>
       </div>
-      <div class="sidebarDop">
       <div class="sidebarAria">
       <div class="sidebar">
 
@@ -27,7 +26,6 @@ $post_id = get_the_ID();
           get_template_part('template-parts/global/most-read');
         ?>
       </div>
-    </div>
     </div>
     </div>
     <?php

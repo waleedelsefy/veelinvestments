@@ -218,12 +218,10 @@ textarea{
 }
 @media screen and (min-width: 430px) and (max-width: 768px){
 
-  .contactFormBox {
-    margin-inline-start: -142px;
-  }
+
   .contactForm{
-    width: 83%;
-    height: 307px;
+    width: fit-content;
+    height: auto;
     flex-shrink: 0;
     border-radius: 12px;
   }
@@ -237,6 +235,9 @@ textarea{
   }
   #options{
     width: 305px;
+  }
+  .contactFormImg.col-4.desktopOnly.tabletOnly {
+   display: none;
   }
   .vellLogo{
     display: flex;

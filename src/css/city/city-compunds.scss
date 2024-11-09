@@ -1,8 +1,8 @@
-.rectangle{
+.cityCompoundsRectangle{
   width: 6px;
   height: 32px;
   flex-shrink: 0;
-  background: var(--primary--color);
+  background: #D1B671;
 }
 .cityCompoundsHeader{
   display: flex;
@@ -10,7 +10,7 @@
   align-items: center;
   gap: 5px;
 }
-.Box{
+.compoundsBox{
   display: flex;
   width: 285px;
   height: 320px;
@@ -21,33 +21,32 @@
   border-radius: 16px;
   background: #FFF;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
-  display: flex;
   flex-direction: column;
 }
-.boxImg{
+.compoundsBoxImg{
   width: 267px;
   height: 177px;
   flex-shrink: 0;
   border-radius: 15px;
-  background-image: url("../../../../src/img/boxImage.webp");
+  background-image: url("../../img/boxImage.webp");
 }
-.boxNameandCta{
+.compoundsBoxNameandCta{
   width: 260px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.boxNameandCta p{
+.compoundsBoxNameandCta p{
   color: #000;
   text-align: center;
-
+  font-family: Almarai;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px; /* 133.333% */
 }
 
-.boxPrice{
+.compoundsBoxPrice{
   width: 260px;
   display: flex;
   justify-content: space-between;
@@ -56,11 +55,11 @@
   border-radius: 6px;
   border: 1px solid rgba(106, 150, 210, 0.50);
 }
-.boxAddress{
+.compoundsBoxAddress{
   width: 260px;
   color: #707070;
   text-align: center;
-
+  font-family: Almarai;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +68,7 @@
   justify-content: start;
   align-items: center;
 }
-.boxImgIcon{
+.compoundsBoxImgIcon{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,21 +83,21 @@
   border-radius: 17px;
   background: #FFF;
 }
-.price{
+.compoundsPrice{
   display: flex;
   gap: 5px;
 }
-.boxPhoneWa .cta{
+.compoundsBoxPhoneWa .cta{
   display: flex;
   flex-direction: row;
   width: 65px;
 }
-.boxPhoneWa .call{
+.compoundsBoxPhoneWa .call{
   width: 15px;
   height: 15px;
   border-radius: 7px;
 }
-.boxPhoneWa .wa{
+.compoundsBoxPhoneWa .wa{
   width: 15px;
   height: 15px;
   border-radius: 7px;
@@ -116,7 +115,7 @@
   justify-content: center;
   align-items: center;
 }
-.firstSection{
+.cityCompoundsFirstSection{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -167,11 +166,11 @@ button:hover{
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1440px){
+@media screen and (min-width: 1024px){
   .cityCompoundsHeader{
     width: 60%;
   }
-  .firstSection{
+  .cityCompoundsFirstSection{
     width: 90%;
 
   }
@@ -185,7 +184,7 @@ button:hover{
   .cityCompoundsHeader{
     width: 60%;
   }
-  .firstSection{
+  .cityCompoundsFirstSection{
     width: 90%;
 
   }
@@ -195,11 +194,11 @@ button:hover{
   }
 
 }
-@media screen and (min-width: 430px) and (max-width: 768px){
+@media screen and (min-width: 425px) and (max-width: 768px){
   .cityCompoundsHeader{
     width: 60%;
   }
-  .firstSection{
+  .cityCompoundsFirstSection{
     width: 90%;
 
   }

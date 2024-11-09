@@ -7,7 +7,7 @@ $linkedin = isset($theme_settings['linkedin']) ? esc_url($theme_settings['linked
 $instagram = isset($theme_settings['instagram']) ? esc_url($theme_settings['instagram']) : 'https://www.instagram.com/veel.investments/';
 ?>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="217" height="47" viewBox="0 0 217 47" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="47" viewBox="0 0 217 47" fill="none">
   <a xlink:href="<?php echo esc_url($youtube); ?>" target="_blank">
   <rect x="114" width="46.0282" height="46.0282" rx="6.56884" fill="white"/>
   <path d="M149.328 17.039C149.007 15.8462 148.062 14.9067 146.861 14.5879C144.685 14.0085 135.958 14.0085 135.958 14.0085C135.958 14.0085 127.232 14.0085 125.056 14.5879C123.855 14.9068 122.909 15.8462 122.588 17.039C122.005 19.2012 122.005 23.7123 122.005 23.7123C122.005 23.7123 122.005 28.2234 122.588 30.3855C122.909 31.5784 123.855 32.4787 125.056 32.7975C127.232 33.3768 135.958 33.3768 135.958 33.3768C135.958 33.3768 144.685 33.3768 146.861 32.7975C148.062 32.4787 149.007 31.5784 149.328 30.3855C149.912 28.2234 149.912 23.7123 149.912 23.7123C149.912 23.7123 149.912 19.2012 149.328 17.039ZM133.104 27.808V19.6165L140.398 23.7124L133.104 27.808Z" fill="#161A30"/>

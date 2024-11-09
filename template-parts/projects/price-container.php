@@ -97,7 +97,7 @@ if (!empty($unit_price)): ?>
   .whatsapp-button, .zoom-button, .call-button {
     width: 33%;
     height: 40px;
-    min-width: 100px;
+    min-width: 85px;
     padding: 5px 2px;
     border-radius: 9px;
     border: 1px solid #FFFFFF;
@@ -124,9 +124,28 @@ if (!empty($unit_price)): ?>
   .button-text {
     text-align: center;
     color: white;
-    font-size: 15.75px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 18px;
   }
+@media screen  and (max-width: 1024px ){
+  .whatsapp-button, .zoom-button, .call-button {
+    width: 33%;
+    height: 40px;
+    min-width: 80px;
+    padding: 5px 2px;
+    border-radius: 9px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    font-size: 14px;
+  }
+  .button-text {
 
+    display: none;
+  }
+
+}
 </style>

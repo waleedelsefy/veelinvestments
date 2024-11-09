@@ -77,6 +77,7 @@ get_footer();
     padding: 20px;
     overflow: visible;
     height: auto;
+    margin-inline-end: 10px;
   }
 
   .col-4 {
@@ -444,7 +445,7 @@ get_footer();
   li.schedule-meeting-day {
     display: flex;
     width: 90px;
-    height: 70px;
+    height: 100px;
     padding: 10px 12px;
     justify-content: center;
     align-items: flex-start;
@@ -624,6 +625,7 @@ get_footer();
   @media screen and (min-width: 767px) {
     .col-8 {
       width: 80% !important;
+      margin-inline-end: 10px;
     }
   }
 

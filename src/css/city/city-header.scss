@@ -1,0 +1,48 @@
+.tax-city {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cityTaxpageHeader{
+  background-color: #555555;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cityTaxpageImgContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 30px;
+  width: 1000px;
+  height: 10px;
+}
+.cityTaxpageHeading{
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 161px;
+  height: 47px;
+  flex-shrink: 0;
+  background: #D1B671;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cityTaxpageBreadcrumbs{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #FFF;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

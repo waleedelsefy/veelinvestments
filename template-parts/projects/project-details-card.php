@@ -115,9 +115,12 @@ if ($city_terms && !is_wp_error($city_terms)) {
 
   .project-image {
     width: 89px;
+    min-width: 89px;
     height: 89px;
+    min-height: 89px;
     background: #D9D9D9;
     border-radius: 50%;
+    margin: auto;
   }
 
   @media screen and (max-width: 430px){

@@ -66,7 +66,7 @@
   li.schedule-meeting-day {
     display: flex;
     width: 90px;
-    height: 70px;
+    height: 100px;
     padding: 10px 12px;
     justify-content: center;
     align-items: flex-start;
