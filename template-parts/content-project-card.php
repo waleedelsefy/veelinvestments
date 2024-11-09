@@ -3,16 +3,16 @@
     <div class="ProjectCardCta">
       <?php get_template_part('template-parts/global/img-cta'); ?>
     </div>
-    <div class="veelPrice">
-      <p class="realPrice">
-        <?php
-        $project_details = get_post_meta(get_the_ID(), 'project_details', true);
-        if (isset($project_details['project_price'])) {
-          echo esc_html($project_details['project_price']) . ' ' . __('EGP', 'veelinvestments');
-        }
-        ?>
-      </p>
-    </div>
+    <?php
+    $project_details = get_post_meta(get_the_ID(), 'project_details', true);
+    if (!empty($project_details['project_price'])): // تحقق من وجود قيمة فعلية
+      ?>
+      <div class="veelPrice">
+        <p class="realPrice">
+          <?php echo esc_html($project_details['project_price']) . ' ' . __('EGP', 'veelinvestments'); ?>
+        </p>
+      </div>
+    <?php endif; ?>
   </div>
   <div class="ProjectCardContent">
     <a class="ProjectCardTitle" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
