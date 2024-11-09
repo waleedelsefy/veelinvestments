@@ -39,16 +39,14 @@
   flex-shrink: 0;
 }
 .veelBlogHeader {
+  color: #000;
   display: flex;
   flex-direction: column;
-  color: #000;
-  gap: 28px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 100% */
-  letter-spacing: 0.5px;
+  gap: 2px;
   height: 150px;
-  margin: 0 0 29px 0;
+  line-height: 24px;
 }
 
 .veelPostCardImg {

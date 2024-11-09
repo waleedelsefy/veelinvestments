@@ -55,12 +55,15 @@
 
       // Check if there are related posts
       if ($relatedPosts && $relatedPosts->have_posts()) :
-        while ($relatedPosts->have_posts()) : $relatedPosts->the_post();
-          get_template_part('template-parts/content', 'related-card');
+        while ($relatedPosts->have_posts()) : $relatedPosts->the_post(); ?>
+          <div class="related-card-maxi">
+            <?php get_template_part('template-parts/content', 'related-card'); ?>
+          </div>
+        <?php
         endwhile;
         wp_reset_postdata();
       else :
-        echo '<p>' . __('No related projects to display.', 'veelinvestments') . $post_id . '</p>';
+        echo '<p>' . __('No related projects to display.', 'veelinvestments') . '</p>';
       endif;
       ?>
 

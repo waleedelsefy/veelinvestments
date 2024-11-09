@@ -120,7 +120,7 @@ if ($city_terms && !is_wp_error($city_terms)) {
     min-height: 89px;
     background: #D9D9D9;
     border-radius: 50%;
-    margin: auto;
+    margin: 0;
   }
 
   @media screen and (max-width: 430px){
