@@ -238,7 +238,8 @@ html, body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 139px;
+  width: fit-content;
+  padding-inline:12px ;
   height: 40px;
   border: 2px solid var(--primary--color);
   border-radius: 20px;
