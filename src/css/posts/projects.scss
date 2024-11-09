@@ -7,9 +7,10 @@
   height: auto; /* Ensure no fixed height restricts sticky behavior */
 }
 .post-thumbnail-img {
-  width: 60%;
+  width: 80%;
   height: auto;
   margin: auto;
+  border-radius: 15px;
 }
 .post-thumbnail {
   display: flex;
@@ -60,6 +61,7 @@
     width: 100%;
     height: auto;
     margin: auto;
+    border-radius: 15px;
   }
   .flex-row {
     flex-direction: column;

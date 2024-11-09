@@ -25,6 +25,6 @@
   </div>
   <div class="mostReadSocialMedia">
     <p><?php _e('Follow us on', 'veelinvestments'); ?></p>
-    <?php get_template_part('template-parts/global/social'); ?>
+    <?php get_template_part('template-parts/global/social-big'); ?>
   </div>
 </div>
