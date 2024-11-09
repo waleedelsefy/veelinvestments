@@ -61,7 +61,7 @@ if (!empty($term_description) || !empty($city_image)) :
 
   .image-mask img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
   }
 </style>
