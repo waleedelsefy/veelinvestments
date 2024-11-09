@@ -65,7 +65,7 @@ justify-content: space-around;
 
 @media screen and (max-width: 1024px){
 
-  .veelMobilenavbar{
+  .veelMobilenavbar {
     display: none;
   }
   .Mobile-navBarList{
@@ -137,16 +137,22 @@ justify-content: space-around;
     padding: 5px 12px;
   }
 .veelMobilenavbar {
-  background: rgba(35, 31, 32, 0.95);
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
-  flex-direction: column;
-  height: 900px;
-  justify-content: center;
   align-content: center;
-  gap: 50px;
-  display: none;
+  background: rgba(35, 31, 32, .95);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+  height: 100vh;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
-
+  .veelMobilenavbarhead {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+  }
 .veelMobileLogo{
   display: flex;
   gap: 30px;

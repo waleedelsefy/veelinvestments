@@ -40,7 +40,6 @@
   padding: 0;
 
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 350px;
   box-sizing: border-box; /* Set to border-box */
@@ -557,7 +556,7 @@ select#fav-time {
     margin: auto auto 30px;
     max-width: 100%;
     padding: 0;
-    width: 100% !important;
+    width: 98% !important;
   }
   .sidebar {
     position: relative;

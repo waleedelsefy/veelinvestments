@@ -1,15 +1,13 @@
-/* تطبيق box-sizing لجميع العناصر لضمان احتساب الحشو والحدود ضمن العرض */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* قسم المدينة العلوية */
 .topCitySection {
   display: flex;
   align-content: center;
   justify-content: center;
   background-color: var(--fourth--color);
-  height: 511px;
+  height: auto;
   max-width: 100%;
   overflow: auto;
   padding: 45px 0 74px 37px;
@@ -308,7 +306,7 @@
     align-content: center;
     justify-content: center;
     background-color: var(--fourth--color);
-    height: 511px;
+    height: auto;
     margin: 31px auto;
     max-width: 100%;
     overflow: auto;

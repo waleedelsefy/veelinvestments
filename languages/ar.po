@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Veel Investments\n"
-"POT-Creation-Date: 2024-10-21 09:07+0300\n"
-"PO-Revision-Date: 2024-10-21 10:27+0300\n"
+"POT-Creation-Date: 2024-11-09 18:35+0200\n"
+"PO-Revision-Date: 2024-11-09 18:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -47,8 +47,7 @@ msgid "Contacts Options"
 msgstr "إعدادات الاتصال"
 
 #: admin/int/theme_contacts_section.php:6 template-parts/help-form.php:29
-#: template-parts/projects/schedule-meeting.php:14
-#: template-parts/projects/schedule-meeting.php:15
+#: template-parts/projects/schedule-meeting.php:17
 msgid "Phone Number"
 msgstr "رقم  الموبيل"
 
@@ -452,6 +451,18 @@ msgstr "المشاريع"
 msgid "Units"
 msgstr "الوحدات"
 
+#: inc/posts/breadcrumb.php:95 template-parts/home-page/blog.php:5
+msgid "Blog"
+msgstr "المدونة"
+
+#: inc/posts/enqueue-copy-url-script.php:17
+msgid "Link copied to clipboard!"
+msgstr "تم نسخ الرابط إلى الحافظة!"
+
+#: inc/posts/enqueue-copy-url-script.php:18
+msgid "Error copying the link."
+msgstr "حدث خطأ أثناء نسخ الرابط."
+
 #: inc/posts/finish-type.php:4 inc/posts/finish-type.php:12
 msgid "Finish Types"
 msgstr "نوع التشطيب"
@@ -514,7 +525,7 @@ msgstr "اندية اجتماعية"
 
 #: inc/posts/render-project-facilities-metabox.php:22
 #: template-parts/projects/project-facilities.php:10
-#: template-parts/projects/schedule-meeting.php:5
+#: template-parts/projects/schedule-meeting.php:9
 msgid "Schools"
 msgstr "مدارس"
 
@@ -803,7 +814,7 @@ msgstr "اسم غير معلوم"
 msgid "Brochure"
 msgstr "البرشور"
 
-#: inc/short-cods.php:52 template-parts/projects/price-container.php:17
+#: inc/short-cods.php:52 template-parts/projects/price-container.php:29
 msgid "Call Us"
 msgstr "اتصل بنا"
 
@@ -1111,13 +1122,27 @@ msgstr "تذييل #4"
 msgid "Sidebar Pages"
 msgstr "سايدبار الصفحات"
 
-#: single-templates/single-projects.php:28
+#: single-templates/single-projects-gallery.php:34
+#: single-templates/single-projects.php:41
 msgid "Additional Information"
 msgstr "معلومات اخري"
 
+#: template-parts/blog-content-page/blog-content-page-related-news.php:2
+msgid "Releted News"
+msgstr "أخبار متعلقة"
+
+#: template-parts/blog-content-page/blog-content-page-related-news.php:24
+#: template-parts/home-page/blog.php:45
+msgid "No posts found."
+msgstr "لم يتم العثور على أي مشاركات."
+
+#: template-parts/blog-content-page/blog-image-and-content.php:70
+msgid "Copy the article link"
+msgstr "نسخ الرابط للمقال"
+
 #: template-parts/content-project-card.php:11
 #: template-parts/content-related-card.php:73
-#: template-parts/projects/price-container.php:9
+#: template-parts/projects/price-container.php:21
 #: template-parts/projects/project-details.php:50
 msgid "EGP"
 msgstr "ج.م"
@@ -1165,13 +1190,25 @@ msgstr "اشترك"
 msgid "I would like to inquire about %s coming from %s"
 msgstr "أود الاستفسار عن %s القادمة من %s"
 
-#: template-parts/global/footer.php:39
+#: template-parts/global/footer.php:38
 msgid "Quick Links"
 msgstr "روابط سريعة"
 
-#: template-parts/global/footer.php:60
+#: template-parts/global/footer.php:59
 msgid "Contact Us"
 msgstr "تواصل معنا"
+
+#: template-parts/global/most-read.php:3
+msgid "Most Read"
+msgstr "الأكثر قراءة"
+
+#: template-parts/global/most-read.php:21
+msgid "No posts to display."
+msgstr "لا توجد مشاركات لعرضها."
+
+#: template-parts/global/most-read.php:27
+msgid "Follow us on"
+msgstr "تابعونا على"
 
 #: template-parts/help-form.php:3
 msgid "Contact Form Image"
@@ -1198,10 +1235,6 @@ msgstr "الموقع المفضل"
 msgid "Your Message"
 msgstr "رسالتك"
 
-#: template-parts/home-page/blog.php:5
-msgid "Blog"
-msgstr "المدونة"
-
 #: template-parts/home-page/blog.php:7 template-parts/home-page/blog.php:18
 #: template-parts/home-page/developers-section.php:15
 #: template-parts/home-page/developers-section.php:24
@@ -1215,10 +1248,6 @@ msgid ""
 "and administrative projects."
 msgstr ""
 "آخر الأخبار العقارية في جميع مشاريع شركائنا السكنية والتجارية والإدارية."
-
-#: template-parts/home-page/blog.php:45
-msgid "No posts found."
-msgstr "لم يتم العثور على أي مشاركات."
 
 #: template-parts/home-page/hero.php:4
 msgid "Find Your Home"
@@ -1347,16 +1376,16 @@ msgstr "5 سنوات"
 msgid "3 years"
 msgstr "3 سنوات"
 
-#: template-parts/projects/price-container.php:7
+#: template-parts/projects/price-container.php:19
 #: template-parts/projects/project-details.php:46
 msgid "Starting Price"
 msgstr "الأسعار تبدأ من"
 
-#: template-parts/projects/price-container.php:24
+#: template-parts/projects/price-container.php:36
 msgid "WhatsApp"
 msgstr "واتساب"
 
-#: template-parts/projects/price-container.php:31
+#: template-parts/projects/price-container.php:43
 msgid "Zoom"
 msgstr "زووم"
 
@@ -1401,95 +1430,94 @@ msgstr "المشاريع ذات الصلة"
 msgid "No related projects to display."
 msgstr "لا توجد مشاريع ذات صلة لعرضها."
 
-#: template-parts/projects/schedule-meeting.php:4
+#: template-parts/projects/schedule-meeting.php:8
 msgid "Meeting Form"
 msgstr "فورم الميتنج"
 
-#: template-parts/projects/schedule-meeting.php:9
-#: template-parts/projects/schedule-meeting.php:10
+#: template-parts/projects/schedule-meeting.php:13
 msgid "Full Name"
 msgstr "الاسم الكامل"
 
-#: template-parts/projects/schedule-meeting.php:10
+#: template-parts/projects/schedule-meeting.php:13
 msgid "Your Name"
 msgstr "اسمك"
 
-#: template-parts/projects/schedule-meeting.php:15
+#: template-parts/projects/schedule-meeting.php:17
 msgid "Contact Phone"
 msgstr "رقم  الموبيل"
 
-#: template-parts/projects/schedule-meeting.php:18
+#: template-parts/projects/schedule-meeting.php:20
 msgid "Choose the date"
 msgstr "اختر التاريخ"
 
-#: template-parts/projects/schedule-meeting.php:40
+#: template-parts/projects/schedule-meeting.php:42
 msgid "Choose the time"
 msgstr "اختر الوقت"
 
-#: template-parts/projects/schedule-meeting.php:41
+#: template-parts/projects/schedule-meeting.php:43
 msgid "Select time"
 msgstr "حدد الوقت"
 
-#: template-parts/projects/schedule-meeting.php:42
+#: template-parts/projects/schedule-meeting.php:44
 msgid "10:00 AM"
 msgstr "10:00 صباحا"
 
-#: template-parts/projects/schedule-meeting.php:43
+#: template-parts/projects/schedule-meeting.php:45
 msgid "11:00 AM"
 msgstr "11:00 صباحا"
 
-#: template-parts/projects/schedule-meeting.php:44
-#: template-parts/projects/schedule-meeting.php:56
+#: template-parts/projects/schedule-meeting.php:46
+#: template-parts/projects/schedule-meeting.php:58
 msgid "12:00 PM"
 msgstr "12:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:45
+#: template-parts/projects/schedule-meeting.php:47
 msgid "1:00 PM"
 msgstr "1:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:46
+#: template-parts/projects/schedule-meeting.php:48
 msgid "2:00 PM"
 msgstr "2:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:47
+#: template-parts/projects/schedule-meeting.php:49
 msgid "3:00 PM"
 msgstr "3:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:48
+#: template-parts/projects/schedule-meeting.php:50
 msgid "4:00 PM"
 msgstr "4:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:49
+#: template-parts/projects/schedule-meeting.php:51
 msgid "5:00 PM"
 msgstr "5:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:50
+#: template-parts/projects/schedule-meeting.php:52
 msgid "6:00 PM"
 msgstr "6:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:51
+#: template-parts/projects/schedule-meeting.php:53
 msgid "7:00 PM"
 msgstr "7:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:52
+#: template-parts/projects/schedule-meeting.php:54
 msgid "8:00 PM"
 msgstr "8:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:53
+#: template-parts/projects/schedule-meeting.php:55
 msgid "9:00 PM"
 msgstr "9:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:54
+#: template-parts/projects/schedule-meeting.php:56
 msgid "10:00 PM"
 msgstr "10:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:55
+#: template-parts/projects/schedule-meeting.php:57
 msgid "11:00 PM"
 msgstr "11:00 مساءاً"
 
-#: template-parts/projects/schedule-meeting.php:60
-msgid "Appointment Confirmation"
-msgstr "تأكيد الاختيار"
+#: template-parts/projects/schedule-meeting.php:62
+msgid "Send"
+msgstr "ارسال"
 
 #. Theme Name of the plugin/theme
 msgid "Veel Investments"
@@ -1506,6 +1534,13 @@ msgstr "وليد الصيفي"
 #. Author URI of the plugin/theme
 msgid "https://dido.pro/"
 msgstr "https://dido.pro/"
+
+#. Template Name of the plugin/theme
+msgid "single posts"
+msgstr "المقالات"
+
+#~ msgid "Appointment Confirmation"
+#~ msgstr "تأكيد الاختيار"
 
 #~ msgid "%d minute"
 #~ msgid_plural "%d minutes"

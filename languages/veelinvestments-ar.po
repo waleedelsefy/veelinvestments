@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Veel Investments\n"
-"POT-Creation-Date: 2024-10-21 10:27+0300\n"
-"PO-Revision-Date: 2024-10-21 10:27+0300\n"
+"POT-Creation-Date: 2024-11-09 18:35+0200\n"
+"PO-Revision-Date: 2024-11-09 18:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -450,6 +450,18 @@ msgstr "المشاريع"
 #: inc/unit-editor.php:157 inc/unit-editor.php:168
 msgid "Units"
 msgstr "الوحدات"
+
+#: inc/posts/breadcrumb.php:95 template-parts/home-page/blog.php:5
+msgid "Blog"
+msgstr "المدونة"
+
+#: inc/posts/enqueue-copy-url-script.php:17
+msgid "Link copied to clipboard!"
+msgstr "تم نسخ الرابط إلى الحافظة!"
+
+#: inc/posts/enqueue-copy-url-script.php:18
+msgid "Error copying the link."
+msgstr "حدث خطأ أثناء نسخ الرابط."
 
 #: inc/posts/finish-type.php:4 inc/posts/finish-type.php:12
 msgid "Finish Types"
@@ -1110,9 +1122,23 @@ msgstr "تذييل #4"
 msgid "Sidebar Pages"
 msgstr "سايدبار الصفحات"
 
-#: single-templates/single-projects.php:28
+#: single-templates/single-projects-gallery.php:34
+#: single-templates/single-projects.php:41
 msgid "Additional Information"
 msgstr "معلومات اخري"
+
+#: template-parts/blog-content-page/blog-content-page-related-news.php:2
+msgid "Releted News"
+msgstr "أخبار متعلقة"
+
+#: template-parts/blog-content-page/blog-content-page-related-news.php:24
+#: template-parts/home-page/blog.php:45
+msgid "No posts found."
+msgstr "لم يتم العثور على أي مشاركات."
+
+#: template-parts/blog-content-page/blog-image-and-content.php:70
+msgid "Copy the article link"
+msgstr "نسخ الرابط للمقال"
 
 #: template-parts/content-project-card.php:11
 #: template-parts/content-related-card.php:73
@@ -1164,13 +1190,25 @@ msgstr "اشترك"
 msgid "I would like to inquire about %s coming from %s"
 msgstr "أود الاستفسار عن %s القادمة من %s"
 
-#: template-parts/global/footer.php:39
+#: template-parts/global/footer.php:38
 msgid "Quick Links"
 msgstr "روابط سريعة"
 
-#: template-parts/global/footer.php:60
+#: template-parts/global/footer.php:59
 msgid "Contact Us"
 msgstr "تواصل معنا"
+
+#: template-parts/global/most-read.php:3
+msgid "Most Read"
+msgstr "الأكثر قراءة"
+
+#: template-parts/global/most-read.php:21
+msgid "No posts to display."
+msgstr "لا توجد مشاركات لعرضها."
+
+#: template-parts/global/most-read.php:27
+msgid "Follow us on"
+msgstr "تابعونا على"
 
 #: template-parts/help-form.php:3
 msgid "Contact Form Image"
@@ -1197,10 +1235,6 @@ msgstr "الموقع المفضل"
 msgid "Your Message"
 msgstr "رسالتك"
 
-#: template-parts/home-page/blog.php:5
-msgid "Blog"
-msgstr "المدونة"
-
 #: template-parts/home-page/blog.php:7 template-parts/home-page/blog.php:18
 #: template-parts/home-page/developers-section.php:15
 #: template-parts/home-page/developers-section.php:24
@@ -1214,10 +1248,6 @@ msgid ""
 "and administrative projects."
 msgstr ""
 "آخر الأخبار العقارية في جميع مشاريع شركائنا السكنية والتجارية والإدارية."
-
-#: template-parts/home-page/blog.php:45
-msgid "No posts found."
-msgstr "لم يتم العثور على أي مشاركات."
 
 #: template-parts/home-page/hero.php:4
 msgid "Find Your Home"
@@ -1504,6 +1534,10 @@ msgstr "وليد الصيفي"
 #. Author URI of the plugin/theme
 msgid "https://dido.pro/"
 msgstr "https://dido.pro/"
+
+#. Template Name of the plugin/theme
+msgid "single posts"
+msgstr "المقالات"
 
 #~ msgid "Appointment Confirmation"
 #~ msgstr "تأكيد الاختيار"

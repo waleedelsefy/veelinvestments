@@ -11,12 +11,6 @@ if (!empty($developers) && !is_wp_error($developers)) :
     <div class="veelDevelopersHeader">
       <div class="veelDevelopersHeaderTitle">
         <h2><?php _e('Developers', 'veelinvestments'); ?></h2>
-        <div class="veelDevelopersHeaderShowAll mobileOnly">
-          <a class="showAllButton"><?php _e('Show All', 'veelinvestments'); ?></a>
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15" fill="none">
-            <path d="M2.32537 7.39485L7.43045 12.4959C7.80801 12.8735 7.80801 13.484 7.43045 13.8575C7.05289 14.2311 6.44237 14.2311 6.06481 13.8575L0.280927 8.07767C-0.0845857 7.71216 -0.0926156 7.12574 0.252809 6.74818L6.0608 0.928141C6.24958 0.739363 6.49861 0.64698 6.74362 0.64698C6.98863 0.64698 7.23766 0.739363 7.42644 0.928141C7.80399 1.3057 7.80399 1.91622 7.42644 2.28976L2.32537 7.39485Z" fill="black"/>
-          </svg>
-        </div>
       </div>
       <div class="veelDevelopersSubHeading">
         <div class="subHeadingParagraph"></div>

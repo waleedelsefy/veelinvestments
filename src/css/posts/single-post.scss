@@ -1,0 +1,18 @@
+.blogMainImG {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .blogImageAndContentSection img {
+  border-radius: 15px;
+  flex-shrink: 0;
+  height: auto;
+  margin-bottom: 20px;
+  width: 95vw;
+  display: flex;
+  margin-inline: 1vw;
+}
+  .col-4 {
+    display: none;
+  }
+
+}
