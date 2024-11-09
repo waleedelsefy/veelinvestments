@@ -20,9 +20,6 @@
   *, *::before, *::after {
     box-sizing: border-box;
   }
- * {
-   outline: 1px solid red;
-  }
   html {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer و Edge */

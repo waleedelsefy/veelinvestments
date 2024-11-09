@@ -12,12 +12,10 @@ get_header();
 
 <div class="project-body">
   <?php
-  // عرض المعرض أو الصورة المميزة إذا كانت متوفرة
   if (function_exists('veel_display_gallery_or_featured_image')) {
     echo veel_display_gallery_or_featured_image($post_id, 'full');
   }
 
-  // عرض الموقع الرئيسي للمشروع إذا كانت الدالة متوفرة
   if (function_exists('display_project_main_location')) {
     echo display_project_main_location();
   }
