@@ -37,12 +37,14 @@ function register_developer_taxonomy() {
 add_action('init', 'register_developer_taxonomy');
 
 /**
- * Add Logo and Featured Image Fields for Developer
+ * Add Logo, Featured Image, and Body Fields for Developer
  */
 function add_developer_image_fields($term) {
   $term_id = $term->term_id ?? 0;
   $developer_image = get_term_meta($term_id, 'developer_image', true);
   $featured_image = get_term_meta($term_id, 'featured_image', true);
+  $developer_body = get_term_meta($term_id, 'developer_body', true); // استرجاع المحتوى
+
   ?>
   <!-- Logo Field -->
   <tr class="form-field">
@@ -56,6 +58,7 @@ function add_developer_image_fields($term) {
       <p class="description"><?php _e('Upload a logo image for the developer.', 'veelinvestments'); ?></p>
     </td>
   </tr>
+
   <!-- Featured Image Field -->
   <tr class="form-field">
     <th scope="row">
@@ -68,6 +71,24 @@ function add_developer_image_fields($term) {
       <p class="description"><?php _e('Upload a featured image for the developer.', 'veelinvestments'); ?></p>
     </td>
   </tr>
+
+  <!-- Body Content Field -->
+  <tr class="form-field">
+    <th scope="row" valign="top">
+      <label for="developer-body"><?php _e('Developer Body', 'veelinvestments'); ?></label>
+    </th>
+    <td>
+      <?php
+      wp_editor($developer_body, 'developer_body', array(
+        'textarea_name' => 'developer_body',
+        'media_buttons' => true,
+        'textarea_rows' => 10,
+      ));
+      ?>
+      <p class="description"><?php _e('Add detailed content for the developer.', 'veelinvestments'); ?></p>
+    </td>
+  </tr>
+
   <script>
     jQuery(document).ready(function ($) {
       var file_frame;
@@ -117,7 +138,7 @@ add_action('developer_add_form_fields', 'add_developer_image_fields');
 add_action('developer_edit_form_fields', 'add_developer_image_fields');
 
 /**
- * Save Logo and Featured Image Fields
+ * Save Logo, Featured Image, and Body Fields
  */
 function save_developer_image_fields($term_id) {
   if (isset($_POST['developer_image'])) {
@@ -125,6 +146,9 @@ function save_developer_image_fields($term_id) {
   }
   if (isset($_POST['featured_image'])) {
     update_term_meta($term_id, 'featured_image', esc_url_raw($_POST['featured_image']));
+  }
+  if (isset($_POST['developer_body'])) {
+    update_term_meta($term_id, 'developer_body', wp_kses_post($_POST['developer_body']));
   }
 }
 add_action('created_developer', 'save_developer_image_fields');

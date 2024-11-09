@@ -14,9 +14,22 @@ get_template_part('template-parts/developer/about-developer');
 get_template_part('template-parts/developer/new-developer');
 
 get_template_part('template-parts/developer/developer-compunds');
-get_template_part('template-parts/help-form');
 
 ?>
+    <div class="flex-row">
+    <div >
+      <?php
+      get_template_part('template-parts/developer/developer-body');
+
+      ?>
+    </div>
+    <div class="developer-help-form">
+      <?php
+      get_template_part('template-parts/developer/developer-help-form');
+
+      ?>
+    </div>
+    </div>
 </div>
   <?php
 get_template_part('template-parts/home-page/blog');
