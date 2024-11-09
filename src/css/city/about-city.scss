@@ -1,78 +1,110 @@
-.aboutFifthRectangle{
+.aboutCityRectangle{
   width: 6px;
   height: 32px;
   flex-shrink: 0;
   background: #D1B671;
 }
-.aboutFifthHeading{
+.aboutCityHeading{
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 5px;
 }
-.aboutFifthSection{
-  width: 80%;
+.aboutcitySection{
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 70px;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 90%;
+  flex-direction: column;
+  align-items: flex-start;
 
 }
-.aboutFifthContent{
-  width: 765px;
+.aboutCityContent{
+  width: 100%;
 }
-.aboutFifthShowmore{
+.aboutCityShowmore{
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 5px;
 
 }
-.aboutFifthPara{
+.aboutCityPara{
   color: #000;
   text-align: right;
-  font-family: Almarai;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px; /* 168.75% */
-  width: 790px;
-  height: 161px;
+  width: 100%;
+  height: auto;
   flex-shrink: 0;
+}
+.aboutcitySectionBody {
+  display: flex;
+  gap: 40px;
 }
 
 @media screen and (min-width: 1024px){
-  .aboutFifthSection {
-  width: 300px;
+  .aboutcitySection {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   }
 @media screen and (min-width: 768px) and (max-width: 1024px){
-  .aboutFifthSection {
-    width: 300px;
+  .aboutcitySection {
     display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+  .aboutcitySectionBody {
+    display: flex;
+    padding: 47px 0px;
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+  .aboutcitySection {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .aboutCityContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
 }
-@media screen and (min-width: 425px) and (max-width: 768px){
-  .aboutFifthSection {
-    width: 300px;
+@media screen and (max-width: 430px){
+  .aboutcitySectionBody {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 47px 0px;
+    gap: 40px;
+    flex-direction: column-reverse;
   }
-  .aboutFifthContent{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
 }

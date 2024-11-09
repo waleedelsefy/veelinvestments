@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Veel Investments\n"
-"POT-Creation-Date: 2024-11-09 18:35+0200\n"
-"PO-Revision-Date: 2024-11-09 18:38+0200\n"
+"POT-Creation-Date: 2024-11-09 23:32+0200\n"
+"PO-Revision-Date: 2024-11-09 23:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -1123,7 +1123,7 @@ msgid "Sidebar Pages"
 msgstr "سايدبار الصفحات"
 
 #: single-templates/single-projects-gallery.php:34
-#: single-templates/single-projects.php:41
+#: single-templates/single-projects.php:40
 msgid "Additional Information"
 msgstr "معلومات اخري"
 
@@ -1132,13 +1132,51 @@ msgid "Releted News"
 msgstr "أخبار متعلقة"
 
 #: template-parts/blog-content-page/blog-content-page-related-news.php:24
-#: template-parts/home-page/blog.php:45
+#: template-parts/home-page/blog.php:39
 msgid "No posts found."
 msgstr "لم يتم العثور على أي مشاركات."
 
 #: template-parts/blog-content-page/blog-image-and-content.php:70
 msgid "Copy the article link"
 msgstr "نسخ الرابط للمقال"
+
+#: template-parts/city/about-city.php:5
+msgid "About "
+msgstr "عن "
+
+#: template-parts/city/about-city.php:19
+msgid "Show more in the blog"
+msgstr "عرض المزيد في المدونة"
+
+#: template-parts/city/city-compunds.php:6
+msgid "Compounds in "
+msgstr "كمبوندات في "
+
+#: template-parts/city/city-compunds.php:11
+msgid "Explore a selection of premium properties at the best prices"
+msgstr "ابحث في مجموعة من ارقى العقارات بأفضل الأسعار."
+
+#: template-parts/city/city-compunds.php:45
+msgid "No compounds available in this city at the moment."
+msgstr "لا توجد كموبوندات مماثلة متاحة في المدينة."
+
+#: template-parts/city/city-compunds.php:55
+msgid "← Previous"
+msgstr "← السابق"
+
+#: template-parts/city/city-compunds.php:56
+msgid "Next →"
+msgstr "→ التالى"
+
+#: template-parts/city/new-city.php:5
+#: template-parts/home-page/latest-projects.php:6
+msgid "Latest Projects"
+msgstr "أحدث المشاريع"
+
+#: template-parts/city/new-city.php:37
+#: template-parts/home-page/latest-projects.php:55
+msgid "No projects available to display."
+msgstr "لا توجد مشاريع متاحة للعرض."
 
 #: template-parts/content-project-card.php:11
 #: template-parts/content-related-card.php:73
@@ -1235,19 +1273,18 @@ msgstr "الموقع المفضل"
 msgid "Your Message"
 msgstr "رسالتك"
 
-#: template-parts/home-page/blog.php:7 template-parts/home-page/blog.php:18
-#: template-parts/home-page/developers-section.php:15
-#: template-parts/home-page/developers-section.php:24
-#: template-parts/projects/related-projects.php:7
-msgid "Show All"
-msgstr "عرض الكل"
-
-#: template-parts/home-page/blog.php:15
+#: template-parts/home-page/blog.php:9
 msgid ""
 "The latest real estate news in all of our partner’s residential, commercial, "
 "and administrative projects."
 msgstr ""
 "آخر الأخبار العقارية في جميع مشاريع شركائنا السكنية والتجارية والإدارية."
+
+#: template-parts/home-page/blog.php:12
+#: template-parts/home-page/developers-section.php:18
+#: template-parts/projects/related-projects.php:7
+msgid "Show All"
+msgstr "عرض الكل"
 
 #: template-parts/home-page/hero.php:4
 msgid "Find Your Home"
@@ -1313,10 +1350,6 @@ msgstr "اكثر من 5,000,000 EGP"
 msgid "Search"
 msgstr "بحث"
 
-#: template-parts/home-page/latest-projects.php:6
-msgid "Latest Projects"
-msgstr "أحدث المشاريع"
-
 #: template-parts/home-page/latest-projects.php:12
 msgid ""
 "Latest real estate news in all residential, commercial, and administrative "
@@ -1328,10 +1361,6 @@ msgstr "ابحث في مجموعة من ارقى العقارات بأفضل ا�
 #: template-parts/home-page/top-city.php:74
 msgid "View All"
 msgstr "عرض الكل"
-
-#: template-parts/home-page/latest-projects.php:55
-msgid "No projects available to display."
-msgstr "لا توجد مشاريع متاحة للعرض."
 
 #: template-parts/home-page/testimonial.php:17
 msgid "What Our Clients Say"
@@ -1426,7 +1455,7 @@ msgstr "المرافق والخدمات"
 msgid "Related Projects"
 msgstr "المشاريع ذات الصلة"
 
-#: template-parts/projects/related-projects.php:63
+#: template-parts/projects/related-projects.php:66
 msgid "No related projects to display."
 msgstr "لا توجد مشاريع ذات صلة لعرضها."
 
@@ -1538,6 +1567,10 @@ msgstr "https://dido.pro/"
 #. Template Name of the plugin/theme
 msgid "single posts"
 msgstr "المقالات"
+
+#. Template Name of the plugin/theme
+msgid "city"
+msgstr "مدينة"
 
 #~ msgid "Appointment Confirmation"
 #~ msgstr "تأكيد الاختيار"

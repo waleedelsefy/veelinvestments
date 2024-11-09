@@ -1,5 +1,5 @@
 .contactForm {
-  width: 90%;
+  width: fit-content;
   height: fit-content;
   display: flex;
   justify-content: space-between;
@@ -219,7 +219,7 @@ textarea{
 @media screen and (min-width: 430px) and (max-width: 768px){
 
 
-  .contactForm{
+  .contactForm {
     width: fit-content;
     height: auto;
     flex-shrink: 0;
@@ -272,7 +272,7 @@ textarea{
     border-radius: 12px;
     flex-shrink: 0;
     height: 460px;
-    width: 90%;
+    width: fit-content;
     display: flex;
     margin: auto;
     flex-direction: column;
