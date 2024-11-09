@@ -1,6 +1,6 @@
 <div class="contactForm">
   <div class="contactFormImg col-4 desktopOnly tabletOnly">
-    <img src="<?php echo esc_url(get_template_directory_uri() . '/src/img/formimg.png'); ?>" alt="<?php esc_attr_e('Contact Form Image', 'veelinvestments'); ?>">
+    <img src="<?php echo esc_url(get_template_directory_uri() . '/src/img/formimg.svg'); ?>" alt="<?php esc_attr_e('Contact Form Image', 'veelinvestments'); ?>">
   </div>
 
   <div class="flex-column contactFormBox col-8 contactFormGap">

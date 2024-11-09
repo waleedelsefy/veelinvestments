@@ -623,7 +623,7 @@ get_footer();
   }
   @media screen and (min-width: 767px) {
     .col-8 {
-      width: 100% !important;
+      width: 80% !important;
     }
   }
 

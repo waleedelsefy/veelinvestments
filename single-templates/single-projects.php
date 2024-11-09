@@ -2,7 +2,6 @@
 /*
 Template Name: single projects
 Template Post Type: projects
-
 */
 
 $post_id = get_the_ID();
@@ -45,10 +44,12 @@ get_header();
       </div>
       <?php get_template_part('template-parts/projects/author-card'); ?>
     </div>
+    <div class="sidebarDop">
     <div class="sidebarAria col-4">
       <div class="sidebar">
         <?php get_template_part('template-parts/projects/price-container'); ?>
         <?php get_template_part('template-parts/projects/schedule-meeting'); ?>
+      </div>
       </div>
     </div>
   </div>
@@ -61,8 +62,40 @@ get_template_part('template-parts/projects/related-projects');
 get_template_part('template-parts/home-page/blog');
 get_footer();
 ?>
+<script>
+  function checkStickyIssues(element) {
+    const computedStyle = getComputedStyle(element);
 
-<!-- Integrated CSS -->
-<style>
+    if (computedStyle.position !== 'sticky') {
+      console.log("الخاصية position ليست 'sticky'.");
+    }
 
-</style>
+    if (computedStyle.top === 'auto' && computedStyle.bottom === 'auto') {
+      console.log("يجب تحديد قيمة 'top' أو 'bottom' لتفعيل 'sticky'.");
+    }
+
+    let parent = element.parentElement;
+    let isInsideScrollableParent = false;
+
+    while (parent) {
+      const parentStyle = getComputedStyle(parent);
+
+      if (parentStyle.overflow !== 'visible' && parentStyle.position !== 'static') {
+        isInsideScrollableParent = true;
+        console.log("المشكلة: العنصر داخل عنصر ذو 'overflow' مختلف عن 'visible' مما قد يمنع عمل 'sticky'.");
+        break;
+      }
+
+      parent = parent.parentElement;
+    }
+
+    if (!isInsideScrollableParent) {
+      console.log("العنصر غير موجود داخل عنصر يحتوي على 'overflow: hidden' أو 'overflow: auto' أو 'overflow: scroll'.");
+    }
+  }
+
+  // استخدام الدالة على العنصر الذي تريد فحصه
+  const element = document.querySelector('.your-sticky-element-class');
+  checkStickyIssues(element);
+
+</script>

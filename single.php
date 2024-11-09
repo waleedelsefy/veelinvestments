@@ -11,7 +11,7 @@ $post_id = get_the_ID();
     margin: 50px 0;
   }
 </style>
-    <?php get_template_part('template-parts/projects/project-post-header'); ?>
+    <?php  get_template_part('template-parts/projects/project-post-header'); ?>
   <div class="project-body">
     <div class="flex-row">
       <div class="col-8">
@@ -19,12 +19,15 @@ $post_id = get_the_ID();
           get_template_part('template-parts/blog-content-page/blog-image-and-content');
           ?>
       </div>
-     <div class="sidebarAria col-4">
+      <div class="sidebarDop">
+      <div class="sidebarAria">
       <div class="sidebar">
+
         <?php
           get_template_part('template-parts/global/most-read');
         ?>
       </div>
+    </div>
     </div>
     </div>
     <?php
