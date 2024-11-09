@@ -20,7 +20,7 @@ get_template_part('template-parts/developer/developer-header');
     width: 35%;
   }
   .DeveloperTaxonomyHeader {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
