@@ -2,7 +2,7 @@ let mix = require('laravel-mix');
 require('laravel-mix-purgecss');
 
 // Compile SCSS file
-mix.sass('src/css/style.scss', 'dist/css/main.css')
+mix.sass('src/import.scss', 'dist/css/main.css')
 
 
     // Optimize CSS
@@ -25,7 +25,7 @@ mix.sass('src/css/style.scss', 'dist/css/main.css')
     });
 
 // Compile and minify JavaScript
-mix.js('./src/js/app.js', 'dist/js/app.js')
+mix.js('src/js/app.js', 'dist/js/app.js')
     .minify('dist/js/app.js');
 
 // Set public path and versioning

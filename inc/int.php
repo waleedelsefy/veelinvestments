@@ -67,3 +67,6 @@ require_once get_template_directory() . '/inc/ajax-files/get-cities-data-callbac
 
 // Error handling
 require_once get_template_directory() . '/inc/errors.php';
+
+//register_navwalker
+require_once get_template_directory() . '/inc/register_navwalker.php';

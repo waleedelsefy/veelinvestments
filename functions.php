@@ -20,15 +20,7 @@ add_theme_support('html5', array('search-form', 'comment-form', 'comment-list', 
 /**
  * Register navigation menus efficiently
  */
-function register_navwalker() {
-  require_once get_template_directory() . '/inc/class-bootstrap-5-navwalker.php';
-  register_nav_menus(array(
-    'main-menu' => __('Main Menu', 'veelinvestments'),
-    'header_menu' => __('Header Menu', 'veelinvestments'),
-    'footer-menu' => __('Footer Menu', 'veelinvestments')
-  ));
-}
-add_action('after_setup_theme', 'register_navwalker');
+
 
 /**
  * Load theme textdomain for translations
@@ -149,4 +141,15 @@ function ak_init_minify_html() {
   if (!is_admin()) ob_start('ak_minify_html_output');
 }
 add_action('init', 'ak_init_minify_html', 1);
+
+
+
+function global_info()
+{
+  $GLOBALS['global_phone_number_with_country_code'] = '+201001112345';
+  $GLOBALS['global_phone_number'] = '01001112345';
+  $GLOBALS['global_email_account'] = 'Johnesmat62@gmail.com';
+  $GLOBALS['global_location_as_link'] = 'https://maps.app.goo.gl/HikMZLWKXPrJ7vHVA';
+}
+add_action('init', 'global_info');
 

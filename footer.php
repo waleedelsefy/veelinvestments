@@ -1,23 +1,6 @@
-</body>
 <footer>
-
-  <?php get_template_part('template-parts/global/footer'); ?>
-  <?php get_template_part('template-parts/global/copy-rights'); ?>
-  <?php get_template_part('template-parts/global/cta'); ?>
-
-  <div id="target-section">
-  </div>
-  <script>
-    document.querySelector('.arrow span').addEventListener('click', function() {
-      document.getElementById('target-section').scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  </script>
-
-
-<?php
-wp_footer();
-?>
+  <?php get_template_part('template-parts/homePage/footer'); ?>
 </footer>
+<?php wp_footer(); ?>
+</body>
 </html>
