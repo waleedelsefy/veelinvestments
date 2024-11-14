@@ -18,8 +18,7 @@
 
     .modernProjects-MC .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .modernProjects-MC .sign-before-heading {
@@ -43,8 +42,7 @@
         display: flex;
         justify-content: space-between;
         padding: 10px 5px 15px;
-        direction: rtl;
-    }
+            }
 
     .modernProjects-MC .first-first-section-subtitle {
         color: #000;
@@ -192,8 +190,7 @@
 
     .modernProjects-MC .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .modernProjects-MC .sign-before-heading {
@@ -217,8 +214,7 @@
         display: flex;
         justify-content: space-between;
         padding: 10px 5px 15px;
-        direction: rtl;
-    }
+            }
 
     .modernProjects-MC .first-first-section-subtitle {
         color: #000;
@@ -365,8 +361,7 @@
 
     .modernProjects-MC .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .modernProjects-MC .sign-before-heading {
@@ -391,8 +386,7 @@
         display: flex;
         justify-content: space-between;
         padding: 10px 5px 15px;
-        direction: rtl;
-    }
+            }
 
     .modernProjects-MC .first-first-section-subtitle {
         color: #000;
@@ -500,8 +494,7 @@
     .display-all-for-mobile-first-section {
         display: inline-flex;
         align-items: center;
-        direction: rtl;
-        gap: 10px;
+                gap: 10px;
         margin: 0 0 0 35px;
     }
     .display-all-for-mobile-first-section svg {
@@ -546,8 +539,7 @@
 
     .modernProjects-MC .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .modernProjects-MC .sign-before-heading {
@@ -572,8 +564,7 @@
         display: flex;
         justify-content: space-between;
         padding: 10px 5px 15px;
-        direction: rtl;
-    }
+            }
 
     .modernProjects-MC .first-first-section-subtitle {
         color: #000;
@@ -681,8 +672,7 @@
     .display-all-for-mobile-first-section {
         display: inline-flex;
         align-items: center;
-        direction: rtl;
-        gap: 10px;
+                gap: 10px;
         margin: 0 0 0 35px;
     }
     .display-all-for-mobile-first-section svg {

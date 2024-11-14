@@ -2,16 +2,14 @@
 .related-projects-mc{
     width: 85%;
     margin: 40px  auto 0;
-    direction: rtl;
-    display: flex;
+        display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
 .related-projects-mc .first-section-heading{
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
 }
 .related-projects-mc .sign-before-heading{
     background-color: var(--primary-color);

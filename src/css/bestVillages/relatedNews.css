@@ -13,8 +13,7 @@
 }
 .related-news-mc .first-section-heading {
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
 }
 .related-news-mc .sign-before-heading {
     background: var(--primary-color);
@@ -82,8 +81,7 @@
     .related-news-mc{
         display: flex;
         flex-direction: column;
-        direction: rtl;
-    }
+            }
     .related-news-mc .heading {
         font-size: 18px;
     }

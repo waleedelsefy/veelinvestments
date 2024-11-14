@@ -2,8 +2,7 @@
 .about-the-cad-mc{
     width: 85%;
     height: 300px;
-    direction: rtl;
-    margin: 50px auto 0;
+        margin: 50px auto 0;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -20,8 +19,7 @@
 }
 .about-the-cad-mc .first-section-heading{
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
 }
 .about-the-cad-mc .sign-before-heading{
     background-color: var(--primary-color);
@@ -131,8 +129,7 @@
     .about-the-cad-mc{
         width: 85%;
         height: 550px;
-        direction: rtl;
-        margin: 50px auto 0;
+                margin: 50px auto 0;
         display: flex;
         flex-direction: column-reverse;
         gap: 15px;

@@ -3,8 +3,7 @@
     .NB-main-container{
         width: 100%;
         background: var(--secondary-color);
-        direction: rtl;
-        position: fixed;
+                position: fixed;
         z-index: 2;
     }
     .NB-main-container .nav-bar-section{
@@ -136,8 +135,7 @@
     .NB-main-container{
         width: 100%;
         background: var(--secondary-color);
-        direction: rtl;
-        position: fixed;
+                position: fixed;
         z-index: 2;
     }
     .NB-main-container .nav-bar-section{
@@ -215,8 +213,7 @@
     .NB-main-container{
         width: 100%;
         background: var(--secondary-color);
-        direction: rtl;
-        position: fixed;
+                position: fixed;
         z-index: 2;
     }
     .NB-main-container .nav-bar-section{
@@ -393,8 +390,7 @@
     .NB-main-container{
         width: 100%;
         background: var(--secondary-color);
-        direction: rtl;
-        position: fixed;
+                position: fixed;
         z-index: 2;
     }
     .NB-main-container .nav-bar-section{

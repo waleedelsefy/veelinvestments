@@ -6,8 +6,7 @@
         flex-shrink: 0;
         margin: 125px auto 0;
         background-color: var(--secondary-color);
-        direction: rtl;
-    }
+            }
     .footer-MC .top-separator{
         width: 100%;
         height: 12px;
@@ -120,7 +119,7 @@
     .footer-MC .contact-us-menu{
         display: flex;
         flex-direction: column;
-        gap: 8px;   
+        gap: 8px;
     }
     .footer-MC .phone-and-number {
         display: inline-flex;
@@ -307,8 +306,7 @@
         flex-shrink: 0;
         margin: 125px auto 0;
         background-color: var(--secondary-color);
-        direction: rtl;
-    }
+            }
     .footer-MC .top-separator{
         width: 100%;
         height: 12px;
@@ -417,7 +415,7 @@
     .footer-MC .contact-us-menu{
         display: flex;
         flex-direction: column;
-        gap: 8px;   
+        gap: 8px;
     }
     .footer-MC .phone-and-number {
         display: inline-flex;
@@ -611,8 +609,7 @@
         margin: 125px auto 0;
         background-color: var(--secondary-color);
         position: relative;
-        direction: rtl;
-    }
+            }
     .footer-MC .top-separator{
         width: 100%;
         height: 12px;

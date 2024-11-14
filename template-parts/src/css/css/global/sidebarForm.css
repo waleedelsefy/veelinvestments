@@ -6,8 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    direction: rtl;
-    padding: 25px 25px;
+        padding: 25px 25px;
     gap: 10px;
     position: relative;
     border-radius: 12px;

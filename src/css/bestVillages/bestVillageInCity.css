@@ -2,8 +2,7 @@
     width: 85%;
     display: flex;
     margin: 50px auto 0;
-    direction: rtl;
-    gap: 20px;
+        gap: 20px;
     /*background-color: #00DE3E;*/
     position: relative;
 }
@@ -117,7 +116,7 @@
 .best-village-in-city-mc .card{
     display: flex;
     flex-direction: row;
-    align-items:center; 
+    align-items:center;
     gap: 10px;
     width: 50%;
 }

@@ -2,16 +2,14 @@
 .compound-and-dp-mc{
     width: 85%;
     margin: 40px  auto 0;
-    direction: rtl;
-    display: flex;
+        display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
 .compound-and-dp-mc .first-section-heading{
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
 }
 .compound-and-dp-mc .sign-before-heading{
     background-color: var(--primary-color);

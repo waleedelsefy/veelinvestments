@@ -2,8 +2,7 @@
     width: 85%;
     margin: 30px auto 0;
     /*background-color: red;*/
-    direction: rtl;
-    display: flex;
+        display: flex;
     gap: 10px;
     /*grid-template-columns: repeat(2,1fr);*/
 }
@@ -31,8 +30,7 @@
 .details-mc{
     width: 85%;
     margin: 25px auto 0;
-    direction: rtl;
-    display: flex;
+        display: flex;
     justify-content: space-between;
 }
 .details-mc .details{

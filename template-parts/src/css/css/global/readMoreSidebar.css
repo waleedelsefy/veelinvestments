@@ -1,7 +1,6 @@
 
 .read-more-sidebar{
-    direction: rtl;
-    width: 85%;
+        width: 85%;
     height: 464px;
     margin: 0 auto;
     display: flex;
@@ -60,8 +59,7 @@
 }
 .read-more-sidebar .follow-us-and-separator{
     width: 315px;
-    direction: rtl;
-}
+    }
 .read-more-sidebar h4{
     color: #20201E;
     text-align: right;
@@ -94,15 +92,14 @@
 
 @media only screen and (min-width: 425px) and (max-width: 768px) {
     .read-more-sidebar {
-        direction: rtl;
-        width: 85%;
+                width: 85%;
         height: 464px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: absolute;
-    } 
+    }
 
     .read-more-sidebar .reading-more{
         border-radius: 12px;

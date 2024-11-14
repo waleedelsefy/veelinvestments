@@ -21,8 +21,7 @@
 
     .topCities-MC-full .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .topCities-MC-full .sign-before-heading {
@@ -49,8 +48,7 @@
         font-weight: 400;
         line-height: 24px; /* 150% */
         margin: -20px 0 0 0;
-        direction: rtl;
-    }
+            }
 
     /*//*/
     .topCities-MC-full .third-section-location {
@@ -59,8 +57,7 @@
         align-items: center;
         height: 40px;
         gap: 13px;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .third-section-location a{
         text-decoration: none;
 
@@ -258,8 +255,7 @@
     .topCities-MC-full .display-all {
         display: inline-flex;
         justify-content: left;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .display-all svg {
         width: 25px;
         height: 15px;
@@ -303,8 +299,7 @@
 
     .topCities-MC-full .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .topCities-MC-full .sign-before-heading {
@@ -331,8 +326,7 @@
         font-weight: 400;
         line-height: 24px; /* 150% */
         margin: -20px 0 0 0;
-        direction: rtl;
-    }
+            }
 
     /*//*/
     .topCities-MC-full .third-section-location {
@@ -341,8 +335,7 @@
         align-items: center;
         height: 40px;
         gap: 13px;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .third-section-location a{
         text-decoration: none;
 
@@ -540,8 +533,7 @@
     .topCities-MC-full .display-all {
         display: inline-flex;
         justify-content: left;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .display-all svg {
         width: 25px;
         height: 15px;
@@ -586,8 +578,7 @@
 
     .topCities-MC-full .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .topCities-MC-full .sign-before-heading {
@@ -614,8 +605,7 @@
         font-weight: 400;
         line-height: 24px; /* 150% */
         margin: -20px 0 0 0;
-        direction: rtl;
-    }
+            }
 
     /*//*/
     .topCities-MC-full .third-section-location {
@@ -625,8 +615,7 @@
         height: 45px;
         width: 100%;
         gap: 9px;
-        direction: rtl;
-        overflow-x: auto;
+                overflow-x: auto;
         overflow-scrolling: touch;
         scroll-behavior: smooth;
     }
@@ -827,8 +816,7 @@
     .topCities-MC-full .display-all {
         display: inline-flex;
         justify-content: left;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .display-all svg {
         width: 25px;
         height: 15px;
@@ -874,8 +862,7 @@
 
     .topCities-MC-full .first-section-heading {
         display: flex;
-        direction: rtl;
-        align-items: center;
+                align-items: center;
     }
 
     .topCities-MC-full .sign-before-heading {
@@ -902,8 +889,7 @@
         font-weight: 400;
         line-height: 24px; /* 150% */
         margin: -20px 0 0 0;
-        direction: rtl;
-    }
+            }
 
     /*//*/
     .topCities-MC-full .third-section-location {
@@ -913,8 +899,7 @@
         height: 45px;
         width: 100%;
         gap: 9px;
-        direction: rtl;
-        overflow-x: auto;
+                overflow-x: auto;
         overflow-scrolling: touch;
         scroll-behavior: smooth;
     }
@@ -1116,8 +1101,7 @@
     .topCities-MC-full .display-all {
         display: inline-flex;
         justify-content: left;
-        direction: rtl;
-    }
+            }
     .topCities-MC-full .display-all svg {
         width: 25px;
         height: 15px;

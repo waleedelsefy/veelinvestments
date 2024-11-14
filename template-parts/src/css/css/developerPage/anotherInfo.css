@@ -2,15 +2,13 @@
 .another-info-mc{
     width: 85%;
     margin: 0 auto;
-    direction: rtl;
-    display: flex;
+        display: flex;
     gap: 35px;
 }
 
 .another-info-mc .first-section-heading{
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
     padding-top: 10px;
 }
 .another-info-mc .sign-before-heading{
@@ -182,8 +180,7 @@
     .another-info-mc{
         width: 85%;
         margin: 0 auto;
-        direction: rtl;
-        display: flex;
+                display: flex;
         flex-direction: column;
         gap: 35px;
     }

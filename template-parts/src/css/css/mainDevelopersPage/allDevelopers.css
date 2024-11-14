@@ -2,15 +2,13 @@
 .all-developers-md-page{
     width: 85%;
     margin: 50px auto 0;
-    direction: rtl;
-    display: flex;
+        display: flex;
     flex-direction: column;
     gap: 12px;
 }
 .all-developers-md-page .first-section-heading{
     display: flex;
-    direction: rtl;
-    align-items: center;
+        align-items: center;
 }
 .all-developers-md-page .sign-before-heading{
     background-color: var(--primary-color);
