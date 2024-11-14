@@ -1,0 +1,85 @@
+.starting-price{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid #231F20;
+    margin-top: 30px;
+}
+
+.starting-price .starting-price h3{
+    color: #000;
+    text-align: center;
+        font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+}
+.starting-price .phone-whatsapp-zoom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.starting-price .phone{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: var(--primary-color);
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.starting-price .phone h5{
+    color: #FFFFFF;
+    text-align: center;
+        font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.starting-price .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #00DE3E;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.starting-price .whatsapp h5{
+    color: #FFFFFF;
+    text-align: center;
+        font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.starting-price .zoom{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #357CDC;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.starting-price .zoom h5{
+    color: #FFFFFF;
+    text-align: center;
+        font-size: 17.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.46px; /* 114.286% */
+}

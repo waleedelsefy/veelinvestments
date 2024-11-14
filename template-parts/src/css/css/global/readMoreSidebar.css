@@ -1,0 +1,115 @@
+
+.read-more-sidebar{
+    direction: rtl;
+    width: 85%;
+    height: 464px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+
+}
+.read-more-sidebar .reading-more{
+    width: fit-content;
+    height: max-content;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #C5C5C5;
+    background: #F8F5ED;
+    padding: 20px 15px;
+}
+.read-more-sidebar .reading-more h4{
+    color: #20201E;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.read-more-sidebar .reading-more-and-side-line{
+    display: flex;
+}
+
+.read-more-sidebar .sideLine{
+    margin: 35px 0 0 0;
+    width: 3px;
+    height: 303px;
+    background: #C5C5C5;
+}
+.read-more-sidebar .reading-more-content{
+    display: flex;
+    gap: 10px;
+    margin: 0 -7px 0 0;
+    padding: 35px 0 0 25px;
+}
+.read-more-sidebar .reading-more-content p{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    background-color: var(--primary-color);
+}
+.read-more-sidebar .reading-more-content h6{
+    color: #20201E;
+    text-align: justify;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.read-more-sidebar .follow-us-and-separator{
+    width: 315px;
+    direction: rtl;
+}
+.read-more-sidebar h4{
+    color: #20201E;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+}
+.read-more-sidebar .follow-us-separator{
+    width: 170px;
+    height: 1px;
+    border: 1px solid #707070;
+    background: #FFF;
+    margin:18px 0 14px 0 ;
+}
+.read-more-sidebar .follow-us-social-links{
+    display: flex;
+    width: 315px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2650px) {
+    .read-more-sidebar{
+        /*background-color: red;*/
+        width: fit-content;
+        top: auto;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .read-more-sidebar {
+        direction: rtl;
+        width: 85%;
+        height: 464px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    } 
+
+    .read-more-sidebar .reading-more{
+        border-radius: 12px;
+        border: 1px solid #C5C5C5;
+        background: #F8F5ED;
+    }
+    .read-more-sidebar .sideLine {
+        height: 230px;
+    }
+}

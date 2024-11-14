@@ -1,0 +1,112 @@
+.related-news-mc{
+    width: 85%;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+.related-news-mc .right-grid {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.related-news-mc .first-section-heading {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.related-news-mc .sign-before-heading {
+    background: var(--primary-color);
+    width: 8px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.related-news-mc .heading {
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.related-news-mc .all-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.related-news-mc .card {
+    margin: 0 5px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.related-news-mc .card-image {
+    width: 100%;
+    height: 191px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+.related-news-mc .card-heading {
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.023%; /* 21.284px */
+    text-transform: capitalize;
+}
+.related-news-mc .card-subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.023%; /* 18.623px */
+    text-transform: capitalize;
+}
+.left-grid-for-mobile{
+    display: none;
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .related-news-mc{
+        display: flex;
+        flex-direction: column;
+        direction: rtl;
+    }
+    .related-news-mc .heading {
+        font-size: 18px;
+    }
+    .related-news-mc .all-cards {
+        overflow-x: auto;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .related-news-mc .all-cards::-webkit-scrollbar {
+        display: none;
+    }
+    .related-news-mc .card-image {
+        width: 285px;
+        height: 191px;
+    }
+    .left-grid-for-mobile{
+        display: flex;
+        margin: 30px 0 600px 0;
+    }
+    .related-news-mc .right-grid {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

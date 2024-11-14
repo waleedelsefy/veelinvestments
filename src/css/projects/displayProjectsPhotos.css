@@ -1,0 +1,467 @@
+.display-all-photos-mc{
+    width: 85%;
+    margin: 30px auto 0;
+    /*background-color: red;*/
+    direction: rtl;
+    display: flex;
+    gap: 10px;
+    /*grid-template-columns: repeat(2,1fr);*/
+}
+.display-all-photos-mc .right-image{
+    width: 50%;
+}
+.display-all-photos-mc .right-image img{
+    width: 100%;
+    height: 396px;
+    border-radius: 15px;
+}
+.display-all-photos-mc .left-images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 15px;
+    justify-items: end;
+}
+.display-all-photos-mc .left-images img{
+    width: 283px;
+    height: 190px;
+    border-radius: 15px;
+}
+.details-mc{
+    width: 85%;
+    margin: 25px auto 0;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+}
+.details-mc .details{
+    width: 63%;
+    flex-direction: column;
+}
+.details-mc .author{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.details-mc .author h6{
+    color: #20201E;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.details-mc .project-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+.details-mc .right-logo{
+    width: 89px;
+    height: 89px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    z-index: 1;
+}
+.details-mc .left-details-for-project-heading{
+    display: flex;
+    flex-direction: column;
+
+}
+.details-mc .project-heading h3{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+.details-mc .projects-location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.details-mc .project-heading h5{
+    color: #707070;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+}
+.details-mc .phone-and-whatsapp{
+    display: flex;
+    gap: 80px;
+    margin: 30px 90px 0 0;
+}
+.details-mc .phone-under-project-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.details-mc .phone-under-project-heading h6{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+.details-mc .whatsapp-under-project-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.details-mc .whatsapp-under-project-heading h6{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+.details-mc .heading-and-sign{
+    display: flex;
+    align-items:center;
+    margin-top: 30px;
+}
+.details-mc .sign-before-heading{
+    background-color: var(--primary-color);
+    width: 6px;
+    height: 32px;
+}
+.details-mc .heading{
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.details-mc .details-for-the-projects{
+    margin: 20px 0 0 0 ;
+    display: flex;
+}
+.details-mc .right-details,
+.details-mc .left-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.details-mc .project-name,
+.details-mc .flat-space,
+.details-mc .level-of-finished,
+.details-mc .project-site,
+.details-mc .prices,
+.details-mc .type-of-flats{
+    display: flex;
+    gap: 20px;
+}
+.details-mc .project-name h3,
+.details-mc .flat-space h3,
+.details-mc .level-of-finished h3,
+.details-mc .project-site h3,
+.details-mc .prices h3,
+.details-mc .type-of-flats h3{
+    color: #707070;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+}
+.details-mc .project-name h4,
+.details-mc .flat-space h4,
+.details-mc .level-of-finished h4,
+.details-mc .project-site h4,
+.details-mc .prices h4,
+.details-mc .type-of-flats h4{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+}
+.details-mc .type-of-paid{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    align-items: flex-start;
+    gap: 15px;
+}
+.details-mc .type-of-paid h3{
+    color: #707070;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+}
+.details-mc .all-cards{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.details-mc .card{
+    width: 112px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.details-mc .card h3{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 80% */
+}
+.details-mc .card h4{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+}
+.details-mc .all-services-cards{
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 35px;
+    row-gap: 10px;
+}
+.details-mc .service-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    padding: 8px 20px 8px 20px;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #D1B671;
+}
+.details-mc .starting-price-for-mobile{
+    display: none;
+}
+.details-mc .blog-one,
+.details-mc .blog-two{
+    padding: 0 15px 0 0 ;
+}
+.details-mc .blog-one h5,
+.details-mc .blog-two h5{
+    color: #000;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    padding-bottom: 10px;
+}
+.details-mc .blog-one p,
+.details-mc .blog-two p{
+    color: #707070;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.details-mc .blog-one li,
+.details-mc .blog-two li{
+    color: #707070;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.details-mc .blog-list{
+    padding-right: 35px;
+}
+.details-mc .phone-whatsapp-zoom{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    cursor: pointer;
+}
+.details-mc .phone{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: var(--primary-color);
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.details-mc .phone h5{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.details-mc .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #00DE3E;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.details-mc .whatsapp h5{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.details-mc .zoom{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #357CDC;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.details-mc .zoom h5{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 17.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.46px; /* 114.286% */
+}
+
+.details-mc .writer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0 0 0 ;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.details-mc .writer h3{
+    color: #000;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 157.143% */
+}
+.details-mc .writer h6{
+    color: #707070;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .details-mc{
+        flex-direction: column;
+    }
+    .display-all-photos-mc{
+        flex-direction: column;
+    }
+    .display-all-photos-mc .right-image{
+        width: 100%;
+    }
+    .display-all-photos-mc .right-image img{
+        width: 100%;
+        height: 241px;
+    }
+    .display-all-photos-mc .left-images{
+        width: 100%;
+        justify-items: center;
+        gap: 5px;
+    }
+    .display-all-photos-mc .left-images img{
+        width: 98%;
+        height:117px;
+    }
+    .details-mc .details {
+        width: 100%;
+        flex-direction: column;
+    }
+    .details-mc .project-heading h3{
+        font-size: 14px;
+    }
+    .details-mc .phone-and-whatsapp{
+        justify-content: center;
+        margin: 0;
+    }
+    .details-mc .heading{
+        font-size: 18px;
+    }
+    .details-mc .details-for-the-projects{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .details-mc .right-details,
+    .details-mc .left-details{
+        width: 100%;
+    }
+    .details-mc .all-services-cards{
+        grid-template-columns: repeat(2, auto);
+    }
+    .details-mc .blog-two{
+        display: none;
+    }
+    .details-mc .starting-price-for-mobile{
+        display: flex;
+    }
+    .details-mc .writer{
+        align-items: center;
+    }
+    .details-mc .starting-price-for-desktop{
+        display: none;
+    }
+
+}

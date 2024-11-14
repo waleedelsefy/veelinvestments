@@ -1,0 +1,247 @@
+
+.related-projects-mc{
+    width: 85%;
+    margin: 40px  auto 0;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.related-projects-mc .first-section-heading{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.related-projects-mc .sign-before-heading{
+    background-color: var(--primary-color);
+    width: 8px;
+    height: 50px;
+}
+.related-projects-mc .heading{
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.related-projects-mc .second-section-subtitle{
+    color: #000;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.related-projects-mc .compound-dp-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+}
+.related-projects-mc .card-container{
+    display: flex;
+    width: 285px;
+    height: 303px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.related-projects-mc .card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: relative;
+}
+.related-projects-mc .signs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 25px;
+}
+.related-projects-mc .signs .left-sign{
+    border-radius: 17px;
+    background: #FFF;
+    padding: 4px;
+
+}
+.related-projects-mc .back-background-image{
+    width: 267px;
+    height: 177px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+.related-projects-mc .back-background-image img{
+    width: 100%;
+    height: 177px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.related-projects-mc .location-and-contact-info{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.related-projects-mc .location-and-contact-info p{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+.related-projects-mc .contact-info{
+    width: 60px;
+    height: inherit;
+    /*background-color: red;*/
+}
+
+.related-projects-mc .location{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.related-projects-mc .location svg{
+    width: 16px;
+    height: 16px;
+}
+.related-projects-mc .location h5{
+    color: #707070;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.related-projects-mc .price-and-deposit{
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid rgba(106, 150, 210, 0.50);
+
+}
+.related-projects-mc .price{
+    color: #357CDC;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.related-projects-mc .price-as-number{
+    color: #357CDC;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.related-projects-mc .deposit{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 160% */
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .related-projects-mc .card-container {
+        width: 55% !important;
+    }
+    .related-projects-mc .compound-dp-cards{
+        overflow: hidden;
+        overflow-x: auto;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .related-projects-mc .compound-dp-cards::-webkit-scrollbar{
+        display: none;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+    .related-projects-mc .sign-before-heading{
+        background-color: var(--primary-color);
+        width: 6px;
+        height: 32px;
+    }
+    .related-projects-mc .heading{
+        color: #000;
+        font-family: Almarai;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+    .related-projects-mc .compound-dp-cards{
+        overflow: hidden;
+        overflow-x: auto;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .related-projects-mc .compound-dp-cards::-webkit-scrollbar{
+        display: none;
+    }
+    .related-projects-mc .card-container{
+        display: flex;
+        width: 100%;
+        height: 303px;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+    .related-projects-mc .card{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        background: #FFF;
+        position: relative;
+    }
+    .related-projects-mc .back-background-image{
+        width: 100%;
+        height: 177px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+    .related-projects-mc .location-and-contact-info{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        align-items: center;
+    }
+
+    .related-projects-mc .price-and-deposit {
+        gap: 34px;
+    }
+}

@@ -1,0 +1,708 @@
+/*screen size 1024 to 2640*/
+@media only screen and (min-width: 1024px) and (max-width: 2640px) {
+    .modernProjects-MC {
+        margin: 45px 0 0 0;
+        display: flex;
+        height: 360px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto 0;
+        gap: 5px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .modernProjects-MC .sign-before-heading {
+        background: var(--primary-color);
+        width: 8px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .modernProjects-MC .heading {
+        color: #000;
+        font-family: Almarai;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+
+    .modernProjects-MC .first-section-subtitle-and-displayAll {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px 15px;
+        direction: rtl;
+    }
+
+    .modernProjects-MC .first-first-section-subtitle {
+        color: #000;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all {
+        display: inline-flex;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all svg {
+        width: 25px;
+        height: 15px;
+        cursor:pointer;
+    }
+    .modernProjects-MC .text-display {
+        color:#000;
+        font-size: 16px;
+        text-decoration: none;;
+    }
+    .modernProjects-MC .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .modernProjects-MC .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .modernProjects-MC .carousel-modern-projects {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .modernProjects-MC .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .card-image {
+        width: 285px;
+        height: 191px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+    .modernProjects-MC .card-heading {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .card-subtitle {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+    .display-all-for-mobile-first-section{
+        display: none;
+    }
+    .bar-first-section {
+        background-color: var(--primary-color);
+        margin: 66px auto 0;
+        width: 48%;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+
+/*screen size 768 to 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .modernProjects-MC {
+        margin: 45px 0 0 0;
+        display: flex;
+        height: 360px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto 0;
+        gap: 5px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .modernProjects-MC .sign-before-heading {
+        background: var(--primary-color);
+        width: 8px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .modernProjects-MC .heading {
+        color: #000;
+        font-family: Almarai;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+
+    .modernProjects-MC .first-section-subtitle-and-displayAll {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px 15px;
+        direction: rtl;
+    }
+
+    .modernProjects-MC .first-first-section-subtitle {
+        color: #000;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all {
+        display: inline-flex;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all svg {
+        width: 25px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .modernProjects-MC .text-display {
+        color:#000;
+        font-size: 16px;
+        text-decoration: none;;
+    }
+    .modernProjects-MC .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .modernProjects-MC .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .modernProjects-MC .carousel-modern-projects {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .modernProjects-MC .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .card-image {
+        width: 285px;
+        height: 191px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+    .modernProjects-MC .card-heading {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .card-subtitle {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+    .display-all-for-mobile-first-section{
+        display: none;
+    }
+    .bar-first-section {
+        background-color: var(--primary-color);
+        margin: 66px auto 0;
+        width: 48%;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+/*screen size 425 to 768*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .modernProjects-MC {
+        margin: 45px 0 0 0;
+        display: flex;
+        height: 360px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 10px auto 0;
+        gap: 5px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .modernProjects-MC .sign-before-heading {
+        background: var(--primary-color);
+        width: 6px;
+        height: 32px;
+        flex-shrink: 0;
+    }
+
+    .modernProjects-MC .heading {
+        color: #000;
+        font-family: Almarai;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+
+    .modernProjects-MC .first-section-subtitle-and-displayAll {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px 15px;
+        direction: rtl;
+    }
+
+    .modernProjects-MC .first-first-section-subtitle {
+        color: #000;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all {
+        display: none;
+    }
+    .modernProjects-MC .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .modernProjects-MC .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .modernProjects-MC .carousel-modern-projects {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .modernProjects-MC .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .card-image {
+        width: 285px;
+        height: 191px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+    .modernProjects-MC .card-heading {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .card-subtitle {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+    .display-all-for-mobile-first-section {
+        display: inline-flex;
+        align-items: center;
+        direction: rtl;
+        gap: 10px;
+        margin: 0 0 0 35px;
+    }
+    .display-all-for-mobile-first-section svg {
+        width: 7.714px;
+        height: 13.491px;
+        flex-shrink: 0;
+    }
+    .display-all-for-mobile-first-section .text-display-for-mobile {
+        color: #000;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .bar-first-section {
+        background-color: var(--primary-color);
+        margin: 40px auto 0;
+        width: 78%;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+
+/*screen size less than 425*/
+@media screen and (max-width: 425px) {
+    .modernProjects-MC {
+        margin: 45px 0 0 0;
+        display: flex;
+        height: 360px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 10px auto 0;
+        gap: 5px;
+        position: relative;
+    }
+
+    .modernProjects-MC .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .modernProjects-MC .sign-before-heading {
+        background: var(--primary-color);
+        width: 6px;
+        height: 32px;
+        flex-shrink: 0;
+    }
+
+    .modernProjects-MC .heading {
+        color: #000;
+        font-family: Almarai;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+
+    .modernProjects-MC .first-section-subtitle-and-displayAll {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px 15px;
+        direction: rtl;
+    }
+
+    .modernProjects-MC .first-first-section-subtitle {
+        color: #000;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .display-all {
+        display: none;
+    }
+    .modernProjects-MC .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .modernProjects-MC .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .modernProjects-MC .carousel-modern-projects {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .modernProjects-MC .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .modernProjects-MC .card-image {
+        width: 285px;
+        height: 191px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+    .modernProjects-MC .card-heading {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .card-subtitle {
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .modernProjects-MC .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .modernProjects-MC .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .modernProjects-MC .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+    .display-all-for-mobile-first-section {
+        display: inline-flex;
+        align-items: center;
+        direction: rtl;
+        gap: 10px;
+        margin: 0 0 0 35px;
+    }
+    .display-all-for-mobile-first-section svg {
+        width: 7.714px;
+        height: 13.491px;
+        flex-shrink: 0;
+    }
+    .display-all-for-mobile-first-section .text-display-for-mobile {
+        color: #000;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .bar-first-section {
+        background-color: var(--primary-color);
+        margin: 40px auto 0;
+        width: 78%;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}

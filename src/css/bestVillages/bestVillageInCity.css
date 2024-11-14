@@ -1,0 +1,242 @@
+.best-village-in-city-mc{
+    width: 85%;
+    display: flex;
+    margin: 50px auto 0;
+    direction: rtl;
+    gap: 20px;
+    /*background-color: #00DE3E;*/
+    position: relative;
+}
+.best-village-in-city-mc .right-section{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    gap: 20px;
+    /*background-color: red;*/
+}
+.best-village-in-city-mc .heading-and-sign{
+    display: flex;
+    align-items:center;
+}
+.best-village-in-city-mc .sign-before-heading{
+    background-color: var(--primary-color);
+    width: 6px;
+    height: 32px;
+}
+.best-village-in-city-mc .heading{
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.best-village-in-city-mc .right-section img{
+    width: 100%;
+    height: 599px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+.best-village-in-city-mc .author-and-socials{
+    display: flex;
+    justify-content: space-between;
+}
+.best-village-in-city-mc .author{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.best-village-in-city-mc .author h6{
+    color: #20201E;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.best-village-in-city-mc .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.best-village-in-city-mc .right-sign{
+    display: flex;
+    margin: 0 0 0 -22px;
+    z-index: 1;
+}
+.best-village-in-city-mc .left-social{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    border: 0.883px solid #102231;
+    padding: 5px 35px 5px 30px;
+}
+.best-village-in-city-mc .left-social h6{
+    color: #102231;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18.536px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40.602px; /* 219.048% */
+}
+.best-village-in-city-mc .sub-blog{
+    padding: 10px 0;
+}
+.best-village-in-city-mc .sub-blog h5{
+    color: #20201E;
+    text-align: justify;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 175% */
+}
+.best-village-in-city-mc .seperator{
+    width: 90%;
+    height: 1px;
+    background: #000;
+    margin: 10px auto 0;
+}
+.best-village-in-city-mc .news h3{
+    color: #20201E;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.best-village-in-city-mc .two-cards{
+    display: flex;
+    flex-direction: row;
+}
+.best-village-in-city-mc .card{
+    display: flex;
+    flex-direction: row;
+    align-items:center; 
+    gap: 10px;
+    width: 50%;
+}
+.best-village-in-city-mc .card img{
+    width: 134px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+.best-village-in-city-mc .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.best-village-in-city-mc .details h3{
+    color: #000;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166%; /* 26.56px */
+    text-transform: capitalize;
+}
+.best-village-in-city-mc .details h6{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.023%; /* 18.623px */
+    text-transform: capitalize;
+}
+.socials-for-mobile{
+    display: none;
+}
+.best-village-in-city-mc .copy-blog-main{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.best-village-in-city-mc .copy-blog{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 35%;
+    border: 1px solid #102231;
+}
+.best-village-in-city-mc .copy-blog h3{
+    color: #20201E;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .best-village-in-city-mc .left-grid {
+        display: none;
+    }
+
+    .best-village-in-city-mc .right-section {
+        width: 100%;
+    }
+
+    .best-village-in-city-mc .sign-before-heading {
+        width: 8px;
+        font-size: 16px;
+    }
+
+    .best-village-in-city-mc .heading {
+        padding-right: 10px;
+        text-indent: 0;
+    }
+
+    .best-village-in-city-mc .right-section img {
+        height: 242px;
+    }
+
+    .best-village-in-city-mc .socials {
+        display: none;
+    }
+
+    .best-village-in-city-mc .sub-blog h5 {
+        font-size: 16px;
+    }
+    .best-village-in-city-mc .seperator{
+        margin: -10px auto 0;
+    }
+    .best-village-in-city-mc .news h3{
+        display: none;
+    }
+    .best-village-in-city-mc .two-cards{
+        flex-direction: column;
+        gap: 15px;
+        margin: -20px 0 10px 0;
+    }
+    .best-village-in-city-mc .card{
+        width: 100%;
+    }
+    .best-village-in-city-mc .card img{
+        width: 110px;
+        height: 73px;
+    }
+    .best-village-in-city-mc .details{
+        gap: 5px;
+    }
+    .best-village-in-city-mc .copy-blog-main{
+        justify-content: center;
+    }
+    .best-village-in-city-mc .copy-blog{
+        width: 60%;
+    }
+    .socials-for-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

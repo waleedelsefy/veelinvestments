@@ -1,0 +1,31 @@
+.social-info-for-cards{
+    position: absolute;
+    display: inline-flex;
+    gap: 5px;
+}
+.social-info-for-cards .phone{
+    display: flex;
+    padding: 3.857px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.643px;
+    border-radius: 8.679px;
+    background: #D1B671;
+}
+.social-info-for-cards .phone svg{
+    width: 19.286px;
+    height: 19.286px;
+}
+.social-info-for-cards .whatsapp{
+    display: flex;
+    padding: 3.857px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.643px;
+    border-radius: 8.679px;
+    background: #00DE3E;
+}
+.social-info-for-cards .whatsapp svg{
+    width: 19.286px;
+    height: 19.286px;
+}

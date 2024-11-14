@@ -1,0 +1,1141 @@
+/*screen size 1024 to 2640*/
+@media only screen and (min-width: 1024px) and (max-width: 2640px) {
+    .topCities-MC-full {
+        margin: 25px 0  0 0;
+        padding: 30px 0 0 0;
+        background-color: #F3ECDC;
+    }
+
+    .topCities-MC-full .second-section-main-container {
+        background-color: #F3ECDC;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 521px;
+        margin: 0 auto;
+        padding: 10px;
+        /*direction: rtl;*/
+        position: relative;
+        gap: 30px;
+    }
+
+    .topCities-MC-full .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .topCities-MC-full .sign-before-heading {
+        background-color: var(--primary-color);
+        width: 8px;
+        height: 50px;
+    }
+
+    .topCities-MC-full .heading {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        text-indent: 10px;
+    }
+
+    /*//*/
+    .topCities-MC-full .second-section-subtitle {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin: -20px 0 0 0;
+        direction: rtl;
+    }
+
+    /*//*/
+    .topCities-MC-full .third-section-location {
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+        height: 40px;
+        gap: 13px;
+        direction: rtl;
+    }
+    .topCities-MC-full .third-section-location a{
+        text-decoration: none;
+
+    }
+
+    .location-1,
+    .location-2,
+    .location-3,
+    .location-4,
+    .location-5{
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        color: var(--primary-color);
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .location-1:hover,
+    .location-2:hover,
+    .location-3:hover,
+    .location-4:hover,
+    .location-5:hover{
+        color: var(--secondary-color)
+    }
+
+    .topCities-MC-full .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .topCities-MC-full .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .topCities-MC-full  .carousel-top-cities {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .topCities-MC-full .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .topCities-MC-full .image {
+        position: relative;
+    }
+
+    .topCities-MC-full .social-info {
+        position: absolute;
+        display: inline-flex;
+        left: 20px;
+        top: 13px;
+        gap: 5px;
+    }
+
+    .topCities-MC-full .social-info iframe {
+        border: none;
+    }
+
+    .topCities-MC-full .meter-price {
+        position: absolute;
+        top: 145px;
+        right: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 109px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+    }
+
+    .topCities-MC-full .meter-price p {
+        width: 38px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+
+    }
+
+    .topCities-MC-full .meter-price span {
+        width: 34px;
+        height: 14.746px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 14.632px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-image {
+        width: 285px;
+        height: 191px;
+        border-radius: 15px;
+    }
+
+    .topCities-MC-full .card-heading {
+        width: 97px;
+        height: 20.645px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-subtitle {
+        width: 146px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .topCities-MC-full .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+
+    .topCities-MC-full .black-separator {
+        background-color: black;
+        width: 177px;
+        height: 1px;
+        position: absolute;
+        top: 490px;
+        left: 250px;
+    }
+
+    .topCities-MC-full .display-all {
+        display: inline-flex;
+        justify-content: left;
+        direction: rtl;
+    }
+    .topCities-MC-full .display-all svg {
+        width: 25px;
+        height: 15px;
+    }
+    .topCities-MC-full .text-display {
+        color: #000;
+        text-align: right;
+                font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .bar-second-section {
+        background-color: var(--primary-color);
+        margin: 25px auto 0;
+        width: 48%;;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+/*screen size 768 to 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .topCities-MC-full {
+        margin: 25px 0  0 0;
+        padding: 30px 0 0 0;
+        background-color: #F3ECDC;
+    }
+
+    .topCities-MC-full .second-section-main-container {
+        background-color: #F3ECDC;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 521px;
+        margin: 0 auto;
+        padding: 10px;
+        /*direction: rtl;*/
+        position: relative;
+        gap: 30px;
+    }
+
+    .topCities-MC-full .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .topCities-MC-full .sign-before-heading {
+        background-color: var(--primary-color);
+        width: 8px;
+        height: 50px;
+    }
+
+    .topCities-MC-full .heading {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        text-indent: 10px;
+    }
+
+    /*//*/
+    .topCities-MC-full .second-section-subtitle {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin: -20px 0 0 0;
+        direction: rtl;
+    }
+
+    /*//*/
+    .topCities-MC-full .third-section-location {
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+        height: 40px;
+        gap: 13px;
+        direction: rtl;
+    }
+    .topCities-MC-full .third-section-location a{
+        text-decoration: none;
+
+    }
+
+    .location-1,
+    .location-2,
+    .location-3,
+    .location-4,
+    .location-5{
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        color: var(--primary-color);
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .location-1:hover,
+    .location-2:hover,
+    .location-3:hover,
+    .location-4:hover,
+    .location-5:hover{
+        color: var(--secondary-color)
+    }
+
+    .topCities-MC-full .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .topCities-MC-full .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .topCities-MC-full .carousel-top-cities {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .topCities-MC-full .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .topCities-MC-full .image {
+        position: relative;
+    }
+
+    .topCities-MC-full .social-info {
+        position: absolute;
+        display: inline-flex;
+        left: 20px;
+        top: 13px;
+        gap: 5px;
+    }
+
+    .topCities-MC-full .social-info iframe {
+        border: none;
+    }
+
+    .topCities-MC-full .meter-price {
+        position: absolute;
+        top: 145px;
+        right: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 109px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+    }
+
+    .topCities-MC-full .meter-price p {
+        width: 38px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+
+    }
+
+    .topCities-MC-full .meter-price span {
+        width: 34px;
+        height: 14.746px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 14.632px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-image {
+        width: 285px;
+        height: 191px;
+        border-radius: 15px;
+    }
+
+    .topCities-MC-full .card-heading {
+        width: 97px;
+        height: 20.645px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-subtitle {
+        width: 146px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .topCities-MC-full .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+
+    .topCities-MC-full .black-separator {
+        background-color: black;
+        width: 177px;
+        height: 1px;
+        position: absolute;
+        top: 500px;
+        left: 250px;
+    }
+
+    .topCities-MC-full .display-all {
+        display: inline-flex;
+        justify-content: left;
+        direction: rtl;
+    }
+    .topCities-MC-full .display-all svg {
+        width: 25px;
+        height: 15px;
+    }
+    .topCities-MC-full .text-display {
+        color: #000;
+        text-align: right;
+                font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .bar-second-section {
+        background-color: var(--primary-color);
+        margin: 25px auto 0;
+        width: 48%;;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+
+/*screen size 425 to 768*/
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .topCities-MC-full {
+        margin: 25px 0  0 0;
+        padding: 30px 0 0 0;
+        background-color: #F3ECDC;
+    }
+
+    .topCities-MC-full .second-section-main-container {
+        background-color: #F3ECDC;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 521px;
+        margin: 0 auto;
+        padding: 10px;
+        /*direction: rtl;*/
+        position: relative;
+        gap: 30px;
+    }
+
+    .topCities-MC-full .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .topCities-MC-full .sign-before-heading {
+        background-color: var(--primary-color);
+        width: 6px;
+        height: 32px;
+    }
+
+    .topCities-MC-full .heading {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        text-indent: 10px;
+    }
+
+    /*//*/
+    .topCities-MC-full .second-section-subtitle {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin: -20px 0 0 0;
+        direction: rtl;
+    }
+
+    /*//*/
+    .topCities-MC-full .third-section-location {
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        width: 100%;
+        gap: 9px;
+        direction: rtl;
+        overflow-x: auto;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .topCities-MC-full .third-section-location::-webkit-scrollbar {
+        display: none;
+    }
+    .location-1,
+    .location-2,
+    .location-3,
+    .location-4,
+    .location-5{
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        color: var(--primary-color);
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        padding: 0 50px 0 ;
+    }
+
+    .location-1:hover,
+    .location-2:hover,
+    .location-3:hover,
+    .location-4:hover,
+    .location-5:hover{
+        color: var(--secondary-color)
+    }
+
+
+    .topCities-MC-full .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .topCities-MC-full .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .topCities-MC-full .carousel-top-cities {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .topCities-MC-full .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .topCities-MC-full .image {
+        position: relative;
+    }
+
+    .topCities-MC-full .social-info {
+        position: absolute;
+        display: inline-flex;
+        left: 20px;
+        top: 13px;
+        gap: 5px;
+    }
+
+    .topCities-MC-full .social-info iframe {
+        border: none;
+    }
+
+    .topCities-MC-full .meter-price {
+        position: absolute;
+        top: 145px;
+        right: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 109px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+    }
+
+    .topCities-MC-full .meter-price p {
+        width: 38px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+
+    }
+
+    .topCities-MC-full .meter-price span {
+        width: 34px;
+        height: 14.746px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 14.632px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-image {
+        width: 285px;
+        height: 191px;
+        border-radius: 15px;
+    }
+
+    .topCities-MC-full .card-heading {
+        width: 97px;
+        height: 20.645px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-subtitle {
+        width: 146px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .topCities-MC-full .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+
+    .topCities-MC-full .black-separator {
+        display: none;
+    }
+
+    .topCities-MC-full .display-all {
+        display: inline-flex;
+        justify-content: left;
+        direction: rtl;
+    }
+    .topCities-MC-full .display-all svg {
+        width: 25px;
+        height: 15px;
+    }
+    .topCities-MC-full .text-display {
+        color: #000;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .bar-second-section {
+        background-color: var(--primary-color);
+        margin: 25px auto 0;
+        width: 48%;;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}
+
+/*screen size less than 425*/
+@media screen and (max-width: 425px) {
+    .topCities-MC-full {
+        margin: 25px 0  0 0;
+        padding: 30px 0 0 0;
+        background-color: #F3ECDC;
+    }
+
+    .topCities-MC-full .second-section-main-container {
+        background-color: #F3ECDC;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 521px;
+        margin: 0 auto;
+        padding: 10px;
+        /*direction: rtl;*/
+        position: relative;
+        gap: 30px;
+    }
+
+    .topCities-MC-full .first-section-heading {
+        display: flex;
+        direction: rtl;
+        align-items: center;
+    }
+
+    .topCities-MC-full .sign-before-heading {
+        background-color: var(--primary-color);
+        width: 6px;
+        height: 32px;
+    }
+
+    .topCities-MC-full .heading {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        text-indent: 10px;
+    }
+
+    /*//*/
+    .topCities-MC-full .second-section-subtitle {
+        color: #000;
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        margin: -20px 0 0 0;
+        direction: rtl;
+    }
+
+    /*//*/
+    .topCities-MC-full .third-section-location {
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        width: 100%;
+        gap: 9px;
+        direction: rtl;
+        overflow-x: auto;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .topCities-MC-full .third-section-location::-webkit-scrollbar {
+        display: none;
+    }
+    .location-1,
+    .location-2,
+    .location-3,
+    .location-4,
+    .location-5{
+        border: 2px solid var(--primary-color);
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        color: var(--primary-color);
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        padding: 0 50px 0 ;
+    }
+
+    .location-1:hover,
+    .location-2:hover,
+    .location-3:hover,
+    .location-4:hover,
+    .location-5:hover{
+        color: var(--secondary-color)
+    }
+
+
+    .topCities-MC-full .carousel-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .topCities-MC-full .carousel-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .topCities-MC-full .carousel-top-cities {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .topCities-MC-full .card {
+        flex: 0 0 300px;
+        margin: 0 5px;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .topCities-MC-full .image {
+        position: relative;
+    }
+
+    .topCities-MC-full .social-info {
+        position: absolute;
+        display: inline-flex;
+        left: 20px;
+        top: 13px;
+        gap: 5px;
+    }
+
+    .topCities-MC-full .social-info iframe {
+        border: none;
+    }
+
+    .topCities-MC-full .meter-price {
+        position: absolute;
+        top: 145px;
+        right: 20px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 109px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+    }
+
+    .topCities-MC-full .meter-price p {
+        width: 38px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+
+    }
+
+    .topCities-MC-full .meter-price span {
+        width: 34px;
+        height: 14.746px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 14.632px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-image {
+        width: 285px;
+        height: 191px;
+        border-radius: 15px;
+    }
+
+    .topCities-MC-full .card-heading {
+        width: 97px;
+        height: 20.645px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133.023%; /* 21.284px */
+        text-transform: capitalize;
+    }
+
+    .topCities-MC-full .card-subtitle {
+        width: 146px;
+        height: 18.679px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.023%; /* 18.623px */
+        text-transform: capitalize;
+    }
+    .topCities-MC-full .nav-button-next {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        right: 0;
+        z-index: 1;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-next:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .nav-button-prev {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transform: translateY(-27%);
+    }
+    .topCities-MC-full .nav-button-prev:hover {
+        background-color: var(--secondary-color);
+    }
+    .topCities-MC-full .card-arrow svg {
+        width: 20px;
+        height: 45px;
+    }
+
+    .topCities-MC-full .black-separator {
+        display: none;
+    }
+
+    .topCities-MC-full .display-all {
+        display: inline-flex;
+        justify-content: left;
+        direction: rtl;
+    }
+    .topCities-MC-full .display-all svg {
+        width: 25px;
+        height: 15px;
+    }
+    .topCities-MC-full .text-display {
+        color: #000;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .bar-second-section {
+        background-color: var(--primary-color);
+        margin: 25px auto 0;
+        width: 48%;;
+        height: 3.932px;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,654 @@
+/* . {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/*screen size 1024 to 2640*/
+@media only screen and (min-width: 1024px) and (max-width: 2640px) {
+    .needHelp-MC {
+        display: flex;
+        position: relative;
+        width: 85%;
+        height: 307px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: var(--secondary-color);
+        margin: 50px auto 80px;
+    }
+
+    .needHelp-MC .right-grid {
+        position: absolute;
+        display: grid;
+        justify-content: end;
+        width: 27%;
+        height: 307px;
+        flex-shrink: 0;
+        border-radius: 12px 12px 12px 22px;
+        right: 0;
+    }
+    .needHelp-MC .grid-left {
+        width: 55%;
+        height: 307px;
+        flex-shrink: 0;
+        direction: rtl;
+    }
+
+    .needHelp-MC .gird-left-heading {
+        padding: 37px 0 0;
+        color: #FFF;
+                font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 0.5px;
+    }
+
+    .needHelp-MC .gird-left-subtitle {
+        padding: 13px 0 26px;
+        color: #FFF;
+                font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+
+    .needHelp-MC .grid-left-form {
+        display: flex;
+        justify-content: flex-start;
+        gap: 2%;
+        position: relative;
+        width: 95%;
+        height: 143px;
+    }
+    .needHelp-MC .right-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50%;
+    }
+    .needHelp-MC .left-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50%;
+    }
+
+    .needHelp-MC .name-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .name {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .location {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--color-dark-blue-300);
+        text-align: right;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .phone {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .phone-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+                font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .message-input{
+        width: -webkit-fill-available;
+        height: 45%;
+    }
+    .needHelp-MC .message {
+        width: -webkit-fill-available;
+        height: 100%;
+        padding: 10px 12px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+    .needHelp-MC .message-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .button-input {
+        position: absolute;
+        top: 93px;
+        display: flex;
+        width: 49%;
+        height: 42px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--primary-color);
+        color: var(--color-white-900, #FFF);
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+
+/*screen size 768 to 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .needHelp-MC {
+        display: flex;
+        position: relative;
+        width: 85%;
+        height: 307px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: var(--secondary-color);
+        margin: 50px auto 80px;
+    }
+
+    .needHelp-MC .right-grid {
+        position: absolute;
+        display: grid;
+        justify-content: end;
+        width: 27%;
+        height: 307px;
+        flex-shrink: 0;
+        border-radius: 12px 12px 12px 22px;
+        right: 0;
+    }
+    .needHelp-MC .grid-left {
+        width: 55%;
+        height: 307px;
+        flex-shrink: 0;
+        direction: rtl;
+    }
+
+    .needHelp-MC .gird-left-heading {
+        padding: 37px 0 0;
+        color: #FFF;
+        font-family: Almarai;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 0.5px;
+    }
+
+    .needHelp-MC .gird-left-subtitle {
+        padding: 13px 0 26px;
+        color: #FFF;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+
+    .needHelp-MC .grid-left-form {
+        display: flex;
+        justify-content: flex-start;
+        gap: 2%;
+        position: relative;
+        width: 95%;
+        height: 143px;
+    }
+    .needHelp-MC .right-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50%;
+    }
+    .needHelp-MC .left-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 50%;
+    }
+
+    .needHelp-MC .name-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .name {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .location {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .phone {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .phone-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .message-input{
+        width: -webkit-fill-available;
+        height: 45%;
+    }
+    .needHelp-MC .message {
+        width: -webkit-fill-available;
+        height: 60px;
+        padding: 10px 12px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+    .needHelp-MC .message-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .button-input {
+        position: absolute;
+        top: 93px;
+        display: flex;
+        width: 49%;
+        height: 42px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--primary-color);
+        color: var(--color-white-900, #FFF);
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .needHelp-MC {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 85%;
+        height: 461px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: var(--secondary-color);
+        margin: 50px auto 80px;
+    }
+
+    .needHelp-MC .right-grid {
+        display: none;
+    }
+    .needHelp-MC .grid-left {
+        width: 95%;
+        height: 100%;
+        flex-shrink: 0;
+        direction: rtl;
+    }
+
+    .needHelp-MC .gird-left-heading {
+        width: 95%;
+        padding: 37px 0 0;
+        color: #FFF;
+        font-family: Almarai;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.5px;
+    }
+
+    .needHelp-MC .gird-left-subtitle {
+        width: 95%;
+        padding: 13px 0 26px;
+        color: #FFF;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+
+    .needHelp-MC .grid-left-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 95%;
+        gap: 8px;
+    }
+    .needHelp-MC .right-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+    .needHelp-MC .left-inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .needHelp-MC .name-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .name {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .location {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .phone {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .phone-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .message-input{
+        width: -webkit-fill-available;
+        height: 45%;
+    }
+    .needHelp-MC .message {
+        width: -webkit-fill-available;
+        height: 90px;
+        padding: 10px 12px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+    .needHelp-MC .message-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .button-input {
+        position: absolute;
+        top: 239px;
+        display: flex;
+        width: 100%;
+        height: 42px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--primary-color);
+        color: var(--color-white-900, #FFF);
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .needHelp-MC {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 85%;
+        height: 461px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        background: var(--secondary-color);
+        margin: 50px auto 80px;
+    }
+
+    .needHelp-MC .right-grid {
+        display: none;
+    }
+    .needHelp-MC .grid-left {
+        width: 95%;
+        height: 100%;
+        flex-shrink: 0;
+        direction: rtl;
+    }
+
+    .needHelp-MC .gird-left-heading {
+        width: 95%;
+        padding: 37px 0 0;
+        color: #FFF;
+        font-family: Almarai;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        letter-spacing: 0.5px;
+    }
+
+    .needHelp-MC .gird-left-subtitle {
+        width: 95%;
+        padding: 13px 0 26px;
+        color: #FFF;
+        text-align: right;
+        font-family: Almarai;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+
+    .needHelp-MC .grid-left-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        width: 95%;
+        gap: 8px;
+    }
+    .needHelp-MC .right-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+    .needHelp-MC .left-inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .needHelp-MC .name-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .name {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .location {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .phone {
+        display: flex;
+        width: -webkit-fill-available;
+        padding: 10px 12px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .needHelp-MC .phone-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .needHelp-MC .message-input{
+        width: -webkit-fill-available;
+        height: 45%;
+    }
+    .needHelp-MC .message {
+        width: -webkit-fill-available;
+        height: 70px;
+        padding: 10px 12px;
+        flex-shrink: 0;
+        text-align: center;
+    }
+
+    .needHelp-MC .message-input input::placeholder {
+        color: var(--color-dark-blue-300);
+        text-align: right;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .needHelp-MC .button-input {
+        position: absolute;
+        top: 239px;
+        display: flex;
+        width: 100%;
+        height: 42px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: var(--primary-color);
+        color: var(--color-white-900, #FFF);
+        text-align: center;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}

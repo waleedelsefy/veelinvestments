@@ -1,0 +1,102 @@
+.sidebar-form-mc{
+    width: 340px;
+    height: 492px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding: 25px 25px;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    background: var(--secondary-color);
+}
+.sidebar-form-mc h4{
+    color: #FFF;
+        font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+}
+.sidebar-form-mc h5{
+    color: #FFF;
+    text-align: right;
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.sidebar-form-mc .form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar-form-mc .name-form,
+.sidebar-form-mc .phone-form,
+.sidebar-form-mc .location{
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 10px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--color-dark-blue-300, #E1E4EA);
+    background: #FFF;
+    color: var(--color-dark-blue-300, #E1E4EA);
+    font-size: 14px;
+}
+.sidebar-form-mc .message-form{
+    display: flex;
+    width: -webkit-fill-available;
+    height: 92px;
+    padding: 10px 12px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 273px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid var(--color-dark-blue-300, #E1E4EA);
+    background: #FFF;
+}
+.sidebar-form-mc .button-input{
+    display: flex;
+    width: 340px;
+    height: 42px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #FFF;
+    text-align: center;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+.sidebar-form-mc .name-form::placeholder,
+.sidebar-form-mc .phone-form::placeholder.
+.sidebar-form-mc .message-form::placeholder{
+    color: var(--color-dark-blue-300, #E1E4EA);
+    text-align: right;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.sidebar-form-mc .form-image{
+    width: 100%;
+    margin: -50px 0 -50px 0;
+    display: flex;
+    justify-content: left;
+}
+.sidebar-form-mc img{
+    width: 187px;
+    height: 186px;
+    flex-shrink: 0;
+}

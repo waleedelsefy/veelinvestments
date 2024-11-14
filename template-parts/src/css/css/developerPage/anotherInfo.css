@@ -1,0 +1,195 @@
+
+.another-info-mc{
+    width: 85%;
+    margin: 0 auto;
+    direction: rtl;
+    display: flex;
+    gap: 35px;
+}
+
+.another-info-mc .first-section-heading{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    padding-top: 10px;
+}
+.another-info-mc .sign-before-heading{
+    background-color: var(--primary-color);
+    width: 6px;
+    height: 32px;
+}
+.another-info-mc .heading{
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.another-info-mc .second-section{
+    padding: 25px 20px 0 0;
+}
+
+.another-info-mc .blog h4{
+    color: #000;
+    font-family: Almarai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    padding-bottom: 10px;
+}
+.another-info-mc .blog p{
+    color: #707070;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.another-info-mc .blog li{
+    color: #707070;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.another-info-mc .blog-list{
+    padding-right: 35px;
+}
+
+.another-info-mc .phone-whatsapp-zoom{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    cursor: pointer;
+}
+.another-info-mc .phone{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.another-info-mc .phone h5{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.another-info-mc .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.another-info-mc .whatsapp h5{
+    color: #00DE3E;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 114.286% */
+}
+.another-info-mc .zoom{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    width: 27%;
+    /* width: 210px; */
+    height: 45px;
+}
+.another-info-mc .zoom h5{
+    color: #357CDC;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 17.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.46px; /* 114.286% */
+}
+
+.another-info-mc .form-contact-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.another-info-mc .form-phone{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    width: 45%;
+    /* width: 187x; */
+    height: 45px;
+}
+.another-info-mc .form-phone h5{
+    color: #000;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+.another-info-mc .form-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:5px;
+    border-radius: 9px;
+    background: #FAFAFA;
+    width: 45%;
+    /* width: 187x; */
+    height: 45px;
+}
+.another-info-mc .form-whatsapp h5{
+    color: #00DE3E;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .another-info-mc{
+        width: 85%;
+        margin: 0 auto;
+        direction: rtl;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .sidebar-need-help-form{
+        display: flex !important;
+        justify-content: center !important;
+    }
+}

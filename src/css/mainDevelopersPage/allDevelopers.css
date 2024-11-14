@@ -1,0 +1,92 @@
+
+.all-developers-md-page{
+    width: 85%;
+    margin: 50px auto 0;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.all-developers-md-page .first-section-heading{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+}
+.all-developers-md-page .sign-before-heading{
+    background-color: var(--primary-color);
+    width: 8px;
+    height: 50px;
+}
+.all-developers-md-page .heading{
+    color: #000;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+    text-indent: 10px;
+}
+.all-developers-md-page .second-section-subtitle{
+    color: #000;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.all-developers-md-page .all-developers{
+    padding: 30px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    row-gap: 30px;
+}
+.all-developers-md-page .card-image {
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #F8F5ED;
+    border-radius: 50%;
+    background-color: white;
+}
+.all-developers-md-page .image {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .all-developers-md-page .sign-before-heading{
+        background-color: var(--primary-color);
+        width: 6px;
+        height: 32px;
+    }
+    .all-developers-md-page .heading{
+        color: #000;
+        font-family: Almarai;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 0.5px;
+        text-indent: 10px;
+    }
+    .all-developers-md-page .second-section-subtitle{
+        color: #000;
+        font-family: Almarai;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .all-developers-md-page .all-developers{
+        padding: 30px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 30px;
+    }
+}

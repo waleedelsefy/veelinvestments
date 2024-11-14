@@ -1,0 +1,136 @@
+
+.sidebar-zoom-form-mc{
+    margin: 40px 0 0 0;
+    height: 492px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    padding: 10px 25px 0;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    background: var(--secondary-color);
+}
+.sidebar-zoom-form-mc h4{
+    color: #FFF;
+    font-family: Almarai;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.5px;
+}
+.sidebar-zoom-form-mc h5{
+    color: #FFF;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.sidebar-zoom-form-mc .form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar-zoom-form-mc .name-zoom-form,
+.sidebar-zoom-form-mc .phone-zoom-form,
+.sidebar-zoom-form-mc .location-zoom-form{
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 10px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid var(--color-dark-blue-300, #E1E4EA);
+    background: #FFF;
+    color: var(--color-dark-blue-300, #E1E4EA);
+    font-size: 14px;
+}
+.sidebar-zoom-form-mc .location-input label{
+    color: #FFF;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.sidebar-zoom-form-mc .select-date {
+    width: 100%; /* Adjust as needed */
+    font-family: Arial, sans-serif;
+}
+.sidebar-zoom-form-mc .select-date label{
+    color: #FFF;
+    text-align: right;
+    font-family: Almarai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.sidebar-zoom-form-mc .day-list {
+    display: flex; /* Arrange items in a row */
+    gap: 10px; /* Space between day items */
+    max-width: 318px; /* Limit the width for scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.sidebar-zoom-form-mc .day-item {
+    padding: 5px 10px;
+    border: 1px solid #f0f0f0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    flex-shrink: 0; /* Prevent items from shrinking */
+    text-align: center;
+    min-width: 100px; /* Width for each day item */
+    cursor: pointer;
+}
+.sidebar-zoom-form-mc .button-input{
+    display: flex;
+    width: 340px;
+    height: 42px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #FFF;
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+.sidebar-zoom-form-mc .name-zoom-form::placeholder,
+.sidebar-zoom-form-mc .phone-zoom-form::placeholder{
+    color: var(--color-dark-blue-300, #E1E4EA);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+.sidebar-zoom-form-mc .form-image{
+    width: 100%;
+    margin: -50px 0 -50px 0;
+    display: flex;
+    justify-content: left;
+}
+.sidebar-zoom-form-mc img{
+    width: 187px;
+    height: 186px;
+    flex-shrink: 0;
+}
