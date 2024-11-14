@@ -2,7 +2,7 @@
 /**
  *
  * Register City Taxonomy
- * @package Didos
+ * @package Dido's Team
  * @version 0.0.1
  *
  */

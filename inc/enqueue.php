@@ -2,7 +2,7 @@
 /**
  * Enqueue styles & scripts
  *
- * @package Didos
+ * @package Dido's Team
  * @version 5.3.4
  */
 defined( 'ABSPATH' ) || exit;

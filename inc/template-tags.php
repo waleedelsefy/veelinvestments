@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Didos
+ * @package Dido's Team
  * @version 0.0.1
  */
 defined( 'ABSPATH' ) || exit;

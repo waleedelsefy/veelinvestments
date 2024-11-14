@@ -2,7 +2,7 @@
 /**
  * Functions which enhance the theme by hooking into WordPress
  *
- * @package Didos
+ * @package Dido's Team
  * @version 0.0.1
  */
 // Exit if accessed directly

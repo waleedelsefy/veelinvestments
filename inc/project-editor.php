@@ -1,7 +1,7 @@
 <?php
 /**
  * Register Projects Post Type
- * @package Didos
+ * @package Dido's Team
  * @version 0.0.1
  */
 

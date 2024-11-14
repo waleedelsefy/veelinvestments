@@ -1,15 +1,19 @@
+<?php
+$theme_settings = wp_cache_get('veel_theme_settings', 'options');
+if ($theme_settings === false) {
+  $theme_settings = get_option('veel_theme_settings');
+  wp_cache_set('veel_theme_settings', $theme_settings, 'options');
+}
+$phone_number = isset($theme_settings['phone_number']) ? esc_attr($theme_settings['phone_number']) : '01040300143';
+$whatsapp_number = isset($theme_settings['whatsapp_number']) ? esc_attr($theme_settings['whatsapp_number']) : '01040300143';
+$whatsapp_message = rawurlencode("اريد الاستفسار عن " . get_the_title() . " قادم من " . get_permalink());
+$whatsapp_link = "https://wa.me/2{$whatsapp_number}?text={$whatsapp_message}";
+?>
 <div class="NB-main-container">
     <div class="nav-bar-section">
         <div class="logo-section">
             <img class="image" src="<?php echo get_template_directory_uri(); ?>/src/image/a48a8904579d1c67e2b3814a171d281c.png">
         </div>
-<!--        <div class="menu-section">-->
-<!--            <a class="menu-1" href="">الرئيسية</a>-->
-<!--            <a class="menu-2" href="../mainDevelopersPage/mainDevelopersPage.php">المطورين</a>-->
-<!--            <a class="menu-3" href="../blogsPage/mainBlogsPage.php">المدونة</a>-->
-<!--            <a class="menu-4" href="">من نحن</a>-->
-<!--            <a class="menu-5" href="">تواصل معنا</a>-->
-<!--        </div>-->
         <nav>
             <?php
             wp_nav_menu(array(
@@ -38,7 +42,7 @@
                     </svg>
                 </div>
                 <div class="phone-number">
-                    <a class="phone" href="tel:<?= esc_attr($GLOBALS['global_phone_number_with_country_code']); ?>"><?= esc_html($GLOBALS['global_phone_number']); ?></a>
+                    <a class="phone" href="tel:<?= esc_attr($phone_number); ?>"><?= esc_html($phone_number); ?></a>
                 </div>
             </div>
         </div>

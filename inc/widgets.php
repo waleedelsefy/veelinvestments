@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  *
- * @package Didos
+ * @package Dido's Team
  * @version 0.0.1
  */
 // Exit if accessed directly

@@ -2,7 +2,7 @@
 /**
  * Theme setup
  *
- * @package Didos
+ * @package Dido's Team
  * @version 5.3.4
  */
 // Exit if accessed directly.

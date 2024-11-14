@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Didos
+ * @package Dido's Team
  */
 /**
  * Jetpack setup function.
