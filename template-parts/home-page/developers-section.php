@@ -30,7 +30,10 @@ if (!empty($developers) && !is_wp_error($developers)) :
           ?>
           <div class="developersImg">
             <a href="<?php echo esc_url(get_term_link($developer)); ?>">
-              <img src="<?php echo esc_url(!empty($developer_image) ? $developer_image : get_template_directory_uri() . '/src/img/default-developer.png'); ?>" alt="<?php echo esc_attr($developer->name); ?>" class="developer-logo">
+              <img
+                src="<?php echo esc_url(!empty($developer_image) ? $developer_image : get_template_directory_uri() . '/src/img/default-developer.webp'); ?>"
+                alt="<?php echo esc_attr(!empty($developer->name) ? $developer->name : __('Default Developer', 'veelinvestments')); ?>"
+                class="developer-logo" />
             </a>
           </div>
         <?php endforeach; ?>
