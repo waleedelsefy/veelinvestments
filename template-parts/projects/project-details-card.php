@@ -14,7 +14,7 @@ if ($city_terms && !is_wp_error($city_terms)) {
     $developer_id = $terms[0]->term_id;
     $developer_img_url = get_term_meta($developer_id, 'developer_image', true);
 
-    $default_img_url = get_template_directory_uri() . '/src/img/default-developer.webp';
+    $default_img_url = get_template_directory_uri() . '/dist/img/default-developer.webp';
     $image_to_display = !empty($developer_img_url) ? $developer_img_url : $default_img_url;
 
     echo '<div class="project-image">';
