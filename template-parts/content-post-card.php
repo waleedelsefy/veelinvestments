@@ -1,7 +1,10 @@
 <div class="ProjectCard">
-  <a  href="<?php echo get_permalink(get_the_ID()); ?>" class="imgProjectCard" style="background-image: url('<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>');">
-
+  <a
+    href="<?php echo get_permalink(get_the_ID()); ?>"
+    class="imgProjectCard"
+    style="background-image: url('<?php echo has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : esc_url(get_template_directory_uri() . '/dist/img/no-img.webp'); ?>');">
   </a>
+
   <div class="ProjectCardContent">
     <a class="ProjectCardTitle" href="<?php echo get_permalink(get_the_ID()); ?>"><?php secondary_title(); ?></a>
     <?php

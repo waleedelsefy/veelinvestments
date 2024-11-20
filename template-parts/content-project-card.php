@@ -1,6 +1,9 @@
 <div class="ProjectCard">
-  <div  href="<?php echo get_permalink(get_the_ID()); ?>" class="imgProjectCard" style="background-image: url('<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>');">
-    <div class="ProjectCardCta">
+  <div
+    class="imgProjectCard"
+    style="background-image: url('<?php echo has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : esc_url(get_template_directory_uri() . '/dist/img/no-img.webp'); ?>');"
+    onclick="window.location.href='<?php echo esc_url(get_permalink(get_the_ID())); ?>'">
+  <div class="ProjectCardCta">
       <?php get_template_part('template-parts/global/img-cta'); ?>
     </div>
     <?php

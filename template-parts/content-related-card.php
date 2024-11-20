@@ -8,7 +8,9 @@ $down_payment = isset($project_details['down_payment']) ? esc_attr($project_deta
 <div class="veel-related-card">
   <div class="veel-related-card-content">
     <div class="veel-related-card-image">
-      <img src="<?php if (has_post_thumbnail()) : echo get_the_post_thumbnail_url(get_the_ID(), 'full'); endif; ?>" alt="Image">
+      <img
+        src="<?php echo has_post_thumbnail() ? esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')) : esc_url(get_template_directory_uri() . '/dist/img/no-img.webp'); ?>"
+        alt="<?php echo esc_attr(get_the_title(get_the_ID())); ?>" />
       <div class="veel-related-card-icon-container">
         <div class="veel-related-card-link-circle">
           <div class="veel-related-card-vector">
