@@ -10,6 +10,7 @@ include_once get_template_directory() . '/inc/int.php';
 include_once get_template_directory() . '/inc/admin/int.php';
 include_once get_template_directory() . '/inc/posts/int.php';
 include_once get_template_directory() . '/inc/schema/int.php';
+include_once get_template_directory() . '/inc/widgets/int.php';
 /**
  * Add theme supports
  */

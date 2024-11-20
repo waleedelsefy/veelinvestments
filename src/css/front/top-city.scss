@@ -1,7 +1,9 @@
+/* Global Styles */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+/* Top City Section */
 .topCitySection {
   display: flex;
   align-content: center;
@@ -31,7 +33,7 @@
   padding: 45px 0 37px;
 }
 
-/* عنوان رأس المدينة */
+/* City Header Title */
 .veelCityHeaderTitle {
   display: flex;
   align-items: center;
@@ -65,7 +67,7 @@
   line-height: 24px;
 }
 
-/* العناوين الفرعية للمدينة */
+/* City Subheadings */
 .veelCitySubHeading {
   display: flex;
   align-items: center;
@@ -85,12 +87,12 @@
   font-weight: 400;
 }
 
-/* قسم الصور */
+/* Images Section */
 .image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   width: 70%;
   height: 350px;
   gap: 20px;
@@ -111,8 +113,11 @@
   margin: 0;
 }
 
-/* المستطيلات */
-.rectangle1, .rectangle2, .rectangle3, .rectangle4 {
+/* Rectangles */
+.rectangle1,
+.rectangle2,
+.rectangle3,
+.rectangle4 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -135,7 +140,7 @@
   background-image: url("src/img/img1.webp"), lightgray;
 }
 
-/* إطار الأزرار */
+/* Button Frame */
 .frame {
   display: inline-flex;
   align-items: center;
@@ -152,7 +157,7 @@
   justify-content: center;
   gap: 10px;
   width: fit-content;
-  padding-inline:12px ;
+  padding-inline: 12px;
   height: 40px;
   border: 2px solid var(--primary--color);
   border-radius: 20px;
@@ -175,7 +180,7 @@
   position: relative;
   width: fit-content;
   white-space: nowrap;
-  color: #d8c18b;
+  color: #D8C18B;
   font-weight: 400;
   font-size: 14px;
   text-align: left;
@@ -196,18 +201,18 @@
   align-items: center;
 }
 
-/* خط */
+/* Line */
 .line {
   background-color: black;
   width: 177px;
   height: 1px;
 }
 
-/* عرض الكل */
+/* Show All */
 .showAll {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 30px;
   width: 100%;
 }
@@ -218,7 +223,7 @@
   gap: 5px;
 }
 
-/* زر الدعوة للعمل */
+/* Call to Action Button */
 .cta {
   position: absolute;
 }
@@ -231,21 +236,21 @@
   top: 5px;
 }
 
-/* معرض صور المدينة */
+/* City Image Gallery */
 .cityImgGallery {
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 15px;
   overflow: auto;
 }
 
-/* مؤشر المدينة */
+/* City Cursors */
 .veelCursorsCity {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   width: 90%;
   height: 1px;
   max-height: 0;
@@ -253,7 +258,8 @@
   position: absolute;
 }
 
-.veelCitybox, .veelCitylc {
+.veelCitybox,
+.veelCitylc {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -262,7 +268,7 @@
   background-color: var(--primary--color);
 }
 
-/* عنوان عرض الكل في المدينة */
+/* City Show All Header */
 .veelCityHeaderShowAll {
   display: flex;
   align-items: center;
@@ -270,27 +276,61 @@
   flex-direction: row;
 }
 
-/* تعديلات الاستجابة */
+/* Responsive Adjustments */
 @media screen and (max-width: 768px) {
+  .topCitySection {
+    align-content: center;
+    background-color: var(--fourth--color);
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: 31px auto;
+    max-width: 100%;
+    overflow: auto;
+    padding: 20px;
+  }
+
+  .topCity {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .veelCitySubHeading {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 0;
+    width: 100%;
+  }
+
   .veelCursorsCity {
+    align-items: flex-start;
+    display: flex;
+    height: 1px;
+    justify-content: space-between;
+    margin: -195px 0 0;
     max-height: 0;
-    width: 92%;
+    position: absolute;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 430px) {
   .topCitySection {
-    padding: 45px 0px 74px 24px;
+    padding: 45px 0 74px 24px;
   }
 
-  .veelCityHeaderTitle, .veelCitySubHeading {
+  .veelCityHeaderTitle,
+  .veelCitySubHeading {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
   }
 
-  .veelCitybox, .veelCitylc {
+  .veelCitybox,
+  .veelCitylc {
     width: 23px;
     height: 63px;
   }
@@ -311,11 +351,11 @@
     margin: 31px auto;
     max-width: 100%;
     overflow: auto;
-    padding: 29px 0 49px 0px;
+    padding: 29px 0 49px 0;
   }
 
   .veelCursorsCity {
     max-height: 0;
-    width: 100%;
+    width: 95%;
   }
 }

@@ -183,7 +183,7 @@
     margin: 0;
   }
   .veelBolgSection {
-    height: 470px;
+    height:auto;
     padding: 26px 0 15px;
   }
   .veelBlogHeaderTitle {
@@ -197,7 +197,6 @@
 }
 @media screen and (max-width: 768px){
   .veelBolgSection {
-    height: 500px;
     padding: 44px 0 31px;
   }
 

@@ -5,7 +5,7 @@
     </div>
     <?php
     $project_details = get_post_meta(get_the_ID(), 'project_details', true);
-    if (!empty($project_details['project_price'])): // تحقق من وجود قيمة فعلية
+    if (!empty($project_details['project_price'])):
       ?>
       <div class="veelPrice">
         <p class="realPrice">

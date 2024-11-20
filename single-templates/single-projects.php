@@ -49,13 +49,8 @@ get_header();
 
       <?php get_template_part('template-parts/projects/author-card'); ?>
     </div>
+    <?php get_sidebar(); ?>
 
-    <div class="sidebarAria col-4">
-      <div class="sidebar">
-        <?php get_template_part('template-parts/projects/price-container'); ?>
-        <?php get_template_part('template-parts/projects/schedule-meeting'); ?>
-      </div>
-    </div>
   </div>
 </div>
 

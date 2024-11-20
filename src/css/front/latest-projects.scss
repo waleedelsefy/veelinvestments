@@ -27,9 +27,6 @@
   line-height: 0px;
 
 }
-.veelLatestProjectsHeader {
-
-}
 
 .veelLatestProjectsHeader {
   display: flex;
@@ -123,26 +120,7 @@
 .CTA{
   width: max-content;
 }
-.rectangle1{
-  background: url("src/img/img1.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
 
-}
-.rectangle2{
-  background: url("src/img/img2.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
-
-}
-.rectangle3{
-  background: url("src/img/im3.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
-
-}
-.rectangle4{
-  background: url("./../../img/img1.webp") no-repeat center center / cover, lightgray;
-  border-radius: 15px;
-
-}
 .latestProjectsCursors {
   align-items: start;
   display: flex;
@@ -247,6 +225,9 @@ width: 50%;
     overflow: auto;
     width: 100%;
   }
+  .veelSearchButton {
+
+  }
 }
 @media screen and (max-width: 375px){
   .veelLatestProjectsHeaderTitle {
@@ -259,10 +240,10 @@ width: 50%;
     justify-content: space-between;
   }
   .latestProjectsCursors {
-    width: 95% !important;
+    width: 90%;
   }
   .latestProjectsSectionright-arrow , .latestProjectsSectionleft-arrow {
-    background: var(--primary--color)99;
+    background: var(--primary--color);
     border: none;
     cursor: pointer;
     flex-shrink: 0;
@@ -274,7 +255,7 @@ width: 50%;
   .veelLatestProjects {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
   }
   .latestProjectsSectionveelLines {
     align-items: center;
@@ -284,10 +265,10 @@ width: 50%;
   }
 
   .latestProjectsCursors{
-    width: 95%;
+    width: 89%;
   }
   .latestProjectsImgGallery{
-    width: 95%;
+    width: 100%;
     display: flex;
     align-content: center;
     justify-content: start;

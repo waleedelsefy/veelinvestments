@@ -7,7 +7,7 @@
   height: auto; /* Ensure no fixed height restricts sticky behavior */
 }
 .post-thumbnail-img {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: auto;
   border-radius: 15px;
@@ -40,16 +40,15 @@
 .sidebarAria .sidebar {
   position: -webkit-sticky; /* For Safari */
   position: sticky;
-  top: 20px; /* Distance from the top when sticky */
-  z-index: 100; /* Ensures sidebar stays above other elements */
-  max-height: calc(100vh - 40px); /* Prevents sidebar from exceeding viewport height */
-  overflow-y: auto; /* Adds scrollbar if content exceeds max-height */
+  top: 20px;
+  z-index: 100;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
   padding: 0;
-
   border-radius: 8px;
   width: 100%;
   max-width: 350px;
-  box-sizing: border-box; /* Set to border-box */
+  box-sizing: border-box;
 }
 
 /* Ensure Parent Containers Do Not Restrict Sticky Behavior */
@@ -58,11 +57,16 @@
   height: auto; /* Ensure no fixed height */
   padding: 0;
 }
-
+aside#sidebar {
+  width: 30%;
+}
 /* Responsive Adjustments */
 
 /* Screens <= 768px */
 @media screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
   .post-thumbnail-img {
     width: 100%;
     height: auto;
@@ -88,11 +92,6 @@
   .veelSocialAndArrow {
     bottom: 4% !important;
   }
-
-  .HeroForm.HeroForm {
-    width: 80%;
-  }
-
   .HeroParagraph {
     color: #fff;
     font-size: 18px;
@@ -112,15 +111,7 @@
     bottom: 3% !important;
   }
 
-  .HeroForm form {
-    width: 90% !important;
-  }
-
-  .HeroForm.HeroForm {
-    width: 95% !important;
-  }
-
-  .heroH1 {
+   .heroH1 {
     font-size: 28px;
     margin-top: 0;
     text-align: center;
@@ -139,14 +130,6 @@
     bottom: 3% !important;
   }
 
-  .HeroForm form {
-    width: 90% !important;
-  }
-
-  .HeroForm.HeroForm {
-    width: 95% !important;
-  }
-
   .heroH1 {
     font-size: 28px;
     margin-top: 0;
@@ -156,6 +139,7 @@
 
 /* Project Body */
 .project-body {
+  position: relative;
   width: 90% !important;
   margin: auto;
   display: block;
@@ -198,6 +182,7 @@
 }
 
 .content-body table {
+  margin: auto;
   display: table;
   border-collapse: separate;
   box-sizing: border-box;
@@ -571,6 +556,8 @@ select#fav-time {
     z-index: 100;
   }
   .project-body {
+    position: relative;
+
     border-radius: 15px;
     display: block;
     margin: auto auto 30px;

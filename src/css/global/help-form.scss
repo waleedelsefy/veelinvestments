@@ -1,3 +1,4 @@
+/* Global Styles */
 .contactForm {
   width: fit-content;
   height: fit-content;
@@ -7,218 +8,188 @@
   margin: auto;
   background: #231f20;
 }
-.contactFormImg ,.contactFormImg img {
+
+.contactFormImg,
+.contactFormImg img {
   width: auto;
   height: 307px;
   flex-shrink: 0;
   border-radius: 12px 12px 12px 22px;
 }
-.vellLogo{
+
+.vellLogo {
   display: none;
 }
-.formHeader{
+
+.formHeader {
   color: white;
 }
-.formContent{
+
+.formContent {
   margin: 10px 30px;
 }
-.formInputs{
+
+.formInputs {
   display: flex;
   gap: 5px;
 }
-#options{
+
+.nameLocPhone,
+.msgSubmit {
   display: flex;
-  width: 333px;
-  padding: 10px 12px;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  border: 1px solid  #E1E4EA;
-  background: #FFF;
+  flex-direction: column;
+  gap: 10px;
 }
-.img img{
-  height: 307px;
-}
-.helpForm input{
+
+input#name,
+input#phone,
+textarea#message,
+select#options,
+.helpForm input {
   display: flex;
   width: 305px;
   padding: 10px 12px;
+  border-radius: 5px;
+  background: #FFF;
+  border: 1px solid var(--Color-Dark-Blue-100, #E1E4EA);
+}
+
+input#name,
+input#phone,
+.helpForm input {
   justify-content: flex-end;
   align-items: center;
   gap: 273px;
-  border-radius: 5px;
-  background: #FFF;
+}
+
+textarea#message {
+  height: 85px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 273px;
+  flex-shrink: 0;
+}
+
+select#options,
+#options {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.helpForm input {
   height: 17px;
 }
-.helpForm button{
-  display: flex;
-  width: 305px;
-  height: 42px;
-  padding: 12px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  background: var(--primary--color);
-  color: white;
 
-}
-
-textarea{
+textarea {
   display: flex;
   width: 280px;
   height: 67px;
   padding: 10px 12px;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 273px;
-  flex-shrink: 0;
   border-radius: 5px;
-}
-.nameLocPhone{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.msgSubmit{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-input#name , input#phone {
-  display: flex;
-  width: 305px;
-  padding: 10px 12px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 273px;
-  border-radius: 5px;
-  border: 1px solid var(--Color-Dark-Blue-100, #E1E4EA);
-  background: #FFF;
-}
-textarea#message {
-  border-radius: 5px;
-  border: 1px solid var(--Color-Dark-Blue-100, #E1E4EA);
-  background: #FFF;
-  display: flex;
-  width: 305px;
-  height: 85px;
-  padding: 10px 12px;
   justify-content: flex-end;
   align-items: flex-start;
   gap: 273px;
   flex-shrink: 0;
 }
-select#options {
-  border-radius: 5px;
-  border: 1px solid var(--Color-Dark-Blue-100, #E1E4EA);
-  background: #FFF;
+
+button.submitButton,
+.helpForm button {
   display: flex;
-  width: 305px;
-  padding: 10px 12px;
-  justify-content: space-between;
-  align-items: center;
-}
-button.submitButton {
-  align-items: center;
-  background: var(--primary--color);
-  border-radius: 5px;
-  display: flex;
-  flex-shrink: 0;
-  gap: 10px;
-  height: 42px;
-  justify-content: center;
-  padding: 12px;
   width: 308px;
+  height: 42px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--primary--color);
   color: #fff;
 }
+
+.img img {
+  height: 307px;
+}
+
 .contactFormGap {
   gap: 8px;
 }
+
 .contactFormBoxInputs {
   margin-inline-start: 0;
 }
+
 .contactFormBox {
   padding: 20px 75px;
 }
-.contactFormHeading {
-  h2 {
-    color: #FFF;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+
+.contactFormHeading h2 {
+  color: #FFF;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.contactFormHeading p {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Media Queries */
+
+/* Large Screens (1028px - 1440px) */
+@media screen and (min-width: 1028px) and (max-width: 1440px) {
+  .nameLocPhone input,
+  input#name,
+  input#phone,
+  textarea#message,
+  select#options,
+  #options {
+    width: 227px;
   }
-  p {
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+
+  textarea,
+  textarea#message {
+    width: 240px;
+  }
+
+  button.submitButton,
+  .msgSubmit button {
+    width: 268px;
   }
 }
-@media screen and (min-width: 1028px) and (max-width: 1440px){
-  .nameLocPhone input{
-  width: 200px;
-}
-  .vellLogo{
-    display: none;
+
+/* Medium Screens (768px - 1027px) */
+@media screen and (min-width: 768px) and (max-width: 1027px) {
+  input#name,
+  input#phone,
+  textarea#message,
+  select#options,
+  #options {
+    width: 225px;
   }
-#options{
-  width: 227px;
-}
-textarea{
-  width: 240px;
-}
-.msgSubmit button{
-  width: 268px;
-}
-}
-@media screen and (min-width: 768px) and (max-width: 1027px){
-  input#name, input#phone, textarea#message {
-    background: #fff;
-    border: 1px solid var(--Color-Dark-Blue-100, #e1e4ea);
-    border-radius: 5px;
-    display: flex;
+
+  input#name,
+  input#phone,
+  textarea#message {
     gap: 258px;
-    justify-content: flex-end;
-    padding: 10px 12px;
-    width: 225px;
   }
-  select#options {
-    align-items: center;
-    background: #fff;
-    border: 1px solid var(--Color-Dark-Blue-100, #e1e4ea);
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 12px;
-    width: 225px;
-  }
+
   button.submitButton {
-    align-items: center;
-    background: var(--primary--color);
-    border-radius: 5px;
-    color: #fff;
-    display: flex;
-    flex-shrink: 0;
-    gap: 10px;
-    height: 42px;
-    justify-content: center;
-    padding: 12px;
     width: 229px;
   }
-  .formContent{
+
+  .formContent {
     display: flex;
     flex-direction: column;
   }
-
-
-
 }
-@media screen and (min-width: 430px) and (max-width: 768px){
 
-
+/* Small Screens (430px - 767px) */
+@media screen and (min-width: 430px) and (max-width: 767px) {
   .contactForm {
     width: fit-content;
     height: auto;
@@ -226,63 +197,79 @@ textarea{
     border-radius: 12px;
   }
 
-  .formInputs{
+  .formInputs {
     display: flex;
     flex-direction: column;
   }
-  .nameLocPhone input {
+
+  .nameLocPhone input,
+  input#name,
+  input#phone,
+  textarea#message {
     width: 279px;
   }
-  #options{
+
+  select#options,
+  #options {
     width: 305px;
   }
-  .contactFormImg.col-4.desktopOnly.tabletOnly {
-   display: none;
-  }
-  .vellLogo{
-    display: flex;
-    justify-content: end;
-  }
+
+  .contactFormImg.col-4.desktopOnly.tabletOnly,
   .contactFormImg {
     display: none;
   }
+
+  .vellLogo {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
-@media screen and (max-width: 430px) {
+
+/* Extra Small Screens (up to 429px) */
+@media screen and (max-width: 429px) {
   form.flex-row.contactFormGap {
     display: flex;
     flex-direction: column !important;
     align-items: center !important;
   }
+
   .contactFormBox {
     margin: auto;
-  }
-  .contactFormBox {
     padding: 0;
   }
-  input#name, input#phone, textarea#message {
+
+  input#name,
+  input#phone,
+  textarea#message {
     width: 242px;
   }
-  select#options {
+
+  select#options,
+  #options {
     width: 241px;
   }
+
   button.submitButton {
     width: 243px;
   }
+
   .contactForm {
-    border-radius: 12px;
-    flex-shrink: 0;
-    height: 460px;
-    width: fit-content;
     display: flex;
-    margin: auto;
     flex-direction: column;
     align-content: center !important;
-  }
-  .contactFormHeading {
-    align-items: center !important;
-    flex-direction: column !important;
-    width: 80%;
-    text-align: center;
+    width: fit-content;
+    height: 460px;
     margin: auto;
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+
+  .contactFormHeading {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
   }
 }

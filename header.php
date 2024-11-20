@@ -17,6 +17,7 @@
 <?php get_template_part('template-parts/global/navbar'); ?>
 </header>
 <style>
+
   *, *::before, *::after {
     box-sizing: border-box;
   }

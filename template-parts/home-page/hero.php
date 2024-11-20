@@ -1,11 +1,7 @@
 <div class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), #000000), url('<?php echo esc_url(get_template_directory_uri() . '/src/img/herobackground.webp'); ?>');">
   <div class="veelContent">
-    <div class="heroH1">
-      <h1><?php _e('Find Your Home', 'veelinvestments'); ?></h1>
-    </div>
-    <div class="HeroParagraph">
-      <p><?php _e('Search through a selection of the finest properties at the best prices.', 'veelinvestments'); ?></p>
-    </div>
+    <h1 class="heroH1"><?php _e('Find Your Home', 'veelinvestments'); ?></h1>
+    <p class="HeroParagraph"><?php _e('Search through a selection of the finest properties at the best prices.', 'veelinvestments'); ?></p>
 
     <div class="HeroForm">
       <form action="<?php echo esc_url(home_url('/')); ?>" method="GET">
@@ -56,7 +52,7 @@
 
   <div class="veelSocialAndArrow">
     <div class="arrow">
-      <span style='font-size:30px;'>&#8595;</span>
+      <span style="font-size: 30px;">&#8595;</span>
     </div>
     <div class="socialHtml">
       <?php get_template_part('template-parts/global/social'); ?>

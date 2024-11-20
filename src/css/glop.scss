@@ -132,7 +132,9 @@
   display: flex;
   justify-content: end;
 }
-
+figure {
+  margin: auto;
+}
 .goldenArrows{
   display: flex;
   justify-content: end;
@@ -224,6 +226,7 @@
 }
 
 @media screen and (min-width: 430px) and (max-width: 768px) {
+
   .testmonialsBox{
     width: 600px;
   }
