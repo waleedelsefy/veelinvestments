@@ -9,29 +9,23 @@ $unit_space = $project_details['unit_space'] ?? '';
 
 $types_name = '';
 $finish_types_name = '';
-$types_link = '';
-$finish_types_link = '';
 
-// Check for types terms
 if ($types_terms && !is_wp_error($types_terms)) {
   $types_name = esc_html($types_terms[0]->name);
-  $types_link = get_term_link($types_terms[0]);
 }
 
-// Check for finish types
 if ($finish_types && !is_wp_error($finish_types)) {
   $finish_types_name = esc_html($finish_types[0]->name);
-  $finish_types_link = get_term_link($finish_types[0]);
 }
 ?>
 
 <div class="veelBlogHeaderTitle">
-  <h2><?php _e('Project details', 'veelinvestments'); ?></h2>
+  <h2><?php _e('Project Details', 'veelinvestments'); ?></h2>
 </div>
 
 <div class="project-details-grid">
   <div class="project-details-grid-item-title"><?php _e('Project Name', 'veelinvestments'); ?></div>
-  <div class="project-details-grid-item-value"><?php echo esc_html(secondary_title(get_the_ID())); ?></div>
+  <div class="project-details-grid-item-value"><?php echo esc_html(get_the_title()); ?></div>
 
   <?php if (!empty($project_location)) : ?>
     <div class="project-details-grid-item-title"><?php _e('Project Location', 'veelinvestments'); ?></div>
@@ -40,7 +34,7 @@ if ($finish_types && !is_wp_error($finish_types)) {
 
   <?php if (!empty($unit_space)) : ?>
     <div class="project-details-grid-item-title"><?php _e('Unit Space', 'veelinvestments'); ?></div>
-    <div class="project-details-grid-item-value"><?php echo esc_html($unit_space) .' ' . __('Meter', 'veelinvestments'); ?></div>
+    <div class="project-details-grid-item-value"><?php echo esc_html($unit_space) . ' ' . __('Meter', 'veelinvestments'); ?></div>
 
     <?php if (!empty($unit_price) && is_numeric($unit_price) && is_numeric($unit_space) && $unit_space > 0) : ?>
       <div class="project-details-grid-item-title"><?php _e('Starting Price', 'veelinvestments'); ?></div>
@@ -58,10 +52,10 @@ if ($finish_types && !is_wp_error($finish_types)) {
   <?php if (!empty($types_name)) : ?>
     <div class="project-details-grid-item-title"><?php _e('Unit Types', 'veelinvestments'); ?></div>
     <div class="project-details-grid-item-value"><?php echo esc_html($types_name); ?></div>
+  <?php endif; ?>
 
-    <?php if (!empty($finish_types_name)) : ?>
-      <div class="project-details-grid-item-title"><?php _e('Finish Type', 'veelinvestments'); ?></div>
-      <div class="project-details-grid-item-value"><?php echo esc_html($finish_types_name); ?></div>
-    <?php endif; ?>
+  <?php if (!empty($finish_types_name)) : ?>
+    <div class="project-details-grid-item-title"><?php _e('Finish Type', 'veelinvestments'); ?></div>
+    <div class="project-details-grid-item-value"><?php echo esc_html($finish_types_name); ?></div>
   <?php endif; ?>
 </div>

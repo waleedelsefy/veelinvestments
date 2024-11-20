@@ -1,46 +1,43 @@
 <?php
-    $project_details = get_post_meta(get_the_ID(), 'project_details', true);
-    if (!empty($project_details)) {
-      $installment_1 = !empty($project_details['installment_1']) ? esc_attr($project_details['installment_1']) : '';
-      $installment_2 = !empty($project_details['installment_2']) ? esc_attr($project_details['installment_2']) : '';
-      $installment_3 = !empty($project_details['installment_3']) ? esc_attr($project_details['installment_3']) : '';
-      if (!empty($installment_1) || !empty($installment_2) || !empty($installment_3)) {
-        if (!empty($installment_1)) { ?>
+$project_details = get_post_meta(get_the_ID(), 'project_details', true);
+
+if (!empty($project_details)) {
+  // جمع بيانات الأقساط
+  $installments = [];
+
+  for ($i = 1; $i <= 3; $i++) {
+    $percent_key = 'installment_' . $i;
+    $years_key = 'installment_' . $i . '_years'; // افتراض وجود السنوات بهذه المفاتيح
+
+    if (!empty($project_details[$percent_key])) {
+      $installments[] = [
+        'percent' => esc_attr($project_details[$percent_key]),
+        'years' => !empty($project_details[$years_key]) ? esc_attr($project_details[$years_key]) : '',
+      ];
+    }
+  }
+
+  if (!empty($installments)) {
+    ?>
     <div class="PaymentSystems">
       <div class="">
         <h3><?php _e('Payment Systems', 'veelinvestments'); ?></h3>
       </div>
       <div class="PaymentSystemsBlocks flex-row">
-      <div class="PaymentSystemsBlock">
-            <div class="installment-percent">
-              <?php echo esc_attr($installment_1) . '% '; ?>
-            </div>
-            <div><?php echo esc_html__('Down Payment', 'veelinvestments'); ?></div>
-            <div><?php echo esc_html__('7 years', 'veelinvestments'); ?></div>
-          </div>
-        <?php }
-
-        if (!empty($installment_2)) { ?>
+        <?php foreach ($installments as $installment) { ?>
           <div class="PaymentSystemsBlock">
             <div class="installment-percent">
-              <?php echo esc_attr($installment_2) . '% '; ?>
+              <?php echo esc_html($installment['percent']) . '% '; ?>
             </div>
             <div><?php echo esc_html__('Down Payment', 'veelinvestments'); ?></div>
-            <div><?php echo esc_html__('5 years', 'veelinvestments'); ?></div>
+            <?php if (!empty($installment['years'])) : ?>
+              <div><?php echo esc_html($installment['years'] . ' ' . __('years', 'veelinvestments')); ?></div>
+            <?php endif; ?>
           </div>
-        <?php }
-        if (!empty($installment_3)) { ?>
-          <div class="PaymentSystemsBlock">
-            <div class="installment-percent">
-              <?php echo esc_attr($installment_3) . '% '; ?>
-            </div>
-            <div><?php echo esc_html__('Down Payment', 'veelinvestments'); ?></div>
-            <div><?php echo esc_html__('3 years', 'veelinvestments'); ?></div>
-          </div>
-
-  </div>
-</div>
-        <?php }
-      }
-    }
+        <?php } ?>
+      </div>
+    </div>
+    <?php
+  }
+}
 ?>
