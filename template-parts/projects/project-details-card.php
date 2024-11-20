@@ -9,17 +9,20 @@ if ($city_terms && !is_wp_error($city_terms)) {
   <?php
   $developer_img_url = '';
   $terms = wp_get_post_terms(get_the_ID(), 'developer');
+
   if (!empty($terms) && !is_wp_error($terms)) {
     $developer_id = $terms[0]->term_id;
     $developer_img_url = get_term_meta($developer_id, 'developer_image', true);
 
-    if ($developer_img_url) {
-      echo '<div class="project-image">';
-      echo '<img src="' . esc_url($developer_img_url) . '" alt="' . esc_attr($terms[0]->name) . '">';
-      echo '</div>';
-    }
+    $default_img_url = get_template_directory_uri() . '/src/img/default-developer.webp';
+    $image_to_display = !empty($developer_img_url) ? $developer_img_url : $default_img_url;
+
+    echo '<div class="project-image">';
+    echo '<img src="' . esc_url($image_to_display) . '" alt="' . esc_attr($terms[0]->name) . '" class="developer-logo">';
+    echo '</div>';
   }
   ?>
+
   <div class="project-header-details-card-info">
     <div class="project-header-details-card-title"><?php echo esc_html(get_the_title()); ?></div>
     <?php if (!empty($location)) : ?>
