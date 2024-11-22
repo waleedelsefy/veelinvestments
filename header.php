@@ -16,17 +16,3 @@
 <header>
 <?php get_template_part('template-parts/global/navbar'); ?>
 </header>
-<style>
-
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  html {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer و Edge */
-  }
-
-  *::-webkit-scrollbar {
-    display: none !important; /* Chrome, Safari and Opera */
-  }
-</style>

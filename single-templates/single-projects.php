@@ -7,12 +7,14 @@ Template Post Type: projects
 $post_id = get_the_ID();
 get_header();
 ?>
+<style>
 
+
+</style>
 <?php get_template_part('template-parts/projects/project-post-header'); ?>
 
 <div class="project-body">
-  <div class="flex-row">
-    <div class="col-8">
+    <div class="project-contains">
       <?php if (has_post_thumbnail($post_id)) : ?>
         <div class="post-thumbnail">
           <?php
@@ -50,8 +52,6 @@ get_header();
       <?php get_template_part('template-parts/projects/author-card'); ?>
     </div>
     <?php get_sidebar(); ?>
-
-  </div>
 </div>
 
 <?php

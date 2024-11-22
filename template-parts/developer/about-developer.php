@@ -56,7 +56,6 @@ if (!empty($term_description) || !empty($city_image)) :
     -webkit-mask-image: url('<?php echo get_template_directory_uri(); ?>/src/img/fiveimgs.webp');
     mask-size: contain;
     -webkit-mask-size: contain;
-    overflow: hidden;
   }
 
   .image-mask img {
