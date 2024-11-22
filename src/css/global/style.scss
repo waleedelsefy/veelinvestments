@@ -138,17 +138,7 @@ html, body {
   justify-content: flex-end;
   margin-inline-end: 15px;
 }
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-html {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer و Edge */
-}
 
-*::-webkit-scrollbar {
-  display: none !important; /* Chrome, Safari and Opera */
-}
 /* صندوق السعر */
 .veelPrice {
   width: fit-content;
