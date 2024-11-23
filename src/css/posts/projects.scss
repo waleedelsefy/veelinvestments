@@ -594,7 +594,14 @@ select#fav-time {
     max-width: 300px;
   }
 }
+@media screen and (max-width: 769px) {
+  .project-contains {
+    width: 98%;
+    margin: auto;
+  }
+}
 @media screen and (min-width: 769px) {
+
   .col-8 {
     width: 80% !important;
     margin-inline-end: 10px;

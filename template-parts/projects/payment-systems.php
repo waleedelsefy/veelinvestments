@@ -2,12 +2,11 @@
 $project_details = get_post_meta(get_the_ID(), 'project_details', true);
 
 if (!empty($project_details)) {
-  // جمع بيانات الأقساط
   $installments = [];
 
   for ($i = 1; $i <= 3; $i++) {
     $percent_key = 'installment_' . $i;
-    $years_key = 'installment_' . $i . '_years'; // افتراض وجود السنوات بهذه المفاتيح
+    $years_key = 'installment_' . $i . '_years';
 
     if (!empty($project_details[$percent_key])) {
       $installments[] = [

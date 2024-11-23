@@ -27,3 +27,4 @@ include_once get_template_directory() . '/inc/posts/post_views_count.php';
 include_once get_template_directory() . '/inc/posts/enqueue-copy-url-script.php';
 include_once get_template_directory() . '/inc/posts/display_default_thumbnail.php';
 include_once get_template_directory() . '/inc/posts/custom_rewrite_rules.php';
+include_once get_template_directory() . '/inc/posts/add_3d_model_meta_box.php';

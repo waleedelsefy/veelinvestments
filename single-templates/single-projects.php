@@ -41,6 +41,9 @@ get_header();
       <div>
         <?php get_template_part('template-parts/projects/project-facilities'); ?>
       </div>
+      <div>
+        <?php get_template_part('template-parts/projects/project-3d-model'); ?>
+      </div>
 
       <div class="veelBlogHeaderTitle">
         <h2><?php _e('Additional Information', 'veelinvestments'); ?></h2>

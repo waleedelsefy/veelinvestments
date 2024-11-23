@@ -83,13 +83,14 @@ if ($city_terms && !is_wp_error($city_terms)) {
   /* تحسينات للأجهزة الصغيرة */
   @media screen and (max-width: 430px) {
     .project-header-details-card {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
+      display: flex;
     }
 
     .project-header-details-card-title {
       font-size: 18px;
-      text-align: center;
+      text-align: start;
     }
 
     .project-image {
