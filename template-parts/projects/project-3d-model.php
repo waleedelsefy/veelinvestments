@@ -20,8 +20,8 @@ if ($model_3d_iframe) {
   <style>
     .project-3d-model {
       cursor: pointer;
-      width: 90%;
-      height: auto;
+      width: 100%;
+      height: 200px;
       margin: 15px auto;
       img {
         border-radius: 15px;
