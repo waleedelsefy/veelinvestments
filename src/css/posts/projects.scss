@@ -2,6 +2,7 @@
 .flex-row {
   display: flex;
   flex-direction: row;
+  align-items: center;
   align-items: flex-start;
   overflow: visible; /* Prevent clipping of sticky sidebar */
   height: auto; /* Ensure no fixed height restricts sticky behavior */
@@ -58,7 +59,7 @@
   padding: 0;
 }
 aside#sidebar {
-  width: 25%;
+  width: 30%;
 }
 /* Responsive Adjustments */
 
@@ -251,6 +252,7 @@ aside {
 /* Payment Systems Blocks */
 .PaymentSystemsBlocks {
   gap: 14px;
+  display: flex;
   margin-inline-start: 5%;
   margin-top: 20px;
   margin-bottom: 20px;

@@ -72,7 +72,7 @@
     min-width: 255px;
     width: 255px;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 435px) {
     .compoundsBoxesSingle {
       max-width: 75%;
       width: 75%;

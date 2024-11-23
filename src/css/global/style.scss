@@ -41,21 +41,21 @@ html, body {
 }
 
 .flex {
-  display: flex !important;
+  display: flex;
 }
 
 .flex-row {
-  display: flex !important;
-  flex-direction: row !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .flex-column {
-  display: flex !important;
-  flex-direction: column !important;
+  display: flex;
+  flex-direction: column;
 }
 
-/* استعلامات الوسائط للتحكم في العرض على الشاشات الصغيرة */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 435px) {
   .mobileOnly {
     display: flex;
   }

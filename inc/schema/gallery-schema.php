@@ -173,8 +173,20 @@ function veel_display_gallery_or_featured_image($post_id, $size = 'full') {
       } elseif ($index == 1) {
         // الصورة الثانية
         echo '<div class="grid-item grid-item-small-top">';
-        echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+
+// الحصول على كود iframe للنموذج ثلاثي الأبعاد
+        $model_3d_iframe = get_post_meta(get_the_ID(), 'model_3d_iframe', true);
+
+        if ($model_3d_iframe) {
+          // إذا كان هناك iframe، قم بعرض النموذج ثلاثي الأبعاد
+          get_template_part('template-parts/projects/project-3d-model');
+        } else {
+          // إذا لم يكن هناك iframe، قم بعرض الصورة العادية
+          echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($img_alt) . '">';
+        }
+
         echo '</div>';
+
       } elseif ($index == 2) {
         // الصورة الثالثة
         echo '<div class="grid-item grid-item-small-bottom">';

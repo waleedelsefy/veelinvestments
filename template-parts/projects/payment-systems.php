@@ -22,7 +22,7 @@ if (!empty($project_details)) {
       <div class="">
         <h3><?php _e('Payment Systems', 'veelinvestments'); ?></h3>
       </div>
-      <div class="PaymentSystemsBlocks flex-row">
+      <div class="PaymentSystemsBlocks">
         <?php foreach ($installments as $installment) { ?>
           <div class="PaymentSystemsBlock">
             <div class="installment-percent">
