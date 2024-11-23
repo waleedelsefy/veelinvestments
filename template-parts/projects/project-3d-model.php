@@ -5,7 +5,7 @@ if ($model_3d_iframe) {
   $thumbnail_url = get_template_directory_uri() . '/dist/img/modeling-simulation.png';
   ?>
   <div class="project-3d-model">
-    <img id="model-3d-thumbnail" src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" style="cursor: pointer; width: 100%; height: auto;">
+    <img id="model-3d-thumbnail" src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" style="cursor: pointer; width: 100%; height: 200px;">
   </div>
 
   <div id="model-3d-modal" class="modal">
@@ -22,7 +22,6 @@ if ($model_3d_iframe) {
       cursor: pointer;
       width: 100%;
       height: 200px;
-      margin: 15px auto;
       img {
         border-radius: 15px;
 
