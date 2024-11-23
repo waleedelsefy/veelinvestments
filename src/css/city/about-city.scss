@@ -102,6 +102,7 @@
 }
 html :where(img[class*=wp-image-]) {
   border-radius: 15px;
+  width: 90%;
 }
 .wp-caption-text {
   text-align: center;
