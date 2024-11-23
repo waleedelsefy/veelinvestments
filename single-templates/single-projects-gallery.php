@@ -8,18 +8,11 @@ $post_id = get_the_ID();
 get_header();
 ?>
 
-<?php get_template_part('template-parts/projects/project-post-header'); ?>
+<?php get_template_part('template-parts/projects/project-gallery'); ?>
 
 <div class="project-body">
-  <?php
-  if (function_exists('veel_display_gallery_or_featured_image')) {
-    echo veel_display_gallery_or_featured_image($post_id, 'full');
-  }
+  <?php get_template_part('template-parts/projects/project-details-card'); ?>
 
-  if (function_exists('display_project_main_location')) {
-    echo display_project_main_location();
-  }
-  ?>
 
   <div class="flex-row">
     <div class="col-8">
