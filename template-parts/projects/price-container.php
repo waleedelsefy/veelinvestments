@@ -50,8 +50,8 @@ if (!empty($unit_price)): ?>
 <style>
   .price-container {
     width: 96%;
-    height: 150px;
-    padding: 16px 22px;
+    height: 130px;
+    padding: 8px 13px;
     border-radius: 12px;
     border: 3px solid #231F20;
     display: flex;
@@ -60,13 +60,12 @@ if (!empty($unit_price)): ?>
     align-items: center;
     gap: 12px;
     background: #FFFFFF;
-
   }
 
   .price-title {
     text-align: center;
-    color: black;
-    font-size: 22px;
+    color: #50626f;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
   }
@@ -81,14 +80,14 @@ if (!empty($unit_price)): ?>
   .currency, .amount {
     text-align: center;
     color: black;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .action-buttons {
-    width: 80%;
-    height: 45px;
+    width: 100%;
+    height: 50px;
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -127,6 +126,10 @@ if (!empty($unit_price)): ?>
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
+  }
+  .schedule-meeting p {
+    padding: 0;
+    margin: 0;
   }
 @media screen  and (max-width: 1024px ){
   .whatsapp-button, .zoom-button, .call-button {

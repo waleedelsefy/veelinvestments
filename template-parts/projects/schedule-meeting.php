@@ -67,7 +67,7 @@
     display: flex;
     width: 90px;
     height: 100px;
-    padding: 10px 12px;
+    padding: 1px 12px;
     justify-content: center;
     align-items: flex-start;
     gap: 273px;

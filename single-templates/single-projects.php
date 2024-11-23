@@ -7,15 +7,15 @@ Template Post Type: projects
 $post_id = get_the_ID();
 get_header();
 ?>
+<?php get_template_part('template-parts/projects/project-post-header'); ?>
 
-<?php get_template_part('template-parts/projects/project-gallery'); ?>
-
+<?php
+if (function_exists('veel_display_gallery_or_featured_image')) {
+  veel_display_gallery_or_featured_image(get_the_ID(), 'full');
+}
+?>
 <div class="project-body">
-  <?php get_template_part('template-parts/projects/project-details-card'); ?>
-
-
-  <div class="flex-row">
-    <div class="col-8">
+    <div class="project-contains">
       <div class="project-details-card">
         <?php get_template_part('template-parts/projects/project-details-card'); ?>
       </div>
@@ -28,6 +28,9 @@ get_header();
       <div>
         <?php get_template_part('template-parts/projects/project-facilities'); ?>
       </div>
+      <div>
+        <?php get_template_part('template-parts/projects/project-3d-model'); ?>
+      </div>
 
       <div class="veelBlogHeaderTitle">
         <h2><?php _e('Additional Information', 'veelinvestments'); ?></h2>
@@ -38,14 +41,7 @@ get_header();
 
       <?php get_template_part('template-parts/projects/author-card'); ?>
     </div>
-
-    <div class="sidebarAria col-4">
-      <div class="sidebar">
-        <?php get_template_part('template-parts/projects/price-container'); ?>
-        <?php get_template_part('template-parts/projects/schedule-meeting'); ?>
-      </div>
-    </div>
-  </div>
+    <?php get_sidebar(); ?>
 </div>
 
 <?php

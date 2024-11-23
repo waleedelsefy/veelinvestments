@@ -58,7 +58,7 @@
   padding: 0;
 }
 aside#sidebar {
-  width: 30%;
+  width: 25%;
 }
 /* Responsive Adjustments */
 
@@ -153,7 +153,7 @@ aside {
 .widget-area {
   flex-shrink: 0;
   margin-bottom: 325px;
-  margin-top: 0;
+  margin-top: 10px;
   position: sticky;
   top: 65px;
 }
@@ -166,7 +166,7 @@ aside {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1%;
-  width: 96% !important;
+  width: 92% !important;
   margin: auto;
   max-width: 1800px;
 }
@@ -371,7 +371,7 @@ li.cil {
 
 .veel-gallery-grid-thrd {
   grid-template-columns: 55% 35%;
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .grid-item {
@@ -404,7 +404,7 @@ li.schedule-meeting-day {
   display: flex;
   width: 90px;
   height: 100px;
-  padding: 10px 12px;
+  padding: 1px 12px;
   justify-content: center;
   align-items: flex-start;
   gap: 273px;

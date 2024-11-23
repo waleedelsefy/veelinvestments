@@ -8,7 +8,11 @@ $post_id = get_the_ID();
 get_header();
 ?>
 
-<?php get_template_part('template-parts/projects/project-gallery'); ?>
+<?php
+if (function_exists('veel_display_gallery_or_featured_image')) {
+  veel_display_gallery_or_featured_image(get_the_ID(), 'full');
+}
+?>
 
 <div class="project-body">
   <?php get_template_part('template-parts/projects/project-details-card'); ?>
