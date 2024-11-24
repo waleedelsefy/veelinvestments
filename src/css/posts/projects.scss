@@ -601,6 +601,42 @@ select#fav-time {
     width: 98%;
     margin: auto;
   }
+  /* تنسيق المعرض عندما يحتوي على أكثر من 3 صور */
+  .veel-gallery-grid-more {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* صفين من عمودين */
+    grid-gap: 10px; /* الفجوة بين العناصر */
+    max-width: 98%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .grid-item-small-bottom, .grid-item-small-top {
+    height: 100px;
+  }
+  /* الصورة الأولى بعرض كامل */
+  .veel-gallery-grid-more .grid-item-large {
+    grid-column: span 2; /* تمتد عبر عمودين */
+  }
+
+  /* الصور التالية بعرض نصف الشاشة */
+  .veel-gallery-grid-more .grid-item-small {
+    grid-column: span 1; /* تمتد عبر عمود واحد */
+  }
+
+  /* تنسيق الصور لتكون متجاوبة */
+  .veel-gallery-grid-more .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .grid-item-large {
+    grid-row: span 2;
+    height: 200px;
+  }
+
+
+
 }
 @media screen and (min-width: 769px) {
 
@@ -611,6 +647,7 @@ select#fav-time {
 }
 
 @media screen and (max-width: 430px){
+
   .PaymentSystemsBlock {
     width: 95px;
     height: 100px;
