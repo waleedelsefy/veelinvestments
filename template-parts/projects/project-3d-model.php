@@ -5,7 +5,7 @@ if ($model_3d_iframe) {
   $thumbnail_url = get_template_directory_uri() . '/dist/img/modeling-simulation.png';
   ?>
   <div class="project-3d-model">
-    <img id="model-3d-thumbnail" src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" style="cursor: pointer; width: 100%; height: 200px;">
+    <img id="model-3d-thumbnail" src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" style="cursor: pointer; width: 100%;">
   </div>
 
   <div id="model-3d-modal" class="modal">
@@ -18,6 +18,9 @@ if ($model_3d_iframe) {
   </div>
 
   <style>
+    #model-3d-thumbnail {
+      height: 200px;
+    }
     .project-3d-model {
       cursor: pointer;
       width: 100%;
@@ -68,6 +71,12 @@ if ($model_3d_iframe) {
       color: #bbb;
       text-decoration: none;
       cursor: pointer;
+    }
+    @media screen and (max-width: 435px) {
+      #model-3d-thumbnail {
+        height: 100px;
+      }
+
     }
   </style>
 
