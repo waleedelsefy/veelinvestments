@@ -7,6 +7,9 @@
   overflow: visible; /* Prevent clipping of sticky sidebar */
   height: auto; /* Ensure no fixed height restricts sticky behavior */
 }
+.price-container-mobile {
+  display: none;
+}
 .post-thumbnail-img {
   width: 100%;
   height: auto;
@@ -597,6 +600,11 @@ select#fav-time {
   }
 }
 @media screen and (max-width: 769px) {
+  .price-container-mobile {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .project-contains {
     width: 98%;
     margin: auto;

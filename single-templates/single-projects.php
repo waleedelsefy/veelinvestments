@@ -28,6 +28,9 @@ if (function_exists('veel_display_gallery_or_featured_image')) {
       <div>
         <?php get_template_part('template-parts/projects/project-facilities'); ?>
       </div>
+      <div class="price-container-mobile">
+        <?php get_template_part('template-parts/projects/price-container'); ?>
+      </div>
 
       <div class="veelBlogHeaderTitle">
         <h2><?php _e('Additional Information', 'veelinvestments'); ?></h2>
