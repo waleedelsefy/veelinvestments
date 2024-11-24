@@ -74,7 +74,8 @@ if ($model_3d_iframe) {
     }
     @media screen and (max-width: 435px) {
       #model-3d-thumbnail {
-        height: 100px;
+        height: 120px;
+        min-height: 120px;
       }
 
     }

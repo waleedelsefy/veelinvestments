@@ -63,6 +63,7 @@
 }
 aside#sidebar {
   width: 30%;
+  max-width: 380px;
 }
 /* Responsive Adjustments */
 
@@ -371,7 +372,7 @@ li.cil {
 
 .veel-gallery-grid-more {
   grid-template-columns: 40% 30% 30%;
-  max-width: 85%;
+  max-width: 80%;
 }
 
 .veel-gallery-grid-thrd {
@@ -609,6 +610,24 @@ select#fav-time {
     width: 98%;
     margin: auto;
   }
+
+  .veel-gallery-grid-more {
+    grid-template-columns: 40% 30% 30%;
+    max-width: 90%;
+  }
+
+
+}
+@media screen and (min-width: 769px) {
+
+  .col-8 {
+    width: 80% !important;
+    margin-inline-end: 10px;
+  }
+}
+
+@media screen and (max-width: 430px){
+
   /* تنسيق المعرض عندما يحتوي على أكثر من 3 صور */
   .veel-gallery-grid-more {
     display: grid;
@@ -619,7 +638,8 @@ select#fav-time {
     box-sizing: border-box;
   }
   .grid-item-small-bottom, .grid-item-small-top {
-    height: 100px;
+    height: 120px;
+    min-height: 120px;
   }
   /* الصورة الأولى بعرض كامل */
   .veel-gallery-grid-more .grid-item-large {
@@ -640,22 +660,8 @@ select#fav-time {
 
   .grid-item-large {
     grid-row: span 2;
-    height: 200px;
+    height: 235px;
   }
-
-
-
-}
-@media screen and (min-width: 769px) {
-
-  .col-8 {
-    width: 80% !important;
-    margin-inline-end: 10px;
-  }
-}
-
-@media screen and (max-width: 430px){
-
   .PaymentSystemsBlock {
     width: 95px;
     height: 100px;
